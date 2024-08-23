@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "HNU2000 - A2024"
+  sidebar:
+    style: "docked"
+    contents:
+      - text: "Index"
+        href: index.qmd
+      - sessions.qmd
+      - evaluation.qmd
+      - resources.qmd
+      - about.qmd
+
+  back-to-top-navigation: true
+  bread-crumbs: false
+  reader-mode: true
+  page-footer:
+    right: 
+        - text: "CC BY-NC-SA - Alix Chagué - 2024"
+    left: 
+      - text: WSite propulsé grâce à Quarto
+        href: https://quarto.org
+      - icon: github
+        href: https://github.com/alix-tz/hnu2000-a2024
+format:
+  html:
+    theme:
+      light: cyborg-dark
+      dark: cyborg
+    css: styles.css
+    toc: true
+
+
+

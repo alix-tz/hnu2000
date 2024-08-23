@@ -1,0 +1,7 @@
+---
+title: "A propos"
+---
+
+Ce site a été créé pour finir un support aux étudiantes et étudiants de l'Université de Montréal suivant le cours [HNU2000, Humanités numériques: technologies](https://admission.umontreal.ca/cours-et-horaires/cours/hnu-2000/), au trimestre d'Automne 2024.
+
+La totalité du contenu de ce site est sous licence [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) et est la propriété intellectuelle d'[Alix Chagué](https://alix-tz.github.io/).
