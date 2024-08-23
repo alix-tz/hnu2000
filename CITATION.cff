@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: hnu2000-a24
+message: >-
+  If you reuse the content of this course, please respect
+  the applicable license and cite this content using the
+  metadata from this file
+authors:
+  - given-names: Alix
+    family-names: Chagué
+    email: alix.chague@umontreal.ca
+    orcid: 'https://orcid.org/0000-0002-0136-4434'
+    affiliation: Université de Montréal
+repository-code: 'https://github.com/alix-tz/hnu2000-a24'
+url: 'https://alix-tz.github.io/hnu2000-a24'
+abstract: >-
+  Course content for the HNU2000 class taught during the
+  Fall 2024 semester at the University of Montreal, Canada.
+license: CC-BY-NC-SA-4.0
