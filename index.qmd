@@ -1,7 +1,61 @@
 ---
-title: "HNU2000 - F24 : Humanités Numériques : Technologies"
+title: "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES"
 ---
 
-This is a Quarto website.
+| Sigle du cours | Titre du cours                      | Trimestre    |
+| :------------- | :---------------------------------- | :----------- |
+| HNU 2000       | Humanités numériques : technologies | Automne 2024 |
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Université de Montréal
+
+> Titulaire du cours : Alix Chagué
+> 
+> Coordonnées : alix.chague [at] umontreal.ca
+
+
+## Objectifs et contenu du cours
+
+L'objectif principal du cours HNU 2000 "Humanités numériques : technologies" est de familiariser les étudiant·es avec un ensemble de technologies et logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.
+
+Les étudiant·es seront initié·es à diverses technologies, notamment :
+
+- L'encodage des fichiers numériques (texte, image, son, etc.)
+- Les protocoles d'échange et d'accès aux données ainsi que la publication en ligne
+- La fouille de texte et la visualisation de données
+- L'apprentissage automatique et la reconnaissance automatique d'écritures manuscrites
+- La programmation
+
+Les humanités numériques se développent depuis une quarantaine d'années et correspondent à un mouvement plus large d'intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d'analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l'informations et de la communication, histoire de l'art ou encore informatique. 
+
+Ce cours permet aux étudiant·es d'accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s'adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l'histoire et l'histoire de l'art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.
+
+Ce cours peut compléter le cours HNU1000 : Humanités Numériques : théories, mais il n'est pas obligatoire d'avoir suivi HNU1000 pour s'inscrire à HNU2000.
+
+## Organisation du cours
+
+Durant ce trimestre, nous aborderont chaque semaine une ou deux nouvelles technologies par le biais de démonstrations, d’exercices pratiques et des lectures proposées et discutées en classe. Les étudiant⸱es seront amené⸱es à développer collectivement une réflexion critique et une maîtrise minimale des outils et logiciels vus ensemble.  
+
+Modalités d'évaluation: [plus de détails ici](evaluation.qmd)
+
+## Suggestions de lectures et d'écoute
+
+### Ballado et vidéo
+
+- Computerphile. (2013). Characters, Symbols and the Unicode Miracle—Computerphile. [https://www.youtube.com/watch?v=MijmeoH9LT4](https://www.youtube.com/watch?v=MijmeoH9LT4) 
+- Éloge du bug : Quand le dysfonctionnement nous aide à repenser le numérique. (2024). In Le meilleur des mondes. France Culture. [https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554](https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554) 
+- Humanités numériques et philologie #24. (2023). Learning from Data. Centre de compétences en science des données de l’UNIGE. [https://soundcloud.com/user-842727938/lfd24_sg](https://soundcloud.com/user-842727938/lfd24_sg) 
+- La vraie histoire de l’@. (2023). In Le Code a changé. France Inter. [https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change/le-code-a-change-3-5971499 ](https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change/le-code-a-change-3-5971499)
+- Le single source publishing #2. (2023).  In Skhole. Chaire de recherche du Canada sur les écritures numériques. [https://skhole.ecrituresnumeriques.ca/episodes/ep2_fauchie/](https://skhole.ecrituresnumeriques.ca/episodes/ep2_fauchie/) 
+- Les humanités numériques : À mi chemin entre informatique et humanités. (2019, mars 31). In L’invité innovation. France Culture. [https://www.radiofrance.fr/franceculture/podcasts/l-invite-innovation/les-humanites-numeriques-a-mi-chemin-entre-informatique-et-humanites-8683195](https://www.radiofrance.fr/franceculture/podcasts/l-invite-innovation/les-humanites-numeriques-a-mi-chemin-entre-informatique-et-humanites-8683195) 
+
+## Lectures
+
+- Chagué, A. (2022, mai 24). Intelligence Artificielle et intelligence collective : Intelligence Artificielle et intelligence collective : des nouveaux eldorados pour rendre les textes patrimoniaux plus accessibles ? Museonum. [https://medium.com/museonum/intelligence-artificielle-et-intelligence-collective-des-nouveaux-eldorados-pour-rendre-les-c8c4e214d4e6](https://medium.com/museonum/intelligence-artificielle-et-intelligence-collective-des-nouveaux-eldorados-pour-rendre-les-c8c4e214d4e6) 
+- Couture, B., Verret, F., Gohier, M., & Deslandres, D. (2023). The Challenges of HTR Model Training : Feedback from the Project Donner le gout de l’archive a l’ère numerique. Journal of Data Mining & Digital Humanities. [https://doi.org/10.46298/jdmdh.10542](https://doi.org/10.46298/jdmdh.10542) 
+- Daniel, J. (2022, novembre 2). Ode à Zotero, une décennie d’usage de Zotero [Billet]. Isidore & Ganesh. [https://doi.org/10.58079/pw5v](https://doi.org/10.58079/pw5v) 
+- Éditorial. Donner à lire les humanités numériques francophones. (2020). Humanités numériques, 1. [https://doi.org/10.4000/revuehn.508](https://doi.org/10.4000/revuehn.508) 
+- Impett, L., & Offert, F. (2023). There Is a Digital Art History (arXiv:2308.07464). arXiv. [https://doi.org/10.48550/arXiv.2308.07464](https://doi.org/10.48550/arXiv.2308.07464) 
+- Massot, M.-L. (2018). Dessiner les acteurs en humanités numériques. [https://hal.science/hal-01794185](https://hal.science/hal-01794185) 
+- MDN. (2023, octobre 16). World Wide Web - Glossaire MDN : Définitions des termes du Web. mdn web docs. [https://developer.mozilla.org/fr/docs/Glossary/World_Wide_Web](https://developer.mozilla.org/fr/docs/Glossary/World_Wide_Web) 
+- Melançon, J. (2023). Analyse textométrique du lexique des personnages dans French Town de Michel Ouellette : Dire je et exprimer ses émotions. Humanités numériques, 8. [https://doi.org/10.4000/revuehn.3683](https://doi.org/10.4000/revuehn.3683)
+- Sinclair, S., & Rockwell, G. (2014). Les potentialités du texte numérique. In Pratiques de l’édition numérique. Les Ateliers de [sens public]. [https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html](https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html) 
