@@ -8,6 +8,12 @@ Chaque séance est centrée autour d'une technologie ou d'un logiciel, et des pr
 
 Présentation du cours, introduction aux humanitiés numériques et à la nécessité d'une pratique des outils
 
+```{=html}
+<iframe src="/slides/session1.html"></iframe>
+```
+
+Support de présentation ([plein écran](/slides/session1.qmd){target="_blank"})
+
 ## 11/09/2024: Séance #2
 
 Les **expressions régulières** pour manipuler le texte, dans l'éditeur [Sublime Text](https://www.sublimetext.com/)
@@ -15,6 +21,11 @@ Les **expressions régulières** pour manipuler le texte, dans l'éditeur [Subli
 ```
 téléchargement du logiciel nécessaire
 ```
+
+```{=html}
+<iframe src="/slides/session2.html"></iframe>
+```
+Support de présentation ([plein écran](/slides/session2.qmd){target="_blank"})
 
 ## 18/09/2024: Séance #3
 
@@ -78,11 +89,11 @@ L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.o
 
 ## 27/11/2024: Séance #12
 
-<mark>[Zotero](https://www.zotero.org/) et la **gestion des données bibliographiques**</mark> <span style="color: red;">(à confirmer en classe)</span>
+<mark>[Zotero](https://www.zotero.org/) et la **gestion des données bibliographiques**</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
 
 ## 04/12/2024: Séance #13
 
-<mark>[Tropy](https://tropy.org/) et l'**annotation des images** <span style="color: red;">OU</span> Comment tirer le maximum de [IIIF](https://iiif.io/)</mark>
+<mark>[Tropy](https://tropy.org/) et l'**annotation des images** OU Comment tirer le maximum de [IIIF](https://iiif.io/)</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
 
 ## 11/12/2024: Séance #14
 

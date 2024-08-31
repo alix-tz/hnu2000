@@ -15,7 +15,7 @@ website:
 
   back-to-top-navigation: true
   bread-crumbs: false
-  reader-mode: true
+  reader-mode: false
   page-footer:
     right: 
         - text: "CC BY-NC-SA - Alix Chagué - 2024"

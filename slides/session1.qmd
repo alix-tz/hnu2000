@@ -1,0 +1,23 @@
+---
+title: "HNU2000 - Session 1"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+## Introduction au cours HNU 2000 {.scrollable}
+
+- tour de table
+- présentation du cours
+- plan des séances
+    - précision sur la séance #8
+    - précision sur les séances #12 et #13
+    - précision sur la séance #14
+- modalités d'évaluation
+- ressources pour le cours
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qo_iQy7Ihcg?si=7zFayo6ntpZclYee&amp;start=236" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
