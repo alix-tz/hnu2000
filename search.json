@@ -44,7 +44,7 @@
     "href": "sessions.html",
     "title": "Plan des séances",
     "section": "",
-    "text": "Chaque séance est centrée autour d’une technologie ou d’un logiciel, et des pratiques associées à ce logiciel. Nous manipulons le logiciel ou la technologie ensemble en cours et discutons de son importance dans le domaine des humanités numériques ou, simplement, dans notre environnement numérique. Il est demandé aux étudiant⸱es de venir en cours avec un ordinateur.",
+    "text": "Chaque séance est centrée autour d’une technologie ou d’un logiciel, et des pratiques qui y sont associées. Nous manipulons le logiciel ou la technologie ensemble en cours et discutons de son importance dans le domaine des humanités numériques ou, simplement, dans notre environnement numérique. Il est demandé aux étudiant⸱es de venir en cours avec un ordinateur.",
     "crumbs": [
       "Plan des séances"
     ]
@@ -130,11 +130,21 @@
     ]
   },
   {
+    "objectID": "sessions.html#examen-de-mi-session.",
+    "href": "sessions.html#examen-de-mi-session.",
+    "title": "Plan des séances",
+    "section": "30/10/2024: Examen de mi-session.",
+    "text": "30/10/2024: Examen de mi-session.",
+    "crumbs": [
+      "Plan des séances"
+    ]
+  },
+  {
     "objectID": "sessions.html#séance-8",
     "href": "sessions.html#séance-8",
     "title": "Plan des séances",
-    "section": "30/10/2024: Séance #8",
-    "text": "30/10/2024: Séance #8\n\nEvaluation de mi-session.",
+    "section": "06/11/2024: Séance #8",
+    "text": "06/11/2024: Séance #8\nWikidata, SPARQL et le Web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
     "crumbs": [
       "Plan des séances"
     ]
@@ -143,8 +153,8 @@
     "objectID": "sessions.html#séance-9",
     "href": "sessions.html#séance-9",
     "title": "Plan des séances",
-    "section": "06/11/2024: Séance #9",
-    "text": "06/11/2024: Séance #9\nWikidata, SPARQL et le web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
+    "section": "13/11/2024: Séance #9",
+    "text": "13/11/2024: Séance #9\nLEAF Writer, la TEI et la détection des entités nommées",
     "crumbs": [
       "Plan des séances"
     ]
@@ -153,8 +163,8 @@
     "objectID": "sessions.html#séance-10",
     "href": "sessions.html#séance-10",
     "title": "Plan des séances",
-    "section": "13/11/2024: Séance #10",
-    "text": "13/11/2024: Séance #10\nLEAF Writer, la TEI et la détection des entités nommées",
+    "section": "20/11/2024: Séance #10",
+    "text": "20/11/2024: Séance #10\nL’analyse du texte en language naturel Voyant Tools et Pyrrha",
     "crumbs": [
       "Plan des séances"
     ]
@@ -163,8 +173,8 @@
     "objectID": "sessions.html#séance-11",
     "href": "sessions.html#séance-11",
     "title": "Plan des séances",
-    "section": "20/11/2024: Séance #11",
-    "text": "20/11/2024: Séance #11\nL’analyse du texte en language naturel Voyant Tools et Pyrrha",
+    "section": "27/11/2024: Séance #11",
+    "text": "27/11/2024: Séance #11\nZotero et la gestion des données bibliographiques (à confirmer avec le groupe de classe)",
     "crumbs": [
       "Plan des séances"
     ]
@@ -173,38 +183,28 @@
     "objectID": "sessions.html#séance-12",
     "href": "sessions.html#séance-12",
     "title": "Plan des séances",
-    "section": "27/11/2024: Séance #12",
-    "text": "27/11/2024: Séance #12\nZotero et la gestion des données bibliographiques (à confirmer avec le groupe de classe)",
+    "section": "04/12/2024: Séance #12",
+    "text": "04/12/2024: Séance #12\nTropy et l’annotation des images (à confirmer avec le groupe de classe)",
     "crumbs": [
       "Plan des séances"
     ]
   },
   {
-    "objectID": "sessions.html#séance-13",
-    "href": "sessions.html#séance-13",
+    "objectID": "sessions.html#examen-de-fin-de-session",
+    "href": "sessions.html#examen-de-fin-de-session",
     "title": "Plan des séances",
-    "section": "04/12/2024: Séance #13",
-    "text": "04/12/2024: Séance #13\nTropy et l’annotation des images (à confirmer avec le groupe de classe)",
+    "section": "11/12/2024: Examen de fin de session",
+    "text": "11/12/2024: Examen de fin de session",
     "crumbs": [
       "Plan des séances"
     ]
   },
   {
-    "objectID": "sessions.html#séance-14",
-    "href": "sessions.html#séance-14",
+    "objectID": "sessions.html#pas-de-classe",
+    "href": "sessions.html#pas-de-classe",
     "title": "Plan des séances",
-    "section": "11/12/2024: Séance #14",
-    "text": "11/12/2024: Séance #14\nEvaluation de fin de session.",
-    "crumbs": [
-      "Plan des séances"
-    ]
-  },
-  {
-    "objectID": "sessions.html#semaine-dexamen",
-    "href": "sessions.html#semaine-dexamen",
-    "title": "Plan des séances",
-    "section": "18/12/2024: semaine d’examen",
-    "text": "18/12/2024: semaine d’examen\nPas de classe !",
+    "section": "18/12/2024: Pas de classe",
+    "text": "18/12/2024: Pas de classe",
     "crumbs": [
       "Plan des séances"
     ]
@@ -224,7 +224,7 @@
     "href": "index.html#objectifs-et-contenu-du-cours",
     "title": "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES",
     "section": "Objectifs et contenu du cours",
-    "text": "Objectifs et contenu du cours\nL’objectif principal du cours HNU 2000 “Humanités numériques : technologies” est de familiariser les étudiant·es avec un ensemble de technologies et logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.\nLes étudiant·es seront initié·es à diverses technologies, notamment :\n\nL’encodage des fichiers numériques (texte, image, son, etc.)\nLes protocoles d’échange et d’accès aux données ainsi que la publication en ligne\nLa fouille de texte et la visualisation de données\nL’apprentissage automatique et la reconnaissance automatique d’écritures manuscrites\nLa programmation\n\nLes humanités numériques se développent depuis une quarantaine d’années et correspondent à un mouvement plus large d’intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d’analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l’information et de la communication, histoire de l’art ou encore informatique.\nCe cours permet aux étudiant·es d’accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s’adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l’histoire et l’histoire de l’art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.\nCe cours peut compléter le cours HNU1000 : Humanités Numériques : théories, mais il n’est pas obligatoire d’avoir suivi HNU1000 pour s’inscrire à HNU2000.",
+    "text": "Objectifs et contenu du cours\nL’objectif principal du cours HNU 2000 “Humanités numériques : technologies” est de familiariser les étudiant·es avec un ensemble de technologies et de logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.\nLes étudiant·es seront initié·es à diverses technologies, notamment :\n\nl’encodage des fichiers numériques (texte, image, son, etc.)\nles protocoles d’échange et d’accès aux données ainsi que la publication en ligne\nla fouille de texte et la visualisation de données\nl’apprentissage automatique et la reconnaissance automatique d’écritures manuscrites\nla programmation\n\nLes humanités numériques se développent depuis une quarantaine d’années et correspondent à un mouvement plus large d’intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d’analyse qui renouvellent le champ disciplinaire, et brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l’information et de la communication, histoire de l’art ou encore informatique.\nCe cours permet aux étudiant·es d’accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s’adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l’histoire et l’histoire de l’art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.\nCe cours peut compléter le cours HNU1000 : Humanités Numériques : théories, mais il n’est pas obligatoire d’avoir suivi HNU1000 pour s’inscrire à HNU2000.",
     "crumbs": [
       "Index"
     ]
@@ -234,7 +234,7 @@
     "href": "index.html#organisation-du-cours",
     "title": "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES",
     "section": "Organisation du cours",
-    "text": "Organisation du cours\nDurant ce trimestre, nous aborderont chaque semaine une ou deux nouvelles technologies par le biais de démonstrations, d’exercices pratiques et des lectures proposées et discutées en classe. Les étudiant⸱es seront amené⸱es à développer collectivement une réflexion critique et une maîtrise minimale des outils et logiciels vus ensemble.\nModalités d’évaluation: plus de détails ici",
+    "text": "Organisation du cours\nDurant ce trimestre, nous aborderons chaque semaine une ou deux nouvelles technologies par le biais de démonstrations, d’exercices pratiques et de lectures proposées et discutées en classe. Les étudiant⸱es seront amené⸱es à développer collectivement une réflexion critique et une maîtrise minimale des outils et logiciels vus ensemble.\nModalités d’évaluation: plus de détails ici",
     "crumbs": [
       "Index"
     ]
@@ -244,7 +244,7 @@
     "href": "index.html#matériel",
     "title": "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES",
     "section": "Matériel",
-    "text": "Matériel\nLes séances de cours étant centrées sur la manipulations de logiciels ou d’applications informatiques, il est demandé aux étudiant⸱es de venir en cours avec un ordinateur, avec lequel il faudra pouvoir naviguer sur le web et, lorsque ce sera signalé, pouvoir installer certains logiciels le temps du cours.",
+    "text": "Matériel\nLes séances de cours étant centrées sur la manipulation de logiciels ou d’applications informatiques, il est demandé aux étudiant⸱es de venir en cours avec un ordinateur, avec lequel il faudra pouvoir naviguer sur le Web et, lorsque ce sera signalé, pouvoir installer certains logiciels le temps du cours.",
     "crumbs": [
       "Index"
     ]
@@ -498,7 +498,7 @@
     "href": "evaluation.html",
     "title": "Consignes pour l’évaluation",
     "section": "",
-    "text": "Le cours est évalué selon 3 rubriques :\n\nparticipation en classe 20%\nexamen de mi-session 30%\nexamen de fin de session 60%",
+    "text": "Le cours est évalué selon trois rubriques :\n\nparticipation en classe 20%\nexamen de mi-session 40%\nexamen de fin de session 40%",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
@@ -508,7 +508,7 @@
     "href": "evaluation.html#axes-dévaluation",
     "title": "Consignes pour l’évaluation",
     "section": "",
-    "text": "Le cours est évalué selon 3 rubriques :\n\nparticipation en classe 20%\nexamen de mi-session 30%\nexamen de fin de session 60%",
+    "text": "Le cours est évalué selon trois rubriques :\n\nparticipation en classe 20%\nexamen de mi-session 40%\nexamen de fin de session 40%",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
@@ -528,7 +528,7 @@
     "href": "evaluation.html#organisation-des-examens",
     "title": "Consignes pour l’évaluation",
     "section": "Organisation des examens",
-    "text": "Organisation des examens\nLes examens de mi-session et de fin de session suivront le même format, celui d’une évaluation sur table durant laquelle il sera demandé aux étudiant⸱es de lire un article ou un chapitre en lien avec les humanitiés numériques, distribué en début d’examen, et d’en faire une lecture critique sous la forme de deux questions de rédaction, et de répondre à des questions concernant les technologies étudiées ensemble durant le cours.",
+    "text": "Organisation des examens\nLes examens de mi-session et de fin de session suivront le même format : une évaluation sur table durant laquelle il sera demandé aux étudiant⸱es de lire un article ou un chapitre en lien avec les humanités numériques, distribué en début d’examen, et d’en faire une lecture critique sous la forme de deux réponses rédigées. S’y ajouteront des questions à réponse courte concernant les technologies étudiées ensemble durant le cours.",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
@@ -538,7 +538,7 @@
     "href": "about.html",
     "title": "A propos",
     "section": "",
-    "text": "Ce site a été créé pour finir un support aux étudiantes et étudiants de l’Université de Montréal suivant le cours HNU2000, Humanités numériques: technologies, au trimestre d’Automne 2024.\nLa totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propriété intellectuelle d’Alix Chagué.\n\n\n\n Back to top",
+    "text": "Ce site a été créé à des fins de support aux étudiantes et étudiants de l’Université de Montréal suivant le cours HNU2000, Humanités numériques: technologies, au trimestre d’Automne 2024.\nLa totalité du contenu de ce site est sous licence CC BY-NC-SA et est la propriété intellectuelle d’Alix Chagué.\n\n\n\n Back to top",
     "crumbs": [
       "A propos"
     ]
