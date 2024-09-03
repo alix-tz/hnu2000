@@ -15,17 +15,17 @@ Université de Montréal
 
 ## Objectifs et contenu du cours
 
-L'objectif principal du cours HNU 2000 "Humanités numériques : technologies" est de familiariser les étudiant·es avec un ensemble de technologies et logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.
+L'objectif principal du cours HNU 2000 "Humanités numériques : technologies" est de familiariser les étudiant·es avec un ensemble de technologies et de logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.
 
 Les étudiant·es seront initié·es à diverses technologies, notamment :
 
-- L'encodage des fichiers numériques (texte, image, son, etc.)
-- Les protocoles d'échange et d'accès aux données ainsi que la publication en ligne
-- La fouille de texte et la visualisation de données
-- L'apprentissage automatique et la reconnaissance automatique d'écritures manuscrites
-- La programmation
+- l'encodage des fichiers numériques (texte, image, son, etc.)
+- les protocoles d'échange et d'accès aux données ainsi que la publication en ligne
+- la fouille de texte et la visualisation de données
+- l'apprentissage automatique et la reconnaissance automatique d'écritures manuscrites
+- la programmation
 
-Les humanités numériques se développent depuis une quarantaine d'années et correspondent à un mouvement plus large d'intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d'analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l'information et de la communication, histoire de l'art ou encore informatique. 
+Les humanités numériques se développent depuis une quarantaine d'années et correspondent à un mouvement plus large d'intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d'analyse qui renouvellent le champ disciplinaire, et brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l'information et de la communication, histoire de l'art ou encore informatique. 
 
 Ce cours permet aux étudiant·es d'accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s'adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l'histoire et l'histoire de l'art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.
 
@@ -33,13 +33,13 @@ Ce cours peut compléter le cours HNU1000 : Humanités Numériques : théories, 
 
 ## Organisation du cours
 
-Durant ce trimestre, nous aborderont chaque semaine une ou deux nouvelles technologies par le biais de démonstrations, d’exercices pratiques et des lectures proposées et discutées en classe. Les étudiant⸱es seront amené⸱es à développer collectivement une réflexion critique et une maîtrise minimale des outils et logiciels vus ensemble.  
+Durant ce trimestre, nous aborderons chaque semaine une ou deux nouvelles technologies par le biais de démonstrations, d’exercices pratiques et de lectures proposées et discutées en classe. Les étudiant⸱es seront amené⸱es à développer collectivement une réflexion critique et une maîtrise minimale des outils et logiciels vus ensemble.  
 
 Modalités d'évaluation: [plus de détails ici](evaluation.qmd)
 
 ## Matériel
 
-Les séances de cours étant centrées sur la manipulations de logiciels ou d'applications informatiques, il est demandé aux étudiant⸱es de venir en cours avec un ordinateur, avec lequel il faudra pouvoir naviguer sur le web et, lorsque ce sera signalé, pouvoir installer certains logiciels le temps du cours.
+Les séances de cours étant centrées sur la manipulation de logiciels ou d'applications informatiques, il est demandé aux étudiant⸱es de venir en cours avec un ordinateur, avec lequel il faudra pouvoir naviguer sur le Web et, lorsque ce sera signalé, pouvoir installer certains logiciels le temps du cours.
 
 
 ## Suggestions de lectures et d'écoute
