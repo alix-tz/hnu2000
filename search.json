@@ -20,11 +20,11 @@
     ]
   },
   {
-    "objectID": "resources.html#ballado-diffusions",
-    "href": "resources.html#ballado-diffusions",
+    "objectID": "resources.html#balado-diffusions",
+    "href": "resources.html#balado-diffusions",
     "title": "Ressources pédagogiques",
-    "section": "Ballado-diffusions",
-    "text": "Ballado-diffusions\nPour se familiariser avec les humanités numériques et leur technologie, il n’y a pas que la lecture !\n\nComputerphile. (2013). Characters, Symbols and the Unicode Miracle—Computerphile. https://www.youtube.com/watch?v=MijmeoH9LT4\nÉloge du bug : Quand le dysfonctionnement nous aide à repenser le numérique. (2024). In Le meilleur des mondes. France Culture. https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554\nHumanités numériques et philologie #24. (2023). Learning from Data. Centre de compétences en science des données de l’UNIGE. https://soundcloud.com/user-842727938/lfd24_sg\nLa vraie histoire de l’@. (2023). In Le Code a changé. France Inter. https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change/le-code-a-change-3-5971499\nLe single source publishing #2. (2023). In Skhole. Chaire de recherche du Canada sur les écritures numériques. https://skhole.ecrituresnumeriques.ca/episodes/ep2_fauchie/\nLes humanités numériques : À mi chemin entre informatique et humanités. (2019, mars 31). In L’invité innovation. France Culture. https://www.radiofrance.fr/franceculture/podcasts/l-invite-innovation/les-humanites-numeriques-a-mi-chemin-entre-informatique-et-humanites-8683195",
+    "section": "Balado-diffusions",
+    "text": "Balado-diffusions\nPour se familiariser avec les humanités numériques et leur technologie, il n’y a pas que la lecture !\n\nComputerphile. (2013). Characters, Symbols and the Unicode Miracle—Computerphile. https://www.youtube.com/watch?v=MijmeoH9LT4\nÉloge du bug : Quand le dysfonctionnement nous aide à repenser le numérique. (2024). In Le meilleur des mondes. France Culture. https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554\nHumanités numériques et philologie #24. (2023). Learning from Data. Centre de compétences en science des données de l’UNIGE. https://soundcloud.com/user-842727938/lfd24_sg\nLa vraie histoire de l’@. (2023). In Le Code a changé. France Inter. https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change/le-code-a-change-3-5971499\nLe single source publishing #2. (2023). In Skhole. Chaire de recherche du Canada sur les écritures numériques. https://skhole.ecrituresnumeriques.ca/episodes/ep2_fauchie/\nLes humanités numériques : À mi chemin entre informatique et humanités. (2019, mars 31). In L’invité innovation. France Culture. https://www.radiofrance.fr/franceculture/podcasts/l-invite-innovation/les-humanites-numeriques-a-mi-chemin-entre-informatique-et-humanites-8683195",
     "crumbs": [
       "Ressources pédagogiques"
     ]
@@ -44,7 +44,7 @@
     "href": "sessions.html",
     "title": "Plan des séances",
     "section": "",
-    "text": "Chaque séance est centrée autour d’une technologie ou d’un logiciel, et des pratiques associées à ce logiciel. Nous manipulons le logiciel ou la technologie ensemble en cours et discutons de son importance dans le domaine des humanités numériques ou, simplement, dans notre environnement numérique.",
+    "text": "Chaque séance est centrée autour d’une technologie ou d’un logiciel, et des pratiques associées à ce logiciel. Nous manipulons le logiciel ou la technologie ensemble en cours et discutons de son importance dans le domaine des humanités numériques ou, simplement, dans notre environnement numérique. Il est demandé aux étudiant⸱es de venir en cours avec un ordinateur.",
     "crumbs": [
       "Plan des séances"
     ]
@@ -134,7 +134,7 @@
     "href": "sessions.html#séance-8",
     "title": "Plan des séances",
     "section": "30/10/2024: Séance #8",
-    "text": "30/10/2024: Séance #8\nHN JDR (participation comptant dans l’évaluation)",
+    "text": "30/10/2024: Séance #8\n\nEvaluation de mi-session.",
     "crumbs": [
       "Plan des séances"
     ]
@@ -184,7 +184,7 @@
     "href": "sessions.html#séance-13",
     "title": "Plan des séances",
     "section": "04/12/2024: Séance #13",
-    "text": "04/12/2024: Séance #13\nTropy et l’annotation des images OU Comment tirer le maximum de IIIF (à confirmer avec le groupe de classe)",
+    "text": "04/12/2024: Séance #13\nTropy et l’annotation des images (à confirmer avec le groupe de classe)",
     "crumbs": [
       "Plan des séances"
     ]
@@ -194,7 +194,7 @@
     "href": "sessions.html#séance-14",
     "title": "Plan des séances",
     "section": "11/12/2024: Séance #14",
-    "text": "11/12/2024: Séance #14\nTBD",
+    "text": "11/12/2024: Séance #14\nEvaluation de fin de session.",
     "crumbs": [
       "Plan des séances"
     ]
@@ -224,7 +224,7 @@
     "href": "index.html#objectifs-et-contenu-du-cours",
     "title": "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES",
     "section": "Objectifs et contenu du cours",
-    "text": "Objectifs et contenu du cours\nL’objectif principal du cours HNU 2000 “Humanités numériques : technologies” est de familiariser les étudiant·es avec un ensemble de technologies et logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.\nLes étudiant·es seront initié·es à diverses technologies, notamment :\n\nL’encodage des fichiers numériques (texte, image, son, etc.)\nLes protocoles d’échange et d’accès aux données ainsi que la publication en ligne\nLa fouille de texte et la visualisation de données\nL’apprentissage automatique et la reconnaissance automatique d’écritures manuscrites\nLa programmation\n\nLes humanités numériques se développent depuis une quarantaine d’années et correspondent à un mouvement plus large d’intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d’analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l’informations et de la communication, histoire de l’art ou encore informatique.\nCe cours permet aux étudiant·es d’accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s’adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l’histoire et l’histoire de l’art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.\nCe cours peut compléter le cours HNU1000 : Humanités Numériques : théories, mais il n’est pas obligatoire d’avoir suivi HNU1000 pour s’inscrire à HNU2000.",
+    "text": "Objectifs et contenu du cours\nL’objectif principal du cours HNU 2000 “Humanités numériques : technologies” est de familiariser les étudiant·es avec un ensemble de technologies et logiciels utilisés dans le domaine des humanités, en particulier dans les humanités numériques. Dans ce cours, cette familiarisation passe par la manipulation de ces technologies.\nLes étudiant·es seront initié·es à diverses technologies, notamment :\n\nL’encodage des fichiers numériques (texte, image, son, etc.)\nLes protocoles d’échange et d’accès aux données ainsi que la publication en ligne\nLa fouille de texte et la visualisation de données\nL’apprentissage automatique et la reconnaissance automatique d’écritures manuscrites\nLa programmation\n\nLes humanités numériques se développent depuis une quarantaine d’années et correspondent à un mouvement plus large d’intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d’analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l’information et de la communication, histoire de l’art ou encore informatique.\nCe cours permet aux étudiant·es d’accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s’adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l’histoire et l’histoire de l’art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.\nCe cours peut compléter le cours HNU1000 : Humanités Numériques : théories, mais il n’est pas obligatoire d’avoir suivi HNU1000 pour s’inscrire à HNU2000.",
     "crumbs": [
       "Index"
     ]
@@ -240,11 +240,21 @@
     ]
   },
   {
+    "objectID": "index.html#matériel",
+    "href": "index.html#matériel",
+    "title": "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES",
+    "section": "Matériel",
+    "text": "Matériel\nLes séances de cours étant centrées sur la manipulations de logiciels ou d’applications informatiques, il est demandé aux étudiant⸱es de venir en cours avec un ordinateur, avec lequel il faudra pouvoir naviguer sur le web et, lorsque ce sera signalé, pouvoir installer certains logiciels le temps du cours.",
+    "crumbs": [
+      "Index"
+    ]
+  },
+  {
     "objectID": "index.html#suggestions-de-lectures-et-découte",
     "href": "index.html#suggestions-de-lectures-et-découte",
     "title": "HNU2000 - A24 : HUMANITES NUMERIQUES : TECHNOLOGIES",
     "section": "Suggestions de lectures et d’écoute",
-    "text": "Suggestions de lectures et d’écoute\n\nBallado et vidéo\n\nComputerphile. (2013). Characters, Symbols and the Unicode Miracle—Computerphile. https://www.youtube.com/watch?v=MijmeoH9LT4\nÉloge du bug : Quand le dysfonctionnement nous aide à repenser le numérique. (2024). In Le meilleur des mondes. France Culture. https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554\nHumanités numériques et philologie #24. (2023). Learning from Data. Centre de compétences en science des données de l’UNIGE. https://soundcloud.com/user-842727938/lfd24_sg\nLa vraie histoire de l’@. (2023). In Le Code a changé. France Inter. https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change/le-code-a-change-3-5971499\nLe single source publishing #2. (2023). In Skhole. Chaire de recherche du Canada sur les écritures numériques. https://skhole.ecrituresnumeriques.ca/episodes/ep2_fauchie/\nLes humanités numériques : À mi chemin entre informatique et humanités. (2019, mars 31). In L’invité innovation. France Culture. https://www.radiofrance.fr/franceculture/podcasts/l-invite-innovation/les-humanites-numeriques-a-mi-chemin-entre-informatique-et-humanites-8683195",
+    "text": "Suggestions de lectures et d’écoute\n\nBalado et vidéo\n\nComputerphile. (2013). Characters, Symbols and the Unicode Miracle—Computerphile. https://www.youtube.com/watch?v=MijmeoH9LT4\nÉloge du bug : Quand le dysfonctionnement nous aide à repenser le numérique. (2024). In Le meilleur des mondes. France Culture. https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554\nHumanités numériques et philologie #24. (2023). Learning from Data. Centre de compétences en science des données de l’UNIGE. https://soundcloud.com/user-842727938/lfd24_sg\nLa vraie histoire de l’@. (2023). In Le Code a changé. France Inter. https://www.radiofrance.fr/franceinter/podcasts/le-code-a-change/le-code-a-change-3-5971499\nLe single source publishing #2. (2023). In Skhole. Chaire de recherche du Canada sur les écritures numériques. https://skhole.ecrituresnumeriques.ca/episodes/ep2_fauchie/\nLes humanités numériques : À mi chemin entre informatique et humanités. (2019, mars 31). In L’invité innovation. France Culture. https://www.radiofrance.fr/franceculture/podcasts/l-invite-innovation/les-humanites-numeriques-a-mi-chemin-entre-informatique-et-humanites-8683195",
     "crumbs": [
       "Index"
     ]
@@ -488,7 +498,7 @@
     "href": "evaluation.html",
     "title": "Consignes pour l’évaluation",
     "section": "",
-    "text": "Le cours est évalué selon quatre rubriques:\n\nparticipation en classe (les absences non justifiées auront une incidence sur cette note) (30%)\nparticipation durant la séance #8 (20%)\nprojet final (50%)\nnotes de rattrapage grâce aux questionnaires disponibles prochainement dans Studium (jusqu’à +3%)",
+    "text": "Le cours est évalué selon 3 rubriques :\n\nparticipation en classe 20%\nexamen de mi-session 30%\nexamen de fin de session 60%",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
@@ -498,17 +508,27 @@
     "href": "evaluation.html#axes-dévaluation",
     "title": "Consignes pour l’évaluation",
     "section": "",
-    "text": "Le cours est évalué selon quatre rubriques:\n\nparticipation en classe (les absences non justifiées auront une incidence sur cette note) (30%)\nparticipation durant la séance #8 (20%)\nprojet final (50%)\nnotes de rattrapage grâce aux questionnaires disponibles prochainement dans Studium (jusqu’à +3%)",
+    "text": "Le cours est évalué selon 3 rubriques :\n\nparticipation en classe 20%\nexamen de mi-session 30%\nexamen de fin de session 60%",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
   },
   {
-    "objectID": "evaluation.html#consignes-pour-le-projet-final",
-    "href": "evaluation.html#consignes-pour-le-projet-final",
+    "objectID": "evaluation.html#participation",
+    "href": "evaluation.html#participation",
     "title": "Consignes pour l’évaluation",
-    "section": "Consignes pour le projet final",
-    "text": "Consignes pour le projet final\nTBD",
+    "section": "Participation",
+    "text": "Participation\nLa participation en classe correspond à la présence en cours, à la participations aux manipulations proposées durant le cours et à la participation aux échanges sur les lectures demandées en amont de chaque cours.",
+    "crumbs": [
+      "Consignes pour l'évaluation"
+    ]
+  },
+  {
+    "objectID": "evaluation.html#organisation-des-examens",
+    "href": "evaluation.html#organisation-des-examens",
+    "title": "Consignes pour l’évaluation",
+    "section": "Organisation des examens",
+    "text": "Organisation des examens\nLes examens de mi-session et de fin de session suivront le même format, celui d’une évaluation sur table durant laquelle il sera demandé aux étudiant⸱es de lire un article ou un chapitre en lien avec les humanitiés numériques, distribué en début d’examen, et d’en faire une lecture critique sous la forme de deux questions de rédaction, et de répondre à des questions concernant les technologies étudiées ensemble durant le cours.",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
