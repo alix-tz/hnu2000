@@ -96,5 +96,3 @@ L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.o
 <mark>[Tropy](https://tropy.org/) et l'**annotation des images**</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
 
 ## 11/12/2024: Examen de fin de session
-
-## 18/12/2024: Pas de classe
