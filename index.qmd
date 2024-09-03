@@ -25,7 +25,7 @@ Les étudiant·es seront initié·es à diverses technologies, notamment :
 - L'apprentissage automatique et la reconnaissance automatique d'écritures manuscrites
 - La programmation
 
-Les humanités numériques se développent depuis une quarantaine d'années et correspondent à un mouvement plus large d'intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d'analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l'informations et de la communication, histoire de l'art ou encore informatique. 
+Les humanités numériques se développent depuis une quarantaine d'années et correspondent à un mouvement plus large d'intrusion du numérique dans la société. En sciences, le numérique ouvre la voie à de nouvelles questions et méthodes d'analyse qui renouvellent le champ disciplinaire, brouille les frontières entre les différentes disciplines : sciences humaines et sociales, sciences de l'information et de la communication, histoire de l'art ou encore informatique. 
 
 Ce cours permet aux étudiant·es d'accéder à un domaine de spécialisation reconnu en Amérique du Nord et en Europe. Il s'adresse particulièrement à celles et ceux issu⸱es de divers programmes de premier cycle, comme les littératures de langue française ou du monde, l'histoire et l'histoire de l'art, les études cinématographiques et les jeux vidéo, la communication, la philosophie, la sociologie, etc.
 
@@ -37,9 +37,14 @@ Durant ce trimestre, nous aborderont chaque semaine une ou deux nouvelles techno
 
 Modalités d'évaluation: [plus de détails ici](evaluation.qmd)
 
+## Matériel
+
+Les séances de cours étant centrées sur la manipulations de logiciels ou d'applications informatiques, il est demandé aux étudiant⸱es de venir en cours avec un ordinateur, avec lequel il faudra pouvoir naviguer sur le web et, lorsque ce sera signalé, pouvoir installer certains logiciels le temps du cours.
+
+
 ## Suggestions de lectures et d'écoute
 
-### Ballado et vidéo
+### Balado et vidéo
 
 - Computerphile. (2013). Characters, Symbols and the Unicode Miracle—Computerphile. [https://www.youtube.com/watch?v=MijmeoH9LT4](https://www.youtube.com/watch?v=MijmeoH9LT4) 
 - Éloge du bug : Quand le dysfonctionnement nous aide à repenser le numérique. (2024). In Le meilleur des mondes. France Culture. [https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554](https://www.radiofrance.fr/franceculture/podcasts/le-meilleur-des-mondes/eloge-du-bug-quand-le-dysfonctionnement-nous-aide-a-repenser-le-numerique-4522554) 

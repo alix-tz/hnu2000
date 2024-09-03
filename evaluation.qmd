@@ -4,6 +4,23 @@ title: "Consignes pour l'évaluation"
 
 ## Axes d'évaluation
 
+Le cours est évalué selon 3 rubriques : 
+
+- participation en classe **20%**
+
+- examen de mi-session **30%**
+
+- examen de fin de session **60%**
+
+## Participation
+
+La participation en classe correspond à la présence en cours, à la participations aux manipulations proposées durant le cours et à la participation aux échanges sur les lectures demandées en amont de chaque cours.
+
+## Organisation des examens
+
+Les examens de mi-session et de fin de session suivront le même format, celui d'une évaluation sur table durant laquelle il sera demandé aux étudiant⸱es de lire un article ou un chapitre en lien avec les humanitiés numériques, distribué en début d'examen, et d'en faire une lecture critique sous la forme de deux questions de rédaction, et de répondre à des questions concernant les technologies étudiées ensemble durant le cours. 
+
+<!--
 Le cours est évalué selon quatre rubriques:
 
 - participation en classe (les absences non justifiées auront une incidence sur cette note) **(30%)**
@@ -16,7 +33,7 @@ Le cours est évalué selon quatre rubriques:
 
 ## Consignes pour le projet final
 
-<mark><span style="color: red;">TBD</span></mark>
+<mark><span style="color: red;">TBD</span></mark>-->
 
 
 

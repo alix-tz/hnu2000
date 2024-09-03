@@ -2,11 +2,11 @@
 title: "Plan des séances"
 ---
 
-Chaque séance est centrée autour d'une technologie ou d'un logiciel, et des pratiques associées à ce logiciel. Nous manipulons le logiciel ou la technologie ensemble en cours et discutons de son importance dans le domaine des humanités numériques ou, simplement, dans notre environnement numérique.
+Chaque séance est centrée autour d'une technologie ou d'un logiciel, et des pratiques associées à ce logiciel. Nous manipulons le logiciel ou la technologie ensemble en cours et discutons de son importance dans le domaine des humanités numériques ou, simplement, dans notre environnement numérique. Il est demandé aux étudiant⸱es de venir en cours avec un ordinateur.
 
 ## 04/09/2024: Séance #1
 
-Présentation du cours, introduction aux humanitiés numériques et à la nécessité d'une pratique des outils
+Présentation du cours, introduction aux humanités numériques et à la nécessité d'une pratique des outils
 
 ```{=html}
 <iframe src="/slides/session1.html"></iframe>
@@ -69,7 +69,9 @@ Pas de cours.
 
 ## 30/10/2024: Séance #8
 
-[HN JDR](https://dhrpg.github.io/getting-started/) (participation comptant dans l'évaluation)
+<!--[HN JDR](https://dhrpg.github.io/getting-started/) (participation comptant dans l'évaluation)-->
+
+**Evaluation de mi-session.**
 
 ## 06/11/2024: Séance #9
 
@@ -93,11 +95,11 @@ L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.o
 
 ## 04/12/2024: Séance #13
 
-<mark>[Tropy](https://tropy.org/) et l'**annotation des images** OU Comment tirer le maximum de [IIIF](https://iiif.io/)</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
+<mark>[Tropy](https://tropy.org/) et l'**annotation des images**</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
 
 ## 11/12/2024: Séance #14
 
-<mark>TBD</mark>
+**Evaluation de fin de session.**
 
 ## 18/12/2024: semaine d'examen
 

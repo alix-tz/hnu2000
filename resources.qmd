@@ -14,7 +14,7 @@ title: "Ressources pédagogiques"
 - Melançon, J. (2023). Analyse textométrique du lexique des personnages dans French Town de Michel Ouellette : Dire je et exprimer ses émotions. Humanités numériques, 8. [https://doi.org/10.4000/revuehn.3683](https://doi.org/10.4000/revuehn.3683)
 - Sinclair, S., & Rockwell, G. (2014). Les potentialités du texte numérique. In Pratiques de l’édition numérique. Les Ateliers de [sens public]. [https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html](https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html) 
 
-## Ballado-diffusions
+## Balado-diffusions
 
 Pour se familiariser avec les humanités numériques et leur technologie, il n'y a pas que la lecture ! 
 
