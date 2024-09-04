@@ -26,9 +26,9 @@ Rapport de santé publique des Etats Unis pour l'année 1908.
 - [visualiseur de PDF](https://archive.org/details/jstor-4560629/page/n5/mode/2up?view=theater)
 
 
-## <span style="color:black; background-color:white;">Prenons le temps de regarder le document et la structure des données</span> {background-iframe="../img/session1_pdf_view.png"}
+## <span style="color:black; background-color:white;">Prenons le temps de regarder le document et la structure des données</span> {background-iframe="../img/session2_pdf_view.png"}
 
-<!--![](../img/session1_pdf_view.png "Capture d'écran d'un double page visualisée dans le visualiseur d'Internet Archive")-->
+<!--![](../img/session2_pdf_view.png "Capture d'écran d'un double page visualisée dans le visualiseur d'Internet Archive")-->
 
 ## Accès au texte brut
 
@@ -148,9 +148,9 @@ Ces notations appartiennent au domaine des expressions régulières
 - [https://regex101.com/](https://regex101.com/)
 - [https://regexr.com/](https://regexr.com/)
 
-## <span style="color:black; background-color:white;">`Month .+?\d{4}`</code></span> {background-iframe="../img/session1_regex_1.png"}
+## <span style="color:black; background-color:white;">`Month .+?\d{4}`</code></span> {background-iframe="../img/session2_regex_1.png"}
 
-<!--![](../img/session1_regex_1.png)-->
+<!--![](../img/session2_regex_1.png)-->
 
 
 <!-- TODO: -->
