@@ -64,7 +64,7 @@
     "href": "sessions.html#séance-2",
     "title": "Plan des séances",
     "section": "11/09/2024: Séance #2",
-    "text": "11/09/2024: Séance #2\nLes expressions régulières pour manipuler le texte, dans l’éditeur Sublime Text\ntéléchargement du logiciel nécessaire\n\nSupport de présentation (plein écran)",
+    "text": "11/09/2024: Séance #2\nLes expressions régulières pour manipuler le texte, dans l’éditeur Sublime Text\nLecture: Sinclair, S., & Rockwell, G. (2014). Les potentialités du texte numérique. In Pratiques de l’édition numérique. Les Ateliers de [sens public]. https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html\ntéléchargement du logiciel nécessaire\n\nSupport de présentation (plein écran)",
     "crumbs": [
       "Plan des séances"
     ]
@@ -74,7 +74,7 @@
     "href": "sessions.html#séance-3",
     "title": "Plan des séances",
     "section": "18/09/2024: Séance #3",
-    "text": "18/09/2024: Séance #3\nLes éditeurs de texte alternatifs à Microsoft Word (notamment Stylo) et Markdown comme langage de balisage\ncréation d'un compte Stylo nécessaire",
+    "text": "18/09/2024: Séance #3\nLes éditeurs de texte alternatifs à Microsoft Word (notamment Stylo) et Markdown comme langage de balisage\nLecture: Vitali-Rosati, M. (2018, March 11). Les chercheurs en SHS savent-ils écrire ? The Conversation. http://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024\nLecture complémentaire : Vitali-Rosati, M. (2020). Qu’est-ce que l’écriture numérique ? Corela. Cognition, représentation, langage, HS-33, Article HS-33. https://doi.org/10.4000/corela.11759\ncréation d'un compte Stylo nécessaire",
     "crumbs": [
       "Plan des séances"
     ]
@@ -83,8 +83,8 @@
     "objectID": "sessions.html#séance-4",
     "href": "sessions.html#séance-4",
     "title": "Plan des séances",
-    "section": "25/09/2024: Séance #4",
-    "text": "25/09/2024: Séance #4\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nutilisation d'un compte Google",
+    "section": "27/11/2024: Séance #4",
+    "text": "27/11/2024: Séance #4\nZotero et la gestion des données bibliographiques (à confirmer avec le groupe de classe)",
     "crumbs": [
       "Plan des séances"
     ]
@@ -143,8 +143,8 @@
     "objectID": "sessions.html#séance-8",
     "href": "sessions.html#séance-8",
     "title": "Plan des séances",
-    "section": "06/11/2024: Séance #8",
-    "text": "06/11/2024: Séance #8\nWikidata, SPARQL et le Web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
+    "section": "25/09/2024: Séance #8",
+    "text": "25/09/2024: Séance #8\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nutilisation d'un compte Google",
     "crumbs": [
       "Plan des séances"
     ]
@@ -153,8 +153,8 @@
     "objectID": "sessions.html#séance-9",
     "href": "sessions.html#séance-9",
     "title": "Plan des séances",
-    "section": "13/11/2024: Séance #9",
-    "text": "13/11/2024: Séance #9\nLEAF Writer, la TEI et la détection des entités nommées",
+    "section": "06/11/2024: Séance #9",
+    "text": "06/11/2024: Séance #9\nWikidata, SPARQL et le Web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
     "crumbs": [
       "Plan des séances"
     ]
@@ -163,8 +163,8 @@
     "objectID": "sessions.html#séance-10",
     "href": "sessions.html#séance-10",
     "title": "Plan des séances",
-    "section": "20/11/2024: Séance #10",
-    "text": "20/11/2024: Séance #10\nL’analyse du texte en language naturel Voyant Tools et Pyrrha",
+    "section": "13/11/2024: Séance #10",
+    "text": "13/11/2024: Séance #10\nLEAF Writer, la TEI et la détection des entités nommées",
     "crumbs": [
       "Plan des séances"
     ]
@@ -173,8 +173,8 @@
     "objectID": "sessions.html#séance-11",
     "href": "sessions.html#séance-11",
     "title": "Plan des séances",
-    "section": "27/11/2024: Séance #11",
-    "text": "27/11/2024: Séance #11\nZotero et la gestion des données bibliographiques (à confirmer avec le groupe de classe)",
+    "section": "20/11/2024: Séance #11",
+    "text": "20/11/2024: Séance #11\nL’analyse du texte en language naturel Voyant Tools et Pyrrha",
     "crumbs": [
       "Plan des séances"
     ]
@@ -376,21 +376,21 @@
     "href": "slides/session2.html#month-.d4",
     "title": "HNU2000 - Session 2",
     "section": "Month .+?\\d{4}",
-    "text": "Month .+?\\d{4}\n\n\n^.*February 21.*1908.*$ -&gt;  (rien) ^.*Received out of regular order..*$ -&gt;  (rien)\nexpliquer certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
+    "text": "Month .+?\\d{4}\n\n\n^.*February 21.*1908.*$ -&gt;  (rien) ^.*Received out of regular order..*$ -&gt;  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
   },
   {
     "objectID": "slides/session2.html#section-1",
     "href": "slides/session2.html#section-1",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "\\n{2,} -&gt; \\n\n\nExpliquer quantifieur: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
+    "text": "\\n{2,} -&gt; \\n\n\nExplications sur les quantifieurs: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
   },
   {
     "objectID": "slides/session2.html#section-2",
     "href": "slides/session2.html#section-2",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "?— ? -&gt; \\t\n\n\nmême chose que ( )?—( )? ou [ ]?—[ ]?"
+    "text": "?— ? -&gt; \\t\n\n\nmême chose que ( )?—( )? ou [ ]?—[ ]?\n\nExplication différence entre littéral, groupes et intervalle."
   },
   {
     "objectID": "slides/session2.html#section-3",
@@ -404,7 +404,7 @@
     "href": "slides/session2.html#section-4",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].) -&gt; &lt;t&gt;$1&lt;/t&gt;\nmême chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR)."
+    "text": "([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].) -&gt; &lt;t&gt;$1&lt;/t&gt;\nMême chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR)."
   },
   {
     "objectID": "slides/session2.html#section-5",
@@ -432,7 +432,7 @@
     "href": "slides/session2.html#section-8",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer\n^([A-Za-z .]+\\t&lt;t&gt;) -&gt; \\t$1 ^&lt;t&gt; -&gt; \\t\\t&lt;t&gt;\nexpliquer : on rajouter une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville. faire un collage spécial dans calc pour montrer la différence avant/après"
+    "text": "Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer\n^([A-Za-z .]+\\t&lt;t&gt;) -&gt; \\t$1 ^&lt;t&gt; -&gt; \\t\\t&lt;t&gt;\nExplication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.\nPossible de faire un collage spécial dans CALC pour montrer la différence avant/après"
   },
   {
     "objectID": "slides/session2.html#section-9",
@@ -446,7 +446,7 @@
     "href": "slides/session2.html#section-10",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*) -&gt; $1$2$3$4\\n$1$2$3\\t$5\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) -&gt; $1$2$3$4\\n$1$2$3\\tCases\\t$5$6 (répéter)\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) -&gt; $1$2$3$4\\n$1$2$3\\tDeaths\\t$5$6 (répéter)\non voit clairement la structure tabulaire se dessiner"
+    "text": "^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*) -&gt; $1$2$3$4\\n$1$2$3\\t$5\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) -&gt; $1$2$3$4\\n$1$2$3\\tCases\\t$5$6 (répéter)\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) -&gt; $1$2$3$4\\n$1$2$3\\tDeaths\\t$5$6 (répéter)\nOn voit clairement la structure tabulaire se dessiner"
   },
   {
     "objectID": "slides/session2.html#section-11",
@@ -474,14 +474,21 @@
     "href": "slides/session2.html#section-14",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "enregistrer sous “.csv”\n\nouvrons ça dans Google Sheet\nouvrons ça dans"
+    "text": "enregistrer sous “.csv”\n\nouvrons ça dans Google Sheet"
   },
   {
     "objectID": "slides/session2.html#section-15",
     "href": "slides/session2.html#section-15",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des corresponds à faire à la main"
+    "text": "Injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main"
+  },
+  {
+    "objectID": "slides/session2.html#debriefons",
+    "href": "slides/session2.html#debriefons",
+    "title": "HNU2000 - Session 2",
+    "section": "Debriefons",
+    "text": "Debriefons\n\nLes expressions régulières vous semblent-elles utiles ?\nLes expressions régulières vous semblent-elles compliquées à utiliser ?\nVoyez-vous d’autres cas d’application immédiats ?"
   },
   {
     "objectID": "LICENSE.html",

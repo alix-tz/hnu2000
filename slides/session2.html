@@ -1317,7 +1317,7 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <!--![](../img/session2_regex_1.png)-->
 <!-- TODO: -->
 <p><code>^.*February 21.*1908.*$</code> -&gt; <code></code> (rien) <code>^.*Received out of regular order..*$</code> -&gt; <code></code> (rien)</p>
-<p>expliquer certains caractères spéciaux: - <code>^</code> (accent circonflexe) correspond au début de la ligne. - <code>.</code> (point) correspond à n’importe quel caractère. - <code>*</code> (astérisque) correspond à toute séquence de zéro caractère ou plus. - <code>$</code> (le symbole dollar) correspond à la fin de la ligne.</p>
+<p>Explications sur certains caractères spéciaux: - <code>^</code> (accent circonflexe) correspond au début de la ligne. - <code>.</code> (point) correspond à n’importe quel caractère. - <code>*</code> (astérisque) correspond à toute séquence de zéro caractère ou plus. - <code>$</code> (le symbole dollar) correspond à la fin de la ligne.</p>
 <!--En épelant la date, nous apparierons seulement les lignes où cette séquence apparaît, lettre par lettre, et en utilisant .* aux deux extrémités nous apparierons toutes les lignes contenant cette séquence indépendamment de ce qui apparaît avant ou après elle sur la ligne. Après avoir effectué ce remplacement, il nous restera quelques lignes vierges.-->
 </section>
 <section id="section-1" class="slide level2">
@@ -1325,7 +1325,7 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <ul>
 <li><code>\n{2,}</code> -&gt; <code>\n</code></li>
 </ul>
-<p>Expliquer quantifieur: - <code>{4}</code> : strictement 4 fois - <code>{1,5}</code> : entre 1 et 5 fois - <code>{2,}</code> : au moins deux fois</p>
+<p>Explications sur les quantifieurs: - <code>{4}</code> : strictement 4 fois - <code>{1,5}</code> : entre 1 et 5 fois - <code>{2,}</code> : au moins deux fois</p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
@@ -1333,8 +1333,10 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <li><code>?— ?</code> -&gt; <code>\t</code></li>
 </ul>
 <blockquote>
-<p>même chose que <code>( )?—( )?</code> ou <code>[ ]?—[ ]?</code> <!--expliquer la différence entre ces 3 syntaxes (littéral, groupe, intervalle d'1 seul élément)--></p>
+<p>même chose que <code>( )?—( )?</code> ou <code>[ ]?—[ ]?</code></p>
 </blockquote>
+<p>Explication différence entre littéral, groupes et intervalle.</p>
+<!--expliquer la différence entre ces 3 syntaxes (littéral, groupe, intervalle d'1 seul élément)-->
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
@@ -1350,7 +1352,7 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <section id="section-4" class="slide level2">
 <h2></h2>
 <p><code>([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code> -&gt; <code>&lt;t&gt;$1&lt;/t&gt;</code></p>
-<p>même chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR).</p>
+<p>Même chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR).</p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
@@ -1375,7 +1377,8 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <h2></h2>
 <p>Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer</p>
 <p><code>^([A-Za-z .]+\t&lt;t&gt;)</code> -&gt; <code>\t$1</code> <code>^&lt;t&gt;</code> -&gt; <code>\t\t&lt;t&gt;</code></p>
-<p>expliquer : on rajouter une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville. faire un collage spécial dans calc pour montrer la différence avant/après</p>
+<p>Explication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.</p>
+<p>Possible de faire un collage spécial dans CALC pour montrer la différence avant/après</p>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
@@ -1388,7 +1391,7 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <p><code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*)</code> -&gt; <code>$1$2$3$4\n$1$2$3\t$5</code></p>
 <p><code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code> -&gt; <code>$1$2$3$4\n$1$2$3\tCases\t$5$6</code> (répéter)</p>
 <p><code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code> -&gt; <code>$1$2$3$4\n$1$2$3\tDeaths\t$5$6</code> (répéter)</p>
-<p>on voit clairement la structure tabulaire se dessiner</p>
+<p>On voit clairement la structure tabulaire se dessiner</p>
 </section>
 <section id="section-11" class="slide level2">
 <h2></h2>
@@ -1420,12 +1423,19 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <p>enregistrer sous “.csv”</p>
 <ul>
 <li>ouvrons ça dans Google Sheet</li>
-<li>ouvrons ça dans</li>
 </ul>
 </section>
 <section id="section-15" class="slide level2">
 <h2></h2>
-<p>injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des corresponds à faire à la main</p>
+<p>Injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main</p>
+</section>
+<section id="debriefons" class="slide level2">
+<h2>Debriefons</h2>
+<ul>
+<li>Les expressions régulières vous semblent-elles utiles ?</li>
+<li>Les expressions régulières vous semblent-elles compliquées à utiliser ?</li>
+<li>Voyez-vous d’autres cas d’application immédiats ?</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
