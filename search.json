@@ -84,7 +84,7 @@
     "href": "sessions.html#séance-4",
     "title": "Plan des séances",
     "section": "27/11/2024: Séance #4",
-    "text": "27/11/2024: Séance #4\nZotero et la gestion des données bibliographiques",
+    "text": "27/11/2024: Séance #4\nZotero et la gestion des données bibliographiques\nLecture: Daniel, J. (2022). Ode à Zotero, une décennie d’usage de Zotero [Billet]. Isidore & Ganesh. https://doi.org/10.58079/pw5v",
     "crumbs": [
       "Plan des séances"
     ]
@@ -94,7 +94,7 @@
     "href": "sessions.html#séance-5",
     "title": "Plan des séances",
     "section": "02/10/2024: Séance #5",
-    "text": "02/10/2024: Séance #5\nL’apprentissage profond, les différents types de modèles et de tâches",
+    "text": "02/10/2024: Séance #5\nL’apprentissage profond, les différents types de modèles et de tâches\nLecture: Smits, T., & Wevers, M. (2023). A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enrich, and analyze digital visual historical collections. Digital Scholarship in the Humanities, fqad008. https://doi.org/10.1093/llc/fqad008\nLecture complémentaire: Impett, L., & Offert, F. (2023). There Is a Digital Art History (arXiv:2308.07464). arXiv. https://doi.org/10.48550/arXiv.2308.07464",
     "crumbs": [
       "Plan des séances"
     ]
@@ -104,7 +104,7 @@
     "href": "sessions.html#séance-6",
     "title": "Plan des séances",
     "section": "09/10/2024: Séance #6",
-    "text": "09/10/2024: Séance #6\nIntroduction à la transcription automatique avec eScriptorium\nun compte eScriptorium sera fourni",
+    "text": "09/10/2024: Séance #6\nIntroduction à la transcription automatique avec eScriptorium\nLecture: Pinche, A. (2022). Guide de transcription pour les manuscrits du Xe au XVe siècle. https://hal.archives-ouvertes.fr/hal-03697382\nun compte eScriptorium sera fourni",
     "crumbs": [
       "Plan des séances"
     ]
@@ -114,7 +114,7 @@
     "href": "sessions.html#séance-7",
     "title": "Plan des séances",
     "section": "16/10/2024: Séance #7",
-    "text": "16/10/2024: Séance #7\nLe versioning avec Git, la publication des données avec GitHub\ncréation d'un compte Github nécessaire",
+    "text": "16/10/2024: Séance #7\nLe versioning avec Git, la publication des données avec GitHub\nLecture: Chagué, A., & Clérice, T. (2023). Données ouvertes, données propres, et autres vies: Testaments de Poilus et CREMMA. https://inria.hal.science/hal-04347066\ncréation d'un compte Github nécessaire",
     "crumbs": [
       "Plan des séances"
     ]
@@ -144,7 +144,7 @@
     "href": "sessions.html#séance-8",
     "title": "Plan des séances",
     "section": "25/09/2024: Séance #8",
-    "text": "25/09/2024: Séance #8\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nutilisation d'un compte Google",
+    "text": "25/09/2024: Séance #8\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nutilisation d'un compte Google\nLecture: Robichaud, L. (2019). Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA). In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. https://doi.org/10.2307/j.ctv1gbrwrt.12 [utiliser le proxy de l’UdeM pour accéder à la ressource]",
     "crumbs": [
       "Plan des séances"
     ]
@@ -184,7 +184,7 @@
     "href": "sessions.html#séance-12",
     "title": "Plan des séances",
     "section": "04/12/2024: Séance #12",
-    "text": "04/12/2024: Séance #12\nTropy et l’annotation des images (à confirmer avec le groupe de classe)",
+    "text": "04/12/2024: Séance #12\n\nTropy et l’annotation des images (à confirmer avec le groupe de classe)",
     "crumbs": [
       "Plan des séances"
     ]
@@ -376,49 +376,49 @@
     "href": "slides/session2.html#month-.d4",
     "title": "HNU2000 - Session 2",
     "section": "Month .+?\\d{4}",
-    "text": "Month .+?\\d{4}\n\n\n^.*February 21.*1908.*$ -&gt;  (rien) ^.*Received out of regular order..*$ -&gt;  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
+    "text": "Month .+?\\d{4}\n\n\n^.*February 21.*1908.*$ →  (rien) ^.*Received out of regular order..*$ →  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
   },
   {
     "objectID": "slides/session2.html#section-1",
     "href": "slides/session2.html#section-1",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "\\n{2,} -&gt; \\n\n\nExplications sur les quantifieurs: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
+    "text": "\\n{2,} → \\n\n\nExplications sur les quantifieurs: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
   },
   {
     "objectID": "slides/session2.html#section-2",
     "href": "slides/session2.html#section-2",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "?— ? -&gt; \\t\n\n\nmême chose que ( )?—( )? ou [ ]?—[ ]?\n\nExplication différence entre littéral, groupes et intervalle."
+    "text": "?— ? → \\t\n\n\nmême chose que ( )?—( )? ou [ ]?—[ ]?\n\nExplication différence entre littéral, groupes et intervalle."
   },
   {
     "objectID": "slides/session2.html#section-3",
     "href": "slides/session2.html#section-3",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].) -&gt; &lt;t&gt;$1&lt;/t&gt;\n() = capture\n$1 = remplacement\n&lt;t&gt;&lt;/t&gt; un pseudo balisage temporaire pour faciliter la structuration du texte, ici &lt;t&gt; note les informations de temps\nattention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs &lt;t&gt;&lt;/t&gt; imbriqués\n\nplus tard, on va utiliser d’autres lettre: - &lt;p&gt; pour les estimations de population - &lt;N&gt; pour les nombres totaux de décès - &lt;c&gt; pour “Cases” (cas)"
+    "text": "(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\n() = capture\n$1 = remplacement\n&lt;t&gt;&lt;/t&gt; un pseudo balisage temporaire pour faciliter la structuration du texte, ici &lt;t&gt; note les informations de temps\nattention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs &lt;t&gt;&lt;/t&gt; imbriqués\n\nplus tard, on va utiliser d’autres lettre: - &lt;p&gt; pour les estimations de population - &lt;N&gt; pour les nombres totaux de décès - &lt;c&gt; pour “Cases” (cas)"
   },
   {
     "objectID": "slides/session2.html#section-4",
     "href": "slides/session2.html#section-4",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].) -&gt; &lt;t&gt;$1&lt;/t&gt;\nMême chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR)."
+    "text": "([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\nMême chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR)."
   },
   {
     "objectID": "slides/session2.html#section-5",
     "href": "slides/session2.html#section-5",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "(Estimated population, [0-9,]+.) -&gt; &lt;p&gt;$1&lt;/p&gt; (Total number of deaths[A-Za-z ,]* [0-9,]+) -&gt; &lt;N&gt;$1&lt;/N&gt; (Cases ?:) -&gt; &lt;c&gt;$1&lt;/c&gt;\n\ndécrire ce qu’il s’est passé et ce qu’on est en train de faire\nlisons ensemble les expressions utilisées"
+    "text": "(Estimated population, [0-9,]+.) → &lt;p&gt;$1&lt;/p&gt; (Total number of deaths[A-Za-z ,]* [0-9,]+) → &lt;N&gt;$1&lt;/N&gt; (Cases ?:) → &lt;c&gt;$1&lt;/c&gt;\n\ndécrire ce qu’il s’est passé et ce qu’on est en train de faire\nlisons ensemble les expressions utilisées"
   },
   {
     "objectID": "slides/session2.html#section-6",
     "href": "slides/session2.html#section-6",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "On va ensuite repérer les maladies et le décompte de cas pour chacune d’elles\n&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+), -&gt; &lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;\n&gt; ([A-Za-z ]+) ([0-9]+)([.,]) -&gt; &gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt; (à répéter jusqu’à ce qu’il n’y ait plus de match)\nand ([0-9])+ from ([a-z ]+) -&gt; &lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;"
+    "text": "On va ensuite repérer les maladies et le décompte de cas pour chacune d’elles\n&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+), → &lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;\n&gt; ([A-Za-z ]+) ([0-9]+)([.,]) → &gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt; (à répéter jusqu’à ce qu’il n’y ait plus de match)\nand ([0-9])+ from ([a-z ]+) → &lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;"
   },
   {
     "objectID": "slides/session2.html#section-7",
@@ -432,7 +432,7 @@
     "href": "slides/session2.html#section-8",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer\n^([A-Za-z .]+\\t&lt;t&gt;) -&gt; \\t$1 ^&lt;t&gt; -&gt; \\t\\t&lt;t&gt;\nExplication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.\nPossible de faire un collage spécial dans CALC pour montrer la différence avant/après"
+    "text": "Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer\n^([A-Za-z .]+\\t&lt;t&gt;) → \\t$1 ^&lt;t&gt; → \\t\\t&lt;t&gt;\nExplication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.\nPossible de faire un collage spécial dans CALC pour montrer la différence avant/après"
   },
   {
     "objectID": "slides/session2.html#section-9",
@@ -446,21 +446,21 @@
     "href": "slides/session2.html#section-10",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*) -&gt; $1$2$3$4\\n$1$2$3\\t$5\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) -&gt; $1$2$3$4\\n$1$2$3\\tCases\\t$5$6 (répéter)\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) -&gt; $1$2$3$4\\n$1$2$3\\tDeaths\\t$5$6 (répéter)\nOn voit clairement la structure tabulaire se dessiner"
+    "text": "^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*) → $1$2$3$4\\n$1$2$3\\t$5\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) → $1$2$3$4\\n$1$2$3\\tCases\\t$5$6 (répéter)\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) → $1$2$3$4\\n$1$2$3\\tDeaths\\t$5$6 (répéter)\nOn voit clairement la structure tabulaire se dessiner"
   },
   {
     "objectID": "slides/session2.html#section-11",
     "href": "slides/session2.html#section-11",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "On nettoie ensuite les données pour retirer les traces du pseudo balisage\n\n.*&lt;/c&gt; $ -&gt; `` (rien)\n\\n{2,} -&gt; \\n\n&lt;n&gt; -&gt; \\t\n&lt;/n&gt; -&gt; `` (rien)\n&lt;d&gt;and -&gt; &lt;d&gt;\n&lt;/?[tdp]&gt; -&gt; `` (rien)"
+    "text": "On nettoie ensuite les données pour retirer les traces du pseudo balisage\n\n.*&lt;/c&gt; $ → `` (rien)\n\\n{2,} → \\n\n&lt;n&gt; → \\t\n&lt;/n&gt; → `` (rien)\n&lt;d&gt;and → &lt;d&gt;\n&lt;/?[tdp]&gt; → `` (rien)"
   },
   {
     "objectID": "slides/session2.html#section-12",
     "href": "slides/session2.html#section-12",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "On a 1 TSV, faisons un vrai CSV\n\n^\\t -&gt; \"\",\n\\t -&gt; \",\"\n\\n -&gt; \"\\n"
+    "text": "On a 1 TSV, faisons un vrai CSV\n\n^\\t → \"\",\n\\t → \",\"\n\\n → \"\\n"
   },
   {
     "objectID": "slides/session2.html#section-13",
@@ -489,6 +489,13 @@
     "title": "HNU2000 - Session 2",
     "section": "Debriefons",
     "text": "Debriefons\n\nLes expressions régulières vous semblent-elles utiles ?\nLes expressions régulières vous semblent-elles compliquées à utiliser ?\nVoyez-vous d’autres cas d’application immédiats ?"
+  },
+  {
+    "objectID": "slides/session2.html#section-16",
+    "href": "slides/session2.html#section-16",
+    "title": "HNU2000 - Session 2",
+    "section": "",
+    "text": "https://regexcrossword.com/"
   },
   {
     "objectID": "LICENSE.html",
