@@ -1325,7 +1325,13 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <!-- TODO: -->
 <p><code>^.*February 21.*1908.*$</code> → <code></code> (rien)</p>
 <p><code>^.*Received out of regular order..*$</code> → <code></code> (rien)</p>
-<p>Explications sur certains caractères spéciaux: - <code>^</code> (accent circonflexe) correspond au début de la ligne. - <code>.</code> (point) correspond à n’importe quel caractère. - <code>*</code> (astérisque) correspond à toute séquence de zéro caractère ou plus. - <code>$</code> (le symbole dollar) correspond à la fin de la ligne.</p>
+<p>Explications sur certains caractères spéciaux:</p>
+<ul>
+<li><code>^</code> (accent circonflexe) correspond au début de la ligne.</li>
+<li><code>.</code> (point) correspond à n’importe quel caractère.</li>
+<li><code>*</code> (astérisque) correspond à toute séquence de zéro caractère ou plus.</li>
+<li><code>$</code> (le symbole dollar) correspond à la fin de la ligne.</li>
+</ul>
 <!--En épelant la date, nous apparierons seulement les lignes où cette séquence apparaît, lettre par lettre, et en utilisant .* aux deux extrémités nous apparierons toutes les lignes contenant cette séquence indépendamment de ce qui apparaît avant ou après elle sur la ligne. Après avoir effectué ce remplacement, il nous restera quelques lignes vierges.-->
 </section>
 <section id="retrait-des-lignes-vides" class="slide level2">
@@ -1333,7 +1339,12 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <ul>
 <li><code>\n{2,}</code> → <code>\n</code></li>
 </ul>
-<p>Explications sur les quantifieurs: - <code>{4}</code> : strictement 4 fois - <code>{1,5}</code> : entre 1 et 5 fois - <code>{2,}</code> : au moins deux fois</p>
+<p>Explications sur les quantifieurs:</p>
+<ul>
+<li><code>{4}</code> : strictement 4 fois</li>
+<li><code>{1,5}</code> : entre 1 et 5 fois</li>
+<li><code>{2,}</code> : au moins deux fois</li>
+</ul>
 </section>
 <section id="retrait-dindices-de-mise-en-page" class="slide level2">
 <h2>Retrait d’indices de mise en page</h2>
@@ -1355,7 +1366,12 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <li><p><code>&lt;t&gt;&lt;/t&gt;</code> un pseudo balisage temporaire pour faciliter la structuration du texte, ici <code>&lt;t&gt;</code> note les informations de temps</p></li>
 <li><p>attention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs <code>&lt;t&gt;&lt;/t&gt;</code> imbriqués</p></li>
 </ul>
-<p>plus tard, on va utiliser d’autres lettre: - <code>&lt;p&gt;</code> pour les estimations de population - <code>&lt;N&gt;</code> pour les nombres totaux de décès - <code>&lt;c&gt;</code> pour “Cases” (cas)</p>
+<p>plus tard, on va utiliser d’autres lettres:</p>
+<ul>
+<li><code>&lt;p&gt;</code> pour les estimations de population</li>
+<li><code>&lt;N&gt;</code> pour les nombres totaux de décès</li>
+<li><code>&lt;c&gt;</code> pour “Cases” (cas)</li>
+</ul>
 </section>
 <section id="détection-des-périodes-temporelles-suite" class="slide level2">
 <h2>Détection des périodes temporelles (suite)</h2>
@@ -1435,7 +1451,11 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 </section>
 <section id="point-sur-la-qualité-du-résultat" class="slide level2">
 <h2>Point sur la qualité du résultat</h2>
-<p>Injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main</p>
+<p>Injecter tout dans Calc</p>
+<ul>
+<li>voir que certaines lignes n’ont pas été formatées comme les autres</li>
+<li>il reste donc des correspondances à faire à la main</li>
+</ul>
 </section>
 <section id="debriefons" class="slide level2">
 <h2>Debriefons</h2>

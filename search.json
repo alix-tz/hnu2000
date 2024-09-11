@@ -390,14 +390,14 @@
     "href": "slides/session2.html#section",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "^.*February 21.*1908.*$ →  (rien)\n^.*Received out of regular order..*$ →  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
+    "text": "^.*February 21.*1908.*$ →  (rien)\n^.*Received out of regular order..*$ →  (rien)\nExplications sur certains caractères spéciaux:\n\n^ (accent circonflexe) correspond au début de la ligne.\n. (point) correspond à n’importe quel caractère.\n* (astérisque) correspond à toute séquence de zéro caractère ou plus.\n$ (le symbole dollar) correspond à la fin de la ligne."
   },
   {
     "objectID": "slides/session2.html#retrait-des-lignes-vides",
     "href": "slides/session2.html#retrait-des-lignes-vides",
     "title": "HNU2000 - Session 2",
     "section": "Retrait des lignes vides",
-    "text": "Retrait des lignes vides\n\n\\n{2,} → \\n\n\nExplications sur les quantifieurs: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
+    "text": "Retrait des lignes vides\n\n\\n{2,} → \\n\n\nExplications sur les quantifieurs:\n\n{4} : strictement 4 fois\n{1,5} : entre 1 et 5 fois\n{2,} : au moins deux fois"
   },
   {
     "objectID": "slides/session2.html#retrait-dindices-de-mise-en-page",
@@ -411,7 +411,7 @@
     "href": "slides/session2.html#détection-des-périodes-temporelles",
     "title": "HNU2000 - Session 2",
     "section": "Détection des périodes temporelles",
-    "text": "Détection des périodes temporelles\n\n(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\n() = capture\n$1 = remplacement\n&lt;t&gt;&lt;/t&gt; un pseudo balisage temporaire pour faciliter la structuration du texte, ici &lt;t&gt; note les informations de temps\nattention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs &lt;t&gt;&lt;/t&gt; imbriqués\n\nplus tard, on va utiliser d’autres lettre: - &lt;p&gt; pour les estimations de population - &lt;N&gt; pour les nombres totaux de décès - &lt;c&gt; pour “Cases” (cas)"
+    "text": "Détection des périodes temporelles\n\n(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\n() = capture\n$1 = remplacement\n&lt;t&gt;&lt;/t&gt; un pseudo balisage temporaire pour faciliter la structuration du texte, ici &lt;t&gt; note les informations de temps\nattention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs &lt;t&gt;&lt;/t&gt; imbriqués\n\nplus tard, on va utiliser d’autres lettres:\n\n&lt;p&gt; pour les estimations de population\n&lt;N&gt; pour les nombres totaux de décès\n&lt;c&gt; pour “Cases” (cas)"
   },
   {
     "objectID": "slides/session2.html#détection-des-périodes-temporelles-suite",
@@ -495,7 +495,7 @@
     "href": "slides/session2.html#point-sur-la-qualité-du-résultat",
     "title": "HNU2000 - Session 2",
     "section": "Point sur la qualité du résultat",
-    "text": "Point sur la qualité du résultat\nInjecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main"
+    "text": "Point sur la qualité du résultat\nInjecter tout dans Calc\n\nvoir que certaines lignes n’ont pas été formatées comme les autres\nil reste donc des correspondances à faire à la main"
   },
   {
     "objectID": "slides/session2.html#debriefons",
