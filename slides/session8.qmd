@@ -1,0 +1,15 @@
+---
+title: "HNU2000 - Session 8"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- TimelineJS & StoryMap -->
+
+<!-- note préparatoire:
+- pourrait demander de venir avec une thématique et quelques données temporelles
+- 1h30 de démo, 1h pour préparer timeline
+- 20 minutes pour présenter le résultat
+-->

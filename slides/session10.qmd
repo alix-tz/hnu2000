@@ -1,0 +1,15 @@
+---
+title: "HNU2000 - Session 10"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- LEAF Writer, TEI & NER -->
+
+<!-- notes de préparation
+
+https://www.leaf-vre.org/docs/training/tutorials/leaf-writer-basics-tutorial
+
+-->

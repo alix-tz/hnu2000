@@ -1,0 +1,52 @@
+---
+title: "HNU2000 - Session 5"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- apprentissage automatique -->
+
+
+
+<!-- Notes de préparation 
+
+
+Ressources pour préparation du cours:
+- https://hal.science/hal-02379455
+- https://sciencespo.hal.science/hal-02005537v1/file/pre-print-revancheneurones-reseaux.pdf
+
+
+
+Quote :
+
+> The Book was proving far more stubborn than Artemis had anticipated. It seemed to be almost actively resisting him. No matter which program he ran it through, the computer came up blank.
+> 
+> Artemis hardcopied every page, tacking them to the walls of his study. Sometimes it helped to have things on paper. The script was like nothing he’d seen before, and yet it was strangely familiar. Obviously a mixture of symbolic and character-based language, the text meandered around the page in no apparent order.
+> 
+> What the program needed was some frame of reference, some central point on which to build. He separated all the characters and ran comparisons with English, Chinese, Greek, Arabic, and with Cyrillic texts, even with Ogham. Nothing.
+> 
+> Moody with frustration, Artemis sent Juliet scurrying when she interrupted with sandwiches, and moved on to symbols. The most frequently recurring pictogram was a small male figure. Male, he presumed, though with the limited knowledge of the fairy anatomy he supposed it could be female. A thought struck him. Artemis opened the ancient languages file on his Power Translator and selected Egyptian.
+> 
+> At last. A hit. The male symbol was remarkably similar to the Anubis god representation on Tutankhamen’s inner-chamber hieroglyphics. This was consistent with his other findings. The first written human stories were about fairies, suggesting that their civilization predated man’s own. It would seem that the Egyptians had simply adapted an existing scripture to suit their needs.
+> 
+> There were other resemblances. But the characters were just dissimilar enough to slip through the computer’s net. This would have to be done manually. Each Gnommish figure had to be enlarged, printed, and then compared with the hieroglyphs.
+> 
+> Artemis felt the excitement of success thumping inside his rib cage. Almost every fairy pictogram or letter had an Egyptian counterpart. Most were universal, such as the sun or birds. But some seemed exclusively supernatural and had to be tailored to fit. The Anubis figure, for example, would make no sense as a dog god, so Artemis altered it to read king of the fairies.
+> 
+> By midnight, Artemis had successfully fed his findings into the Macintosh. All he had to do now was press Decode. He did so. What emerged was a long, intricate string of meaningless gibberish.
+> 
+> A normal child would have abandoned the task long since. The average adult would probably have been reduced to slapping the keyboard. But not Artemis. This book was testing him, and he would not allow it to win.
+> 
+> The letters were right, he was certain of it. It was just the order that was wrong. Rubbing the sleep from his eyes, Artemis glared at the pages again. Each segment was bordered by a solid line. This could represent paragraphs or chapters, but they were not meant to be read in the usual left to right, top to bottom fashion.
+> 
+> Artemis experimented. He tried the Arabic right to left and the Chinese columns. Nothing worked. Then he noticed that each page had one thing in common – a central section. The other pictograms were arranged around this pivotal area. So, a central starting point, perhaps. But where to go from there? Artemis scanned the pages for some other common factor. After several minutes he found it. There was on each page a tiny spearhead in the corner of one section. Could this be an arrow? A direction? Go this way? So the theory would be, start in the middle then follow the arrow. Reading in spirals.
+> 
+> The computer program wasn’t built to handle something like this, so Artemis had to improvise. With a craft knife and ruler, he dissected the first page of the Book and reassembled it in the traditional Western languages order – left to right, parallel rows. Then he rescanned the page and fed it through the modified Egyptian translator.
+> 
+> The computer hummed and whirred, converting all the information to binary. Several times it stopped to ask for confirmation of a character or symbol. This happened less and less as the machine learned the new language. Eventually two words flashed on the screen: File converted.
+> 
+> Fingers shaking from exhaustion and excitement, Artemis clicked Print. A single page scrolled from the LaserWriter. It was in English now. Yes there were mistakes, some fine-tuning needed, but it was perfectly legible, and, more importantly, perfectly understandable.
+
+-->

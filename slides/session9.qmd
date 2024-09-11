@@ -1,0 +1,9 @@
+---
+title: "HNU2000 - Session 9"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- Wikidata, SPARQL & Web semantique -->

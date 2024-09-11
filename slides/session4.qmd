@@ -1,0 +1,15 @@
+---
+title: "HNU2000 - Session 4"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- Zotero -->
+
+<!-- Notes de préparation
+
+- https://uqam-ca.libguides.com/lgb/zotero
+
+-->

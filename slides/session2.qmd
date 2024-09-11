@@ -136,7 +136,7 @@ Ces notations appartiennent au domaine des expressions régulières
 
 ## Le but des REGEX est de trouver des motifs dans le texte
 
-- littérals : `fever`
+- littéraux : `fever`
 - ensembles : `[fevr]`
 - intervalles : `[a-z]`
 - classes : `\w`, `\d`
@@ -155,10 +155,10 @@ Ces notations appartiennent au domaine des expressions régulières
 
 <!-- TODO: -->
 
-`^.*February 21.*1908.*$` -> ` ` (rien)
-`^.*Received out of regular order..*$` -> ` ` (rien)
+`^.*February 21.*1908.*$` → ` ` (rien)
+`^.*Received out of regular order..*$` → ` ` (rien)
 
-expliquer certains caractères spéciaux: 
+Explications sur  certains caractères spéciaux: 
 - `^` (accent circonflexe) correspond au début de la ligne. 
 - `.` (point) correspond à n’importe quel caractère. 
 - `*` (astérisque) correspond à toute séquence de zéro caractère ou plus. 
@@ -168,23 +168,26 @@ expliquer certains caractères spéciaux:
 
 ##
 
-- `\n{2,}` -> `\n`
+- `\n{2,}` → `\n`
 
-Expliquer quantifieur:
+Explications sur les quantifieurs:
 - `{4}` : strictement 4 fois
 - `{1,5}` : entre 1 et 5 fois
 - `{2,}` : au moins deux fois
 
 ##
 
-- ` ?— ?` -> `\t`
+- ` ?— ?` → `\t`
 
 > même chose que `( )?—( )?` ou `[ ]?—[ ]?`
+
+Explication différence entre littéral, groupes et intervalle.
+
 <!--expliquer la différence entre ces 3 syntaxes (littéral, groupe, intervalle d'1 seul élément)-->
 
 ##
 
-- `(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)` -> `<t>$1</t>`
+- `(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)` → `<t>$1</t>`
 
 - `()` = capture
 - `$1` = remplacement
@@ -198,16 +201,16 @@ plus tard, on va utiliser d'autres lettre:
 
 ##
 
-`([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)` -> `<t>$1</t>`
+`([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)` → `<t>$1</t>`
 
-même chose mais pour les rapports trimestriels (noter qu'avec cette technique, on est flexible face aux erreurs d'OCR).
+Même chose mais pour les rapports trimestriels (noter qu'avec cette technique, on est flexible face aux erreurs d'OCR).
 
 
 ##
 
-`(Estimated population, [0-9,]+.)` -> `<p>$1</p>`
-`(Total number of deaths[A-Za-z ,]* [0-9,]+)` -> `<N>$1</N>`
-`(Cases ?:)` -> `<c>$1</c>`
+`(Estimated population, [0-9,]+.)` → `<p>$1</p>`
+`(Total number of deaths[A-Za-z ,]* [0-9,]+)` → `<N>$1</N>`
+`(Cases ?:)` → `<c>$1</c>`
 
 - décrire ce qu'il s'est passé et ce qu'on est en train de faire
 - lisons ensemble les expressions utilisées
@@ -216,13 +219,13 @@ même chose mais pour les rapports trimestriels (noter qu'avec cette technique, 
 
 On va ensuite repérer les maladies et le décompte de cas pour chacune d'elles
 
-`</N> including ([A-Za-z ]+) ([0-9]+),` -> `</N> including <d>$1</d> <n>$2</n>` 
+`</N> including ([A-Za-z ]+) ([0-9]+),` → `</N> including <d>$1</d> <n>$2</n>` 
 
 
-`> ([A-Za-z ]+) ([0-9]+)([.,])` -> `> <d>$1</d> <n>$2</n>` (à répéter jusqu'à ce qu'il n'y ait plus de match)
+`> ([A-Za-z ]+) ([0-9]+)([.,])` → `> <d>$1</d> <n>$2</n>` (à répéter jusqu'à ce qu'il n'y ait plus de match)
 
 
-`and ([0-9])+ from ([a-z ]+)` -> `<d>$2</d> <n>$1</n>`	
+`and ([0-9])+ from ([a-z ]+)` → `<d>$2</d> <n>$1</n>`	
 
 ##
 
@@ -232,11 +235,12 @@ On va ensuite repérer les maladies et le décompte de cas pour chacune d'elles
 
 Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c'est plus facile à repérer
 
-`^([A-Za-z .]+\t<t>)` -> `\t$1`
-`^<t>` -> `\t\t<t>`
+`^([A-Za-z .]+\t<t>)` → `\t$1`
+`^<t>` → `\t\t<t>`
 
-expliquer : on rajouter une tabulation lorsqu'on ne connaît pas l'Etat dans lequel se situe la ville.
-faire un collage spécial dans calc pour montrer la différence avant/après
+Explication : on rajoute une tabulation lorsqu'on ne connaît pas l'Etat dans lequel se situe la ville.
+
+Possible de faire un collage spécial dans CALC pour montrer la différence avant/après
 
 ##
 
@@ -244,33 +248,33 @@ faire un collage spécial dans calc pour montrer la différence avant/après
 
 ##
 
-`^(.*\t)(.*\t)(<t>.*</t>)(.*)(<c>.*)` -> `$1$2$3$4\n$1$2$3\t$5`
+`^(.*\t)(.*\t)(<t>.*</t>)(.*)(<c>.*)` → `$1$2$3$4\n$1$2$3\t$5`
 
-`^(.*\t)(.*\t)(<t>.*</t>)(.*<c>.*)(<d>.*</d>) (<n>.*</n>)` -> `$1$2$3$4\n$1$2$3\tCases\t$5$6` (répéter)
+`^(.*\t)(.*\t)(<t>.*</t>)(.*<c>.*)(<d>.*</d>) (<n>.*</n>)` → `$1$2$3$4\n$1$2$3\tCases\t$5$6` (répéter)
 
-`^(.*\t)(.*\t)(<t>.*</t>)(.*<N>.*)(<d>.*</d>) (<n>.*</n>)` -> `$1$2$3$4\n$1$2$3\tDeaths\t$5$6` (répéter)
+`^(.*\t)(.*\t)(<t>.*</t>)(.*<N>.*)(<d>.*</d>) (<n>.*</n>)` → `$1$2$3$4\n$1$2$3\tDeaths\t$5$6` (répéter)
 
-on voit clairement la structure tabulaire se dessiner
+On voit clairement la structure tabulaire se dessiner
 
 ##
 
 On nettoie ensuite les données pour retirer les traces du pseudo balisage
 
-- `.*</c> $` -> `` (rien)
-- `\n{2,}` -> `\n`
-- `<n>` -> `\t`
-- `</n>` -> `` (rien)
-- `<d>and ` -> `<d>`
-- `</?[tdp]>` -> `` (rien)
+- `.*</c> $` → `` (rien)
+- `\n{2,}` → `\n`
+- `<n>` → `\t`
+- `</n>` → `` (rien)
+- `<d>and ` → `<d>`
+- `</?[tdp]>` → `` (rien)
 
 
 ##
 
 On a 1 TSV, faisons un vrai CSV
 
-- `^\t` -> `"",`
-- `\t` -> `","`
-- `\n` -> `"\n`
+- `^\t` → `"",`
+- `\t` → `","`
+- `\n` → `"\n`
 
 
 ##
@@ -282,13 +286,20 @@ Collage spécial dans Calc (UTF-8, séparateur et caractère d'échappement)
 enregistrer sous ".csv"
 
 - ouvrons ça dans Google Sheet
-- ouvrons ça dans 
 
 ##
 
-
-injecter tout dans Calc
+Injecter tout dans Calc
 - voir que certaines lignes n'ont pas été formatées comme les autres
-- il reste donc des corresponds à faire à la main
+- il reste donc des correspondances à faire à la main
 
 
+## Debriefons
+
+- Les expressions régulières vous semblent-elles utiles ?
+- Les expressions régulières vous semblent-elles compliquées à utiliser ?
+- Voyez-vous d'autres cas d'application immédiats ?
+
+## 
+
+- https://regexcrossword.com/

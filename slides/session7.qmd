@@ -1,0 +1,15 @@
+---
+title: "HNU2000 - Session 7"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- Git, Github & Versionning // HTR-United -->
+
+<!-- notes préparatoires
+
+- https://hal.science/hal-03703989
+
+-->

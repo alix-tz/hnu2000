@@ -1,0 +1,15 @@
+---
+title: "HNU2000 - Session 3"
+format:
+  revealjs:
+    embed-resources: true
+    theme: default
+---
+
+<!-- Stylo & Markdown -->
+
+<!-- notes préparatoires
+
+- http://blog.sens-public.org/marcellovitalirosati/stylo/
+
+-->

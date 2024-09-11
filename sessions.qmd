@@ -18,6 +18,9 @@ Support de présentation ([plein écran](/slides/session1.qmd){target="_blank"})
 
 Les **expressions régulières** pour manipuler le texte, dans l'éditeur [Sublime Text](https://www.sublimetext.com/)
 
+**Lecture:** Sinclair, S., & Rockwell, G. (2014). *Les potentialités du texte numérique*. In *Pratiques de l’édition numérique*. Les Ateliers de [sens public]. [https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html](https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre12.html)
+
+
 ```
 téléchargement du logiciel nécessaire
 ```
@@ -31,25 +34,40 @@ Support de présentation ([plein écran](/slides/session2.qmd){target="_blank"})
 
 Les éditeurs de texte alternatifs à Microsoft Word (notamment [Stylo](https://stylo.huma-num.fr/)) et **Markdown** comme langage de balisage
 
+**Lecture:** Vitali-Rosati, M. (2018, March 11). *Les chercheurs en SHS savent-ils écrire ?* The Conversation. http://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024
+
+
+*Lecture complémentaire :* Vitali-Rosati, M. (2020). *Qu’est-ce que l’écriture numérique ?* Corela. Cognition, représentation, langage, HS-33, Article HS-33. [https://doi.org/10.4000/corela.11759](https://doi.org/10.4000/corela.11759)
+
+
 ```
 création d'un compte Stylo nécessaire
 ```
 
-## 25/09/2024: Séance #4
+## 27/11/2024: Séance #4
 
-Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeline.knightlab.com/) et [StoryMapJS](https://storymap.knightlab.com/)
+[Zotero](https://www.zotero.org/) et la **gestion des données bibliographiques**
 
-```
-utilisation d'un compte Google
-```
+**Lecture:** Daniel, J. (2022). *Ode à Zotero, une décennie d’usage de Zotero *[Billet]. Isidore & Ganesh. [https://doi.org/10.58079/pw5v](https://doi.org/10.58079/pw5v)
+
 
 ## 02/10/2024: Séance #5
 
-<mark>L'**apprentissage profond**, les différents types de modèles et de tâches</mark>
+L'**apprentissage profond**, les différents types de modèles et de tâches
+
+**Lecture:** Smits, T., & Wevers, M. (2023). *A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enrich, and analyze digital visual historical collections*. Digital Scholarship in the Humanities, fqad008. [https://doi.org/10.1093/llc/fqad008](https://doi.org/10.1093/llc/fqad008)
+
+
+*Lecture complémentaire:* Impett, L., & Offert, F. (2023). *There Is a Digital Art History* (arXiv:2308.07464). arXiv. [https://doi.org/10.48550/arXiv.2308.07464](https://doi.org/10.48550/arXiv.2308.07464)
+
 
 ## 09/10/2024: Séance #6
 
 Introduction à la **transcription automatique** avec [eScriptorium](https://escriptorium.readthedocs.io/en/latest/)
+
+**Lecture:** Pinche, A. (2022). *Guide de transcription pour les manuscrits du Xe au XVe siècle*. [https://hal.archives-ouvertes.fr/hal-03697382](https://hal.archives-ouvertes.fr/hal-03697382)
+
+*Lectures complémentaires:* Chagué, A., & Clérice, T. (2023). *Données ouvertes, données propres, et autres vies: Testaments de Poilus et CREMMA*. [https://inria.hal.science/hal-04347066](https://inria.hal.science/hal-04347066) ; Guénette, M., Verstraete, M., Vitali-Rosati, M., & Chagué, A. (2024, May). Transcrire un manuscrit en grec ancien. Humanistica 2024. [https://hal.science/hal-04563548](https://hal.science/hal-04563548)
 
 ```
 un compte eScriptorium sera fourni
@@ -58,6 +76,9 @@ un compte eScriptorium sera fourni
 ## 16/10/2024: Séance #7
 
 Le versioning avec [Git](https://git-scm.com/), la publication des données avec [GitHub](https://github.com/)
+
+**Lecture:** Moretti, C. (2023, January 4). *Principes FAIR et défis pour leur application dans le domaine des arts et humanités* [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. [https://doi.org/10.58079/r9hx](https://doi.org/10.58079/r9hx)
+
 
 ```
 création d'un compte Github nécessaire
@@ -69,9 +90,19 @@ Pas de cours.
 
 ## 30/10/2024: Examen de mi-session.
 
-<!--[HN JDR](https://dhrpg.github.io/getting-started/) (participation comptant dans l'évaluation)-->
 
-## 06/11/2024: Séance #8
+## 25/09/2024: Séance #8
+
+Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeline.knightlab.com/) et [StoryMapJS](https://storymap.knightlab.com/)
+
+**Lecture:** Robichaud, L. (2019). *Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA)*. In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. [https://doi.org/10.2307/j.ctv1gbrwrt.12](https://doi.org/10.2307/j.ctv1gbrwrt.12) [utiliser le [proxy](https://bib.umontreal.ca/travailler/soutien-informatique/proxy) de l'UdeM pour accéder à la ressource]
+
+
+```
+utilisation d'un compte Google
+```
+
+## 06/11/2024: Séance #9
 
 [Wikidata](https://www.wikidata.org), SPARQL et le **Web sémantique**
 
@@ -79,20 +110,28 @@ Pas de cours.
 (à confirmer) éventuelle création d'un compte wikidata
 ```
 
-## 13/11/2024: Séance #9
+
+
+
+## 13/11/2024: Séance #10
 
 [LEAF Writer](https://leaf-writer.leaf-vre.org/), la [TEI](https://tei-c.org/) et la détection des **entités nommées**
 
-## 20/11/2024: Séance #10
+**Lecture:** Casenave, J. (2019). Le positionnement éditorial dans l’édition critique numérique. Digital Studies / Le champ numérique, 9(1), Article 1. [https://doi.org/10.16995/dscn.348](https://doi.org/10.16995/dscn.348)
+
+
+## 20/11/2024: Séance #11
 
 L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.org/) et [Pyrrha](https://pyrrha.huma-num.fr/)
 
-## 27/11/2024: Séance #11
+**Lecture:** Puren, M., & Pellet, A. (2023, June). *Explorer les débats parlementaires français de la Troisième République par leurs sujets.* Humanistica 2023. [https://hal.science/hal-04128262](https://hal.science/hal-04128262)
 
-<mark>[Zotero](https://www.zotero.org/) et la **gestion des données bibliographiques**</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
 
 ## 04/12/2024: Séance #12
 
-<mark>[Tropy](https://tropy.org/) et l'**annotation des images**</mark> <span style="color: red;">(à confirmer avec le groupe de classe)</span>
+Exploration de la conduite de projet en Humanités Numériques avec le **DH RPG**
+
+**Lecture:** Estill, L. (2019). *Legacy technologies and digital futures*. In Doing More Digital Humanities. Routledge. [accessible en ligne [ici](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429353048-2/legacy-technologies-digital-futures-laura-estill)]
+
 
 ## 11/12/2024: Examen de fin de session
