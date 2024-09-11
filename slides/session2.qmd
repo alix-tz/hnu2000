@@ -16,6 +16,10 @@ format:
 - coloration syntaxique
 - rechercher et remplacer (`Ctrl` + `H`)
 
+## Crédits
+
+La manipulation qui suit est inspiré de : Doug Knox, « *Comprendre les expressions régulières* », traduction par Alix Chagué, *Programming Historian en français* (2020), [https://doi.org/10.46430/phfr0006](https://doi.org/10.46430/phfr0006).
+
 ## Données textuelles
 
 Rapport de santé publique des Etats Unis pour l'année 1908.
@@ -143,7 +147,7 @@ Ces notations appartiennent au domaine des expressions régulières
 - caractères spéciaux : `.`, `?`, `^`
 - quantifieurs : `{2}`, `+`
 
-## 
+## Des aides utiles pour utiliser des regex
 
 - [https://regex101.com/](https://regex101.com/)
 - [https://regexr.com/](https://regexr.com/)
@@ -166,7 +170,7 @@ Explications sur  certains caractères spéciaux:
 
 <!--En épelant la date, nous apparierons seulement les lignes où cette séquence apparaît, lettre par lettre, et en utilisant .* aux deux extrémités nous apparierons toutes les lignes contenant cette séquence indépendamment de ce qui apparaît avant ou après elle sur la ligne. Après avoir effectué ce remplacement, il nous restera quelques lignes vierges.-->
 
-##
+## Retrait des lignes vides
 
 - `\n{2,}` → `\n`
 
@@ -175,7 +179,7 @@ Explications sur les quantifieurs:
 - `{1,5}` : entre 1 et 5 fois
 - `{2,}` : au moins deux fois
 
-##
+## Retrait d'indices de mise en page
 
 - ` ?— ?` → `\t`
 
@@ -185,7 +189,7 @@ Explication différence entre littéral, groupes et intervalle.
 
 <!--expliquer la différence entre ces 3 syntaxes (littéral, groupe, intervalle d'1 seul élément)-->
 
-##
+## Détection des périodes temporelles
 
 - `(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)` → `<t>$1</t>`
 
@@ -199,23 +203,23 @@ plus tard, on va utiliser d'autres lettre:
 - `<N>` pour les nombres totaux de décès
 - `<c>` pour “Cases” (cas) 
 
-##
+## Détection des périodes temporelles (suite)
 
 `([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)` → `<t>$1</t>`
 
 Même chose mais pour les rapports trimestriels (noter qu'avec cette technique, on est flexible face aux erreurs d'OCR).
 
 
-##
+## Pseudo balisage
 
 `(Estimated population, [0-9,]+.)` → `<p>$1</p>`
 `(Total number of deaths[A-Za-z ,]* [0-9,]+)` → `<N>$1</N>`
 `(Cases ?:)` → `<c>$1</c>`
 
-- décrire ce qu'il s'est passé et ce qu'on est en train de faire
+- que se passe-t-il ? Qu'est-on en train de faire ?
 - lisons ensemble les expressions utilisées
 
-##
+## Pseudo balisage (suite)
 
 On va ensuite repérer les maladies et le décompte de cas pour chacune d'elles
 
@@ -227,26 +231,29 @@ On va ensuite repérer les maladies et le décompte de cas pour chacune d'elles
 
 `and ([0-9])+ from ([a-z ]+)` → `<d>$2</d> <n>$1</n>`	
 
-##
+## Pause
 
-(point sur les infos sémantiques qui sont identifiées) - + questions ?
+Faisons un point sur les informations sémantiques identifiées jusqu'à présent.
 
-##
+Des questions ?
+
+
+## Tabulations
 
 Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c'est plus facile à repérer
 
 `^([A-Za-z .]+\t<t>)` → `\t$1`
 `^<t>` → `\t\t<t>`
 
-Explication : on rajoute une tabulation lorsqu'on ne connaît pas l'Etat dans lequel se situe la ville.
+- Explication : on rajoute une tabulation lorsqu'on ne connaît pas l'Etat dans lequel se situe la ville.
 
-Possible de faire un collage spécial dans CALC pour montrer la différence avant/après
+- Possible de faire un collage spécial dans CALC pour montrer la différence avant/après
 
-##
+## Cas marginal!
 
-> (Il y a un cas, pour l’Indiana, où le texte indique cette section avec le terme “Morbidity”. Notre motif de recherche l’a manqué. Vous pouvez réparer le balisage à la main à présent, si vous le souhaitez, ou bien l’ignorer puisqu’il s’agit ici d’un exercice.)
+> Il y a un cas, pour l’Indiana, où le texte indique cette section avec le terme “Morbidity”. Notre motif de recherche l’a manqué. Vous pouvez réparer le balisage à la main à présent, si vous le souhaitez, ou bien l’ignorer puisqu’il s’agit ici d’un exercice.
 
-##
+## Construction de la structure tabulaire
 
 `^(.*\t)(.*\t)(<t>.*</t>)(.*)(<c>.*)` → `$1$2$3$4\n$1$2$3\t$5`
 
@@ -256,7 +263,7 @@ Possible de faire un collage spécial dans CALC pour montrer la différence avan
 
 On voit clairement la structure tabulaire se dessiner
 
-##
+## Nettoyage
 
 On nettoie ensuite les données pour retirer les traces du pseudo balisage
 
@@ -268,7 +275,7 @@ On nettoie ensuite les données pour retirer les traces du pseudo balisage
 - `</?[tdp]>` → `` (rien)
 
 
-##
+## TSV vers CSV
 
 On a 1 TSV, faisons un vrai CSV
 
@@ -277,17 +284,15 @@ On a 1 TSV, faisons un vrai CSV
 - `\n` → `"\n`
 
 
-##
+## Visualisation du CSV parsé dans Calc
 
 Collage spécial dans Calc (UTF-8, séparateur et caractère d'échappement)
 
-##
+## Visualisation du CSV parsé dans Google Sheet
 
-enregistrer sous ".csv"
+Enregistrer sous ".csv" et importer dans Google Sheet
 
-- ouvrons ça dans Google Sheet
-
-##
+## Point sur la qualité du résultat
 
 Injecter tout dans Calc
 - voir que certaines lignes n'ont pas été formatées comme les autres
@@ -300,6 +305,6 @@ Injecter tout dans Calc
 - Les expressions régulières vous semblent-elles compliquées à utiliser ?
 - Voyez-vous d'autres cas d'application immédiats ?
 
-## 
+## On peut aussi s'amuser avec les regex
 
 - https://regexcrossword.com/
