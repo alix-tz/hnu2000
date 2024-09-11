@@ -362,7 +362,7 @@
     "href": "slides/session2.html#le-but-des-regex-est-de-trouver-des-motifs-dans-le-texte",
     "title": "HNU2000 - Session 2",
     "section": "Le but des REGEX est de trouver des motifs dans le texte",
-    "text": "Le but des REGEX est de trouver des motifs dans le texte\n\nlittérals : fever\nensembles : [fevr]\nintervalles : [a-z]\nclasses : \\w, \\d\ncaractères spéciaux : ., ?, ^\nquantifieurs : {2}, +"
+    "text": "Le but des REGEX est de trouver des motifs dans le texte\n\nlittéraux : fever\nensembles : [fevr]\nintervalles : [a-z]\nclasses : \\w, \\d\ncaractères spéciaux : ., ?, ^\nquantifieurs : {2}, +"
   },
   {
     "objectID": "slides/session2.html#section",
