@@ -288,6 +288,13 @@
     "text": "Sublime Text\n\nhttps://www.sublimetext.com/\néditeur de texte simple mais puissant\ntypes de fichiers texte supportés\ncoloration syntaxique\nrechercher et remplacer (Ctrl + H)"
   },
   {
+    "objectID": "slides/session2.html#crédits",
+    "href": "slides/session2.html#crédits",
+    "title": "HNU2000 - Session 2",
+    "section": "Crédits",
+    "text": "Crédits\nLa manipulation qui suit est inspiré de : Doug Knox, « Comprendre les expressions régulières », traduction par Alix Chagué, Programming Historian en français (2020), https://doi.org/10.46430/phfr0006."
+  },
+  {
     "objectID": "slides/session2.html#données-textuelles",
     "href": "slides/session2.html#données-textuelles",
     "title": "HNU2000 - Session 2",
@@ -365,11 +372,11 @@
     "text": "Le but des REGEX est de trouver des motifs dans le texte\n\nlittéraux : fever\nensembles : [fevr]\nintervalles : [a-z]\nclasses : \\w, \\d\ncaractères spéciaux : ., ?, ^\nquantifieurs : {2}, +"
   },
   {
-    "objectID": "slides/session2.html#section",
-    "href": "slides/session2.html#section",
+    "objectID": "slides/session2.html#des-aides-utiles-pour-utiliser-des-regex",
+    "href": "slides/session2.html#des-aides-utiles-pour-utiliser-des-regex",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "https://regex101.com/\nhttps://regexr.com/"
+    "section": "Des aides utiles pour utiliser des regex",
+    "text": "Des aides utiles pour utiliser des regex\n\nhttps://regex101.com/\nhttps://regexr.com/"
   },
   {
     "objectID": "slides/session2.html#month-.d4",
@@ -379,109 +386,109 @@
     "text": "Month .+?\\d{4}\n\n\n^.*February 21.*1908.*$ →  (rien) ^.*Received out of regular order..*$ →  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
   },
   {
-    "objectID": "slides/session2.html#section-1",
-    "href": "slides/session2.html#section-1",
+    "objectID": "slides/session2.html#retrait-des-lignes-vides",
+    "href": "slides/session2.html#retrait-des-lignes-vides",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "\\n{2,} → \\n\n\nExplications sur les quantifieurs: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
+    "section": "Retrait des lignes vides",
+    "text": "Retrait des lignes vides\n\n\\n{2,} → \\n\n\nExplications sur les quantifieurs: - {4} : strictement 4 fois - {1,5} : entre 1 et 5 fois - {2,} : au moins deux fois"
   },
   {
-    "objectID": "slides/session2.html#section-2",
-    "href": "slides/session2.html#section-2",
+    "objectID": "slides/session2.html#retrait-dindices-de-mise-en-page",
+    "href": "slides/session2.html#retrait-dindices-de-mise-en-page",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "?— ? → \\t\n\n\nmême chose que ( )?—( )? ou [ ]?—[ ]?\n\nExplication différence entre littéral, groupes et intervalle."
+    "section": "Retrait d’indices de mise en page",
+    "text": "Retrait d’indices de mise en page\n\n?— ? → \\t\n\n\nmême chose que ( )?—( )? ou [ ]?—[ ]?\n\nExplication différence entre littéral, groupes et intervalle."
   },
   {
-    "objectID": "slides/session2.html#section-3",
-    "href": "slides/session2.html#section-3",
+    "objectID": "slides/session2.html#détection-des-périodes-temporelles",
+    "href": "slides/session2.html#détection-des-périodes-temporelles",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\n() = capture\n$1 = remplacement\n&lt;t&gt;&lt;/t&gt; un pseudo balisage temporaire pour faciliter la structuration du texte, ici &lt;t&gt; note les informations de temps\nattention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs &lt;t&gt;&lt;/t&gt; imbriqués\n\nplus tard, on va utiliser d’autres lettre: - &lt;p&gt; pour les estimations de population - &lt;N&gt; pour les nombres totaux de décès - &lt;c&gt; pour “Cases” (cas)"
+    "section": "Détection des périodes temporelles",
+    "text": "Détection des périodes temporelles\n\n(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\n() = capture\n$1 = remplacement\n&lt;t&gt;&lt;/t&gt; un pseudo balisage temporaire pour faciliter la structuration du texte, ici &lt;t&gt; note les informations de temps\nattention à n’appliquer la regex qu’une seule fois, sinon on va avoir plusieurs &lt;t&gt;&lt;/t&gt; imbriqués\n\nplus tard, on va utiliser d’autres lettre: - &lt;p&gt; pour les estimations de population - &lt;N&gt; pour les nombres totaux de décès - &lt;c&gt; pour “Cases” (cas)"
   },
   {
-    "objectID": "slides/session2.html#section-4",
-    "href": "slides/session2.html#section-4",
+    "objectID": "slides/session2.html#détection-des-périodes-temporelles-suite",
+    "href": "slides/session2.html#détection-des-périodes-temporelles-suite",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\nMême chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR)."
+    "section": "Détection des périodes temporelles (suite)",
+    "text": "Détection des périodes temporelles (suite)\n([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].) → &lt;t&gt;$1&lt;/t&gt;\nMême chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR)."
   },
   {
-    "objectID": "slides/session2.html#section-5",
-    "href": "slides/session2.html#section-5",
+    "objectID": "slides/session2.html#pseudo-balisage",
+    "href": "slides/session2.html#pseudo-balisage",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "(Estimated population, [0-9,]+.) → &lt;p&gt;$1&lt;/p&gt; (Total number of deaths[A-Za-z ,]* [0-9,]+) → &lt;N&gt;$1&lt;/N&gt; (Cases ?:) → &lt;c&gt;$1&lt;/c&gt;\n\ndécrire ce qu’il s’est passé et ce qu’on est en train de faire\nlisons ensemble les expressions utilisées"
+    "section": "Pseudo balisage",
+    "text": "Pseudo balisage\n(Estimated population, [0-9,]+.) → &lt;p&gt;$1&lt;/p&gt; (Total number of deaths[A-Za-z ,]* [0-9,]+) → &lt;N&gt;$1&lt;/N&gt; (Cases ?:) → &lt;c&gt;$1&lt;/c&gt;\n\nque se passe-t-il ? Qu’est-on en train de faire ?\nlisons ensemble les expressions utilisées"
   },
   {
-    "objectID": "slides/session2.html#section-6",
-    "href": "slides/session2.html#section-6",
+    "objectID": "slides/session2.html#pseudo-balisage-suite",
+    "href": "slides/session2.html#pseudo-balisage-suite",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "On va ensuite repérer les maladies et le décompte de cas pour chacune d’elles\n&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+), → &lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;\n&gt; ([A-Za-z ]+) ([0-9]+)([.,]) → &gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt; (à répéter jusqu’à ce qu’il n’y ait plus de match)\nand ([0-9])+ from ([a-z ]+) → &lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;"
+    "section": "Pseudo balisage (suite)",
+    "text": "Pseudo balisage (suite)\nOn va ensuite repérer les maladies et le décompte de cas pour chacune d’elles\n&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+), → &lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;\n&gt; ([A-Za-z ]+) ([0-9]+)([.,]) → &gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt; (à répéter jusqu’à ce qu’il n’y ait plus de match)\nand ([0-9])+ from ([a-z ]+) → &lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;"
   },
   {
-    "objectID": "slides/session2.html#section-7",
-    "href": "slides/session2.html#section-7",
+    "objectID": "slides/session2.html#pause",
+    "href": "slides/session2.html#pause",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "(point sur les infos sémantiques qui sont identifiées) - + questions ?"
+    "section": "Pause",
+    "text": "Pause\nFaisons un point sur les informations sémantiques identifiées jusqu’à présent.\nDes questions ?"
   },
   {
-    "objectID": "slides/session2.html#section-8",
-    "href": "slides/session2.html#section-8",
+    "objectID": "slides/session2.html#tabulations",
+    "href": "slides/session2.html#tabulations",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer\n^([A-Za-z .]+\\t&lt;t&gt;) → \\t$1 ^&lt;t&gt; → \\t\\t&lt;t&gt;\nExplication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.\nPossible de faire un collage spécial dans CALC pour montrer la différence avant/après"
+    "section": "Tabulations",
+    "text": "Tabulations\nReprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer\n^([A-Za-z .]+\\t&lt;t&gt;) → \\t$1 ^&lt;t&gt; → \\t\\t&lt;t&gt;\n\nExplication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.\nPossible de faire un collage spécial dans CALC pour montrer la différence avant/après"
   },
   {
-    "objectID": "slides/session2.html#section-9",
-    "href": "slides/session2.html#section-9",
+    "objectID": "slides/session2.html#cas-marginal",
+    "href": "slides/session2.html#cas-marginal",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "(Il y a un cas, pour l’Indiana, où le texte indique cette section avec le terme “Morbidity”. Notre motif de recherche l’a manqué. Vous pouvez réparer le balisage à la main à présent, si vous le souhaitez, ou bien l’ignorer puisqu’il s’agit ici d’un exercice.)"
+    "section": "Cas marginal!",
+    "text": "Cas marginal!\n\nIl y a un cas, pour l’Indiana, où le texte indique cette section avec le terme “Morbidity”. Notre motif de recherche l’a manqué. Vous pouvez réparer le balisage à la main à présent, si vous le souhaitez, ou bien l’ignorer puisqu’il s’agit ici d’un exercice."
   },
   {
-    "objectID": "slides/session2.html#section-10",
-    "href": "slides/session2.html#section-10",
+    "objectID": "slides/session2.html#construction-de-la-structure-tabulaire",
+    "href": "slides/session2.html#construction-de-la-structure-tabulaire",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*) → $1$2$3$4\\n$1$2$3\\t$5\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) → $1$2$3$4\\n$1$2$3\\tCases\\t$5$6 (répéter)\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) → $1$2$3$4\\n$1$2$3\\tDeaths\\t$5$6 (répéter)\nOn voit clairement la structure tabulaire se dessiner"
+    "section": "Construction de la structure tabulaire",
+    "text": "Construction de la structure tabulaire\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*) → $1$2$3$4\\n$1$2$3\\t$5\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) → $1$2$3$4\\n$1$2$3\\tCases\\t$5$6 (répéter)\n^(.*\\t)(.*\\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;) → $1$2$3$4\\n$1$2$3\\tDeaths\\t$5$6 (répéter)\nOn voit clairement la structure tabulaire se dessiner"
   },
   {
-    "objectID": "slides/session2.html#section-11",
-    "href": "slides/session2.html#section-11",
+    "objectID": "slides/session2.html#nettoyage",
+    "href": "slides/session2.html#nettoyage",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "On nettoie ensuite les données pour retirer les traces du pseudo balisage\n\n.*&lt;/c&gt; $ → `` (rien)\n\\n{2,} → \\n\n&lt;n&gt; → \\t\n&lt;/n&gt; → `` (rien)\n&lt;d&gt;and → &lt;d&gt;\n&lt;/?[tdp]&gt; → `` (rien)"
+    "section": "Nettoyage",
+    "text": "Nettoyage\nOn nettoie ensuite les données pour retirer les traces du pseudo balisage\n\n.*&lt;/c&gt; $ → `` (rien)\n\\n{2,} → \\n\n&lt;n&gt; → \\t\n&lt;/n&gt; → `` (rien)\n&lt;d&gt;and → &lt;d&gt;\n&lt;/?[tdp]&gt; → `` (rien)"
   },
   {
-    "objectID": "slides/session2.html#section-12",
-    "href": "slides/session2.html#section-12",
+    "objectID": "slides/session2.html#tsv-vers-csv",
+    "href": "slides/session2.html#tsv-vers-csv",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "On a 1 TSV, faisons un vrai CSV\n\n^\\t → \"\",\n\\t → \",\"\n\\n → \"\\n"
+    "section": "TSV vers CSV",
+    "text": "TSV vers CSV\nOn a 1 TSV, faisons un vrai CSV\n\n^\\t → \"\",\n\\t → \",\"\n\\n → \"\\n"
   },
   {
-    "objectID": "slides/session2.html#section-13",
-    "href": "slides/session2.html#section-13",
+    "objectID": "slides/session2.html#visualisation-du-csv-parsé-dans-calc",
+    "href": "slides/session2.html#visualisation-du-csv-parsé-dans-calc",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "Collage spécial dans Calc (UTF-8, séparateur et caractère d’échappement)"
+    "section": "Visualisation du CSV parsé dans Calc",
+    "text": "Visualisation du CSV parsé dans Calc\nCollage spécial dans Calc (UTF-8, séparateur et caractère d’échappement)"
   },
   {
-    "objectID": "slides/session2.html#section-14",
-    "href": "slides/session2.html#section-14",
+    "objectID": "slides/session2.html#visualisation-du-csv-parsé-dans-google-sheet",
+    "href": "slides/session2.html#visualisation-du-csv-parsé-dans-google-sheet",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "enregistrer sous “.csv”\n\nouvrons ça dans Google Sheet"
+    "section": "Visualisation du CSV parsé dans Google Sheet",
+    "text": "Visualisation du CSV parsé dans Google Sheet\nEnregistrer sous “.csv” et importer dans Google Sheet"
   },
   {
-    "objectID": "slides/session2.html#section-15",
-    "href": "slides/session2.html#section-15",
+    "objectID": "slides/session2.html#point-sur-la-qualité-du-résultat",
+    "href": "slides/session2.html#point-sur-la-qualité-du-résultat",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "Injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main"
+    "section": "Point sur la qualité du résultat",
+    "text": "Point sur la qualité du résultat\nInjecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main"
   },
   {
     "objectID": "slides/session2.html#debriefons",
@@ -491,11 +498,11 @@
     "text": "Debriefons\n\nLes expressions régulières vous semblent-elles utiles ?\nLes expressions régulières vous semblent-elles compliquées à utiliser ?\nVoyez-vous d’autres cas d’application immédiats ?"
   },
   {
-    "objectID": "slides/session2.html#section-16",
-    "href": "slides/session2.html#section-16",
+    "objectID": "slides/session2.html#on-peut-aussi-samuser-avec-les-regex",
+    "href": "slides/session2.html#on-peut-aussi-samuser-avec-les-regex",
     "title": "HNU2000 - Session 2",
-    "section": "",
-    "text": "https://regexcrossword.com/"
+    "section": "On peut aussi s’amuser avec les regex",
+    "text": "On peut aussi s’amuser avec les regex\n\nhttps://regexcrossword.com/"
   },
   {
     "objectID": "LICENSE.html",

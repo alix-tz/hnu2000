@@ -1161,6 +1161,10 @@ margin-right: 0; }
 <li>rechercher et remplacer (<code>Ctrl</code> + <code>H</code>)</li>
 </ul>
 </section>
+<section id="crédits" class="slide level2">
+<h2>Crédits</h2>
+<p>La manipulation qui suit est inspiré de : Doug Knox, « <em>Comprendre les expressions régulières</em> », traduction par Alix Chagué, <em>Programming Historian en français</em> (2020), <a href="https://doi.org/10.46430/phfr0006">https://doi.org/10.46430/phfr0006</a>.</p>
+</section>
 <section id="données-textuelles" class="slide level2">
 <h2>Données textuelles</h2>
 <p>Rapport de santé publique des Etats Unis pour l’année 1908.</p>
@@ -1305,8 +1309,8 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <li>quantifieurs : <code>{2}</code>, <code>+</code></li>
 </ul>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="des-aides-utiles-pour-utiliser-des-regex" class="slide level2">
+<h2>Des aides utiles pour utiliser des regex</h2>
 <ul>
 <li><a href="https://regex101.com/">https://regex101.com/</a></li>
 <li><a href="https://regexr.com/">https://regexr.com/</a></li>
@@ -1320,15 +1324,15 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <p>Explications sur certains caractères spéciaux: - <code>^</code> (accent circonflexe) correspond au début de la ligne. - <code>.</code> (point) correspond à n’importe quel caractère. - <code>*</code> (astérisque) correspond à toute séquence de zéro caractère ou plus. - <code>$</code> (le symbole dollar) correspond à la fin de la ligne.</p>
 <!--En épelant la date, nous apparierons seulement les lignes où cette séquence apparaît, lettre par lettre, et en utilisant .* aux deux extrémités nous apparierons toutes les lignes contenant cette séquence indépendamment de ce qui apparaît avant ou après elle sur la ligne. Après avoir effectué ce remplacement, il nous restera quelques lignes vierges.-->
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section id="retrait-des-lignes-vides" class="slide level2">
+<h2>Retrait des lignes vides</h2>
 <ul>
 <li><code>\n{2,}</code> → <code>\n</code></li>
 </ul>
 <p>Explications sur les quantifieurs: - <code>{4}</code> : strictement 4 fois - <code>{1,5}</code> : entre 1 et 5 fois - <code>{2,}</code> : au moins deux fois</p>
 </section>
-<section id="section-2" class="slide level2">
-<h2></h2>
+<section id="retrait-dindices-de-mise-en-page" class="slide level2">
+<h2>Retrait d’indices de mise en page</h2>
 <ul>
 <li><code>?— ?</code> → <code>\t</code></li>
 </ul>
@@ -1338,8 +1342,8 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <p>Explication différence entre littéral, groupes et intervalle.</p>
 <!--expliquer la différence entre ces 3 syntaxes (littéral, groupe, intervalle d'1 seul élément)-->
 </section>
-<section id="section-3" class="slide level2">
-<h2></h2>
+<section id="détection-des-périodes-temporelles" class="slide level2">
+<h2>Détection des périodes temporelles</h2>
 <ul>
 <li><p><code>(Month of [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code> → <code>&lt;t&gt;$1&lt;/t&gt;</code></p></li>
 <li><p><code>()</code> = capture</p></li>
@@ -1349,52 +1353,55 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 </ul>
 <p>plus tard, on va utiliser d’autres lettre: - <code>&lt;p&gt;</code> pour les estimations de population - <code>&lt;N&gt;</code> pour les nombres totaux de décès - <code>&lt;c&gt;</code> pour “Cases” (cas)</p>
 </section>
-<section id="section-4" class="slide level2">
-<h2></h2>
+<section id="détection-des-périodes-temporelles-suite" class="slide level2">
+<h2>Détection des périodes temporelles (suite)</h2>
 <p><code>([-A-Za-z ]+ ended [A-Z][a-z, 0-9]+ 19[0-9][0-9].)</code> → <code>&lt;t&gt;$1&lt;/t&gt;</code></p>
 <p>Même chose mais pour les rapports trimestriels (noter qu’avec cette technique, on est flexible face aux erreurs d’OCR).</p>
 </section>
-<section id="section-5" class="slide level2">
-<h2></h2>
+<section id="pseudo-balisage" class="slide level2">
+<h2>Pseudo balisage</h2>
 <p><code>(Estimated population, [0-9,]+.)</code> → <code>&lt;p&gt;$1&lt;/p&gt;</code> <code>(Total number of deaths[A-Za-z ,]* [0-9,]+)</code> → <code>&lt;N&gt;$1&lt;/N&gt;</code> <code>(Cases ?:)</code> → <code>&lt;c&gt;$1&lt;/c&gt;</code></p>
 <ul>
-<li>décrire ce qu’il s’est passé et ce qu’on est en train de faire</li>
+<li>que se passe-t-il ? Qu’est-on en train de faire ?</li>
 <li>lisons ensemble les expressions utilisées</li>
 </ul>
 </section>
-<section id="section-6" class="slide level2">
-<h2></h2>
+<section id="pseudo-balisage-suite" class="slide level2">
+<h2>Pseudo balisage (suite)</h2>
 <p>On va ensuite repérer les maladies et le décompte de cas pour chacune d’elles</p>
 <p><code>&lt;/N&gt; including ([A-Za-z ]+) ([0-9]+),</code> → <code>&lt;/N&gt; including &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code></p>
 <p><code>&gt; ([A-Za-z ]+) ([0-9]+)([.,])</code> → <code>&gt; &lt;d&gt;$1&lt;/d&gt; &lt;n&gt;$2&lt;/n&gt;</code> (à répéter jusqu’à ce qu’il n’y ait plus de match)</p>
 <p><code>and ([0-9])+ from ([a-z ]+)</code> → <code>&lt;d&gt;$2&lt;/d&gt; &lt;n&gt;$1&lt;/n&gt;</code></p>
 </section>
-<section id="section-7" class="slide level2">
-<h2></h2>
-<p>(point sur les infos sémantiques qui sont identifiées) - + questions ?</p>
+<section id="pause" class="slide level2">
+<h2>Pause</h2>
+<p>Faisons un point sur les informations sémantiques identifiées jusqu’à présent.</p>
+<p>Des questions ?</p>
 </section>
-<section id="section-8" class="slide level2">
-<h2></h2>
+<section id="tabulations" class="slide level2">
+<h2>Tabulations</h2>
 <p>Reprenons la question de la localisation: pour le moment, on sépare les données avec une tabulation, parce que c’est plus facile à repérer</p>
 <p><code>^([A-Za-z .]+\t&lt;t&gt;)</code> → <code>\t$1</code> <code>^&lt;t&gt;</code> → <code>\t\t&lt;t&gt;</code></p>
-<p>Explication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.</p>
-<p>Possible de faire un collage spécial dans CALC pour montrer la différence avant/après</p>
+<ul>
+<li><p>Explication : on rajoute une tabulation lorsqu’on ne connaît pas l’Etat dans lequel se situe la ville.</p></li>
+<li><p>Possible de faire un collage spécial dans CALC pour montrer la différence avant/après</p></li>
+</ul>
 </section>
-<section id="section-9" class="slide level2">
-<h2></h2>
+<section id="cas-marginal" class="slide level2">
+<h2>Cas marginal!</h2>
 <blockquote>
-<p>(Il y a un cas, pour l’Indiana, où le texte indique cette section avec le terme “Morbidity”. Notre motif de recherche l’a manqué. Vous pouvez réparer le balisage à la main à présent, si vous le souhaitez, ou bien l’ignorer puisqu’il s’agit ici d’un exercice.)</p>
+<p>Il y a un cas, pour l’Indiana, où le texte indique cette section avec le terme “Morbidity”. Notre motif de recherche l’a manqué. Vous pouvez réparer le balisage à la main à présent, si vous le souhaitez, ou bien l’ignorer puisqu’il s’agit ici d’un exercice.</p>
 </blockquote>
 </section>
-<section id="section-10" class="slide level2">
-<h2></h2>
+<section id="construction-de-la-structure-tabulaire" class="slide level2">
+<h2>Construction de la structure tabulaire</h2>
 <p><code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*)(&lt;c&gt;.*)</code> → <code>$1$2$3$4\n$1$2$3\t$5</code></p>
 <p><code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;c&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code> → <code>$1$2$3$4\n$1$2$3\tCases\t$5$6</code> (répéter)</p>
 <p><code>^(.*\t)(.*\t)(&lt;t&gt;.*&lt;/t&gt;)(.*&lt;N&gt;.*)(&lt;d&gt;.*&lt;/d&gt;) (&lt;n&gt;.*&lt;/n&gt;)</code> → <code>$1$2$3$4\n$1$2$3\tDeaths\t$5$6</code> (répéter)</p>
 <p>On voit clairement la structure tabulaire se dessiner</p>
 </section>
-<section id="section-11" class="slide level2">
-<h2></h2>
+<section id="nettoyage" class="slide level2">
+<h2>Nettoyage</h2>
 <p>On nettoie ensuite les données pour retirer les traces du pseudo balisage</p>
 <ul>
 <li><code>.*&lt;/c&gt; $</code> → `` (rien)</li>
@@ -1405,8 +1412,8 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <li><code>&lt;/?[tdp]&gt;</code> → `` (rien)</li>
 </ul>
 </section>
-<section id="section-12" class="slide level2">
-<h2></h2>
+<section id="tsv-vers-csv" class="slide level2">
+<h2>TSV vers CSV</h2>
 <p>On a 1 TSV, faisons un vrai CSV</p>
 <ul>
 <li><code>^\t</code> → <code>&quot;&quot;,</code></li>
@@ -1414,19 +1421,16 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <li><code>\n</code> → <code>&quot;\n</code></li>
 </ul>
 </section>
-<section id="section-13" class="slide level2">
-<h2></h2>
+<section id="visualisation-du-csv-parsé-dans-calc" class="slide level2">
+<h2>Visualisation du CSV parsé dans Calc</h2>
 <p>Collage spécial dans Calc (UTF-8, séparateur et caractère d’échappement)</p>
 </section>
-<section id="section-14" class="slide level2">
-<h2></h2>
-<p>enregistrer sous “.csv”</p>
-<ul>
-<li>ouvrons ça dans Google Sheet</li>
-</ul>
+<section id="visualisation-du-csv-parsé-dans-google-sheet" class="slide level2">
+<h2>Visualisation du CSV parsé dans Google Sheet</h2>
+<p>Enregistrer sous “.csv” et importer dans Google Sheet</p>
 </section>
-<section id="section-15" class="slide level2">
-<h2></h2>
+<section id="point-sur-la-qualité-du-résultat" class="slide level2">
+<h2>Point sur la qualité du résultat</h2>
 <p>Injecter tout dans Calc - voir que certaines lignes n’ont pas été formatées comme les autres - il reste donc des correspondances à faire à la main</p>
 </section>
 <section id="debriefons" class="slide level2">
@@ -1437,8 +1441,8 @@ For month of December, 1907, see Public Health Reports, January 17, 1908. </code
 <li>Voyez-vous d’autres cas d’application immédiats ?</li>
 </ul>
 </section>
-<section id="section-16" class="slide level2">
-<h2></h2>
+<section id="on-peut-aussi-samuser-avec-les-regex" class="slide level2">
+<h2>On peut aussi s’amuser avec les regex</h2>
 <ul>
 <li>https://regexcrossword.com/</li>
 </ul>
