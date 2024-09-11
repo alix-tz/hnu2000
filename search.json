@@ -390,7 +390,7 @@
     "href": "slides/session2.html#section",
     "title": "HNU2000 - Session 2",
     "section": "",
-    "text": "^.*February 21.*1908.*$ →  (rien) ^.*Received out of regular order..*$ →  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
+    "text": "^.*February 21.*1908.*$ →  (rien)\n^.*Received out of regular order..*$ →  (rien)\nExplications sur certains caractères spéciaux: - ^ (accent circonflexe) correspond au début de la ligne. - . (point) correspond à n’importe quel caractère. - * (astérisque) correspond à toute séquence de zéro caractère ou plus. - $ (le symbole dollar) correspond à la fin de la ligne."
   },
   {
     "objectID": "slides/session2.html#retrait-des-lignes-vides",
