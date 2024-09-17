@@ -44,7 +44,11 @@ Les éditeurs de texte alternatifs à Microsoft Word (notamment [Stylo](https://
 création d'un compte Stylo nécessaire
 ```
 
-## 27/11/2024: Séance #4
+```{=html}
+<iframe src="/slides/session3.html"></iframe>
+```
+
+## 25/09/2024: Séance #4
 
 [Zotero](https://www.zotero.org/) et la **gestion des données bibliographiques**
 
@@ -91,7 +95,7 @@ Pas de cours.
 ## 30/10/2024: Examen de mi-session.
 
 
-## 25/09/2024: Séance #8
+## 06/11/2024: Séance #8
 
 Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeline.knightlab.com/) et [StoryMapJS](https://storymap.knightlab.com/)
 
@@ -102,7 +106,7 @@ Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeli
 utilisation d'un compte Google
 ```
 
-## 06/11/2024: Séance #9
+## 13/11/2024: Séance #9
 
 [Wikidata](https://www.wikidata.org), SPARQL et le **Web sémantique**
 
@@ -113,14 +117,14 @@ utilisation d'un compte Google
 
 
 
-## 13/11/2024: Séance #10
+## 20/11/2024: Séance #10
 
 [LEAF Writer](https://leaf-writer.leaf-vre.org/), la [TEI](https://tei-c.org/) et la détection des **entités nommées**
 
-**Lecture:** Casenave, J. (2019). Le positionnement éditorial dans l’édition critique numérique. Digital Studies / Le champ numérique, 9(1), Article 1. [https://doi.org/10.16995/dscn.348](https://doi.org/10.16995/dscn.348)
+**Lecture:** Casenave, J. (2019). *Le positionnement éditorial dans l’édition critique numérique*. Digital Studies / Le champ numérique, 9(1), Article 1. [https://doi.org/10.16995/dscn.348](https://doi.org/10.16995/dscn.348)
 
 
-## 20/11/2024: Séance #11
+## 27/11/2024: Séance #11
 
 L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.org/) et [Pyrrha](https://pyrrha.huma-num.fr/)
 
