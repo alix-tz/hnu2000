@@ -274,6 +274,69 @@
     "text": "Humanités numériques\n\n\nmind map of humanities computingWillard McCarty, Humanities Computing, Encyclopedia of Library and Information Science (2003). [lien vers le PDF]\n\n“”\nConsider a rough intellectual map of humanities computing (Fig. 1). At the center of this map is a large ‘‘methodological commons’’ of computational techniques shared among the disciplines of the humanities and closely related social sciences, e.g., database design, text analysis, numerical analysis, imaging, music information retrieval, communications. Picture the disciplines ranged above the commons in groups, such as literary and linguistic studies, historical studies, material culture, musicology, performance studies, and so on. Connecting each disciplinary group to the relevant techniques are double-headed arrows indicating that these techniques are variously exported from individual fields of study into the commons and from the commons into others. The agency that sees to this import/export trade is humanities computing in its dual role as collegial service to the disciplines and as research enterprise directed to investigate their evolving methodologies, devise new computational approaches, study the effects, and tease out the implications. Below the commons are broad areas of learning that such interdisciplinary work calls on: philosophy (especially epistemology, ontology, and the philosophy of mind), historiography and ethnography, science studies, sociology of knowledge, media studies, literary criticism, linguistics, and aspects of computer science, including markup technologies, digital library research, and the language industries.\n““”\n\n\n“”\nConsidérons une carte intellectuelle approximative des humanités computationnelles (Fig. 1). Au centre de cette carte se trouve un vaste « fonds commun méthodologique » de techniques informatiques partagées entre les disciplines des sciences humaines et des sciences sociales étroitement liées, par exemple la conception de bases de données, l’analyse de texte, l’analyse numérique, l’imagerie, la recherche d’informations musicales, la communication. Les disciplines sont classées par groupes, tels que les études littéraires et linguistiques, les études historiques, la culture matérielle, la musicologie, les études sur les performances, etc. Des flèches à deux têtes relient chaque groupe disciplinaire aux techniques correspondantes, indiquant que ces techniques sont diversement exportées des différents domaines d’étude vers les communs et des communs vers d’autres domaines d’étude. La structure qui veille à ce commerce d’importation et d’exportation est les humanités computationelles, dans son double rôle de service collégial aux disciplines et d’entreprise de recherche chargée d’étudier l’évolution de leurs méthodologies, de concevoir de nouvelles approches informatiques, d’en étudier les effets et d’en dégager les implications. Sous les communs se trouvent de vastes domaines d’apprentissage auxquels ce travail interdisciplinaire fait appel : la philosophie (en particulier l’épistémologie, l’ontologie et la philosophie de l’esprit), l’historiographie et l’ethnographie, les études scientifiques, la sociologie de la connaissance, les études sur les médias, la critique littéraire, la linguistique et certains aspects de l’informatique, y compris les technologies de balisage, la recherche sur les bibliothèques numériques et les industries de la langue.\n““”"
   },
   {
+    "objectID": "slides/session3.html#annotation-sémantique-et-annotation-stylistique",
+    "href": "slides/session3.html#annotation-sémantique-et-annotation-stylistique",
+    "title": "HNU2000 - Session 3",
+    "section": "Annotation sémantique et annotation stylistique",
+    "text": "Annotation sémantique et annotation stylistique\n\nWYSIWYG = What You See Is What You Get\nWYSIWYM = What You See Is What You Mean\n\n\n\nannotation stylistique:\n\ndimension graphique: le sens n’est conservé que si la mise en forme est conservée (gras, italique, couleur, etc.)\nla mise en forme dépend du support de publication (page web, PDF, impression, etc.) et doit être adaptée à chaque support\nla mise en forme est souvent difficile à maintenir dans le temps\n\nannotation sémantique:\n\ndimension structurelle: le sens est conservé indépendamment de la mise en forme\nla structure est conservée et peut être adaptée à différents supports de publication\nla structure est plus facile à maintenir dans le temps"
+  },
+  {
+    "objectID": "slides/session3.html#editeurs-de-texte-wysiwyg",
+    "href": "slides/session3.html#editeurs-de-texte-wysiwyg",
+    "title": "HNU2000 - Session 3",
+    "section": "Editeurs de texte WYSIWYG",
+    "text": "Editeurs de texte WYSIWYG\n\nWord, LibreOffice, Google Docs, etc.\nsimulation d’une feuille de papier (skeuomorphisme) et d’un environnement de saisie type “machine à écrire”\noptions de mise en forme avec rendu immédiat\ndimension sémantique limitée: passe par les calques de mise en forme ou styles (titre, titre 1, titre 2, paragraph, etc.)\n\nse traduit par la capacité à créer une table des matières, etc.\nmais se traduit par des options de mise en forme limitées et des difficultés à maintenir la cohérence de la mise en forme"
+  },
+  {
+    "objectID": "slides/session3.html#editeurs-de-texte-wysiwym-et-formats-de-balisage",
+    "href": "slides/session3.html#editeurs-de-texte-wysiwym-et-formats-de-balisage",
+    "title": "HNU2000 - Session 3",
+    "section": "Editeurs de texte WYSIWYM et formats de balisage",
+    "text": "Editeurs de texte WYSIWYM et formats de balisage\n\nbalisage = ajout de balises pour structurer le texte\nles balises apparaissent quand un texte est ouvert dans un éditeur de texte WISIWYM\nexemples de syntaxes de balisage:\n\nHTML et XML : &lt;balise attribut=\"valeur\"&gt;contenu&lt;/balise&gt;\nLaTeX : \\commande{argument}\n\nle balisage permet de structurer le document mais aussi d’annoter des éléments du texte (section mise en exergue, information sémantique, ajout de notes, etc.) et des métadonnées.\n\nHTML est un format de balisage:\nSans rendu stylistique\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;title&gt;Titre de la page&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Titre de niveau 1&lt;/h1&gt;\n    &lt;p&gt;Paragraphe&lt;/p&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\nAvec rendu stylistique\n\n\n  \n    Titre de la page\n  \n  \n    Titre de niveau 1\n    Paragraphe"
+  },
+  {
+    "objectID": "slides/session3.html#regardons-html-de-plus-près",
+    "href": "slides/session3.html#regardons-html-de-plus-près",
+    "title": "HNU2000 - Session 3",
+    "section": "Regardons HTML de plus près",
+    "text": "Regardons HTML de plus près\n\nhttps://www.editions-zones.fr/lyber?eloge-du-bug"
+  },
+  {
+    "objectID": "slides/session3.html#markdown-101",
+    "href": "slides/session3.html#markdown-101",
+    "title": "HNU2000 - Session 3",
+    "section": "Markdown 101",
+    "text": "Markdown 101\n\nbalisage léger (facile à lire et à écrire)\nsyntaxe simple pour structurer un document\nmais usage limité (on fait plus de choses avec XML, HTML ou LaTeX qu’avec Markdown)\nconversion en HTML, PDF, DOCX, etc.\n\nLes éléments de bases de Markdown\n\n# Titre de niveau 1\n\n## Titre de niveau 2\n\netc\n\n###### Titre de niveau 6\n\n**Texte en gras**\n\n*Texte en italique*\n\n\nListe non-numéroté:\n\n- élément 1\n- élément 2\n\n\nListe numérotée:\n\n1. élément 1\n2. élément 2\n\n\n[texte du lien](url)\n\n![texte alternatif](url de l'image)\n\n[^note de bas de page] + [^note de bas de page]: texte de la note de bas de page\n\nIl existe des variantes de Markdown (GitHub Flavored Markdown, CommonMark, etc.) qui ajoutent des fonctionnalités supplémentaires.\nPar exemple:\n\ntableaux\n\n| Entête 1   | Entête 2   |\n| ---------- | ---------- |\n| cellule 1  | cellule 2  |\n\n\n\nEntête 1\nEntête 2\n\n\n\n\ncellule 1\ncellule 2\n\n\n\n\nblocs de code\n\n```\ncode\n```\n\nsurlignage (==texte==)"
+  },
+  {
+    "objectID": "slides/session3.html#markdown-dans-la-pratique",
+    "href": "slides/session3.html#markdown-dans-la-pratique",
+    "title": "HNU2000 - Session 3",
+    "section": "Markdown dans la pratique",
+    "text": "Markdown dans la pratique\n\nMarkdown est utilisé pour écrire des README sur GitHub, des articles sur des plateformes de blogging, des messages sur des forums, ou même ce cours!\nMarkdown est utilisé pour écrire des documents dans des éditeurs de texte WYSIWYM comme Stylo, Jupyter, etc.\nMarkdown est souvent couplé à des languages plus avancés quand on veut faire des choses plus complexes (HTML, LaTeX, etc.)\n\n\n# Titre de niveau 1\n\nCeci est une formule mathématique faisant appel à la syntaxe LaTeX dans un document Markdown: $e^{i\\pi} + 1 = 0$\n\nCeci est une balise html pour ajouter une image dans un document Markdown en utilisant d'autres propriétés: &lt;img src=\"url_de_l'image\" alt=\"texte alternatif\" width=\"200\"/&gt;\n\nTous les éditeurs ne supportent pas les mêmes fonctionnalités de Markdown.\nLes fichiers Markdown ont souvent l’extension .md\nIls peuvent être parsés pour générer des fichiers HTML, PDF, DOCX, etc, par exemple avec pandoc.\nApprendre à utiliser Markdown en 5 minutes: https://www.markdowntutorial.com/\nTester Markdown dans un éditeur en ligne: https://dillinger.io/"
+  },
+  {
+    "objectID": "slides/session3.html#présentation-de-stylo",
+    "href": "slides/session3.html#présentation-de-stylo",
+    "title": "HNU2000 - Session 3",
+    "section": "Présentation de Stylo",
+    "text": "Présentation de Stylo\n\nhttps://stylo.huma-num.fr/\n\n\n\nChaire de recherche du Canada sur les écritures numériques\nHébergement par la TGDIR HumaNum\néditeur de texte sémantique pour la rédaction scientifique\nécrire, structurer, prévisualiser, réviser, exporter\nutilisation d’un langage de balisage léger (Markdown), d’un langage de description de métadonnées (YAML) et d’un langage de description bibliographique (BibTeX)\napplication en ligne, simple d’utilisation\nutilisation de briques logicielles existantes (et libres)"
+  },
+  {
+    "objectID": "slides/session3.html#markdown-dans-stylo",
+    "href": "slides/session3.html#markdown-dans-stylo",
+    "title": "HNU2000 - Session 3",
+    "section": "Markdown dans Stylo",
+    "text": "Markdown dans Stylo\n\nStylo utilise Markdown pour structurer le texte\nhttps://stylo-doc.ecrituresnumeriques.ca/fr/syntaxemarkdown/"
+  },
+  {
+    "objectID": "slides/session3.html#manipulation-de-stylo",
+    "href": "slides/session3.html#manipulation-de-stylo",
+    "title": "HNU2000 - Session 3",
+    "section": "Manipulation de Stylo",
+    "text": "Manipulation de Stylo\nPréparation\n\non travaille à partir de Mounier Pierre, Dacos Marin. Édition électronique. In: Communications, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: https://doi.org/10.3406/comm.2011.2584\nparcourir le document et relever la structure sémantique et les différentes annotations\ndans Stylo, créer un nouveau document nommé NOM_HNU2000_automne2024\nrécupérer la version texte de l’article (bouton dans le menu de gauche) et coller dans le nouveau document Stylo\n(opt) utiliser les expressions régulière pour nettoyer le texte si nécessaire\n\nStructuration sémantique\n\nutiliser Markdown pour structurer le texte de l’article en s’appuyant sur la version graphique\n\nniveaux de titre\nitaliques\nnotes de bas de page\n\n\nMétadonnées\n\nutiliser l’onglet “Métadonnées” pour ajouter des métadonnées\n\nPartage\n\npartager le document Stylo avec alix.chague@inria.fr\n\nExport\n\nexporter le document en HTML\nexporter le document en PDF\nexporter le document en DOCX\ncomparer les différentes options et les résultats obtenus"
+  },
+  {
     "objectID": "slides/session2.html#les-expressions-régulières-pour-manipuler-le-texte-dans-léditeur-sublime-text",
     "href": "slides/session2.html#les-expressions-régulières-pour-manipuler-le-texte-dans-léditeur-sublime-text",
     "title": "HNU2000 - Session 2",
