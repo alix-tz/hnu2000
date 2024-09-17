@@ -156,13 +156,16 @@ Ces notations appartiennent au domaine des expressions régulières
 
 <!--![](../img/session2_regex_1.png)-->
 
+## 
 
 <!-- TODO: -->
 
 `^.*February 21.*1908.*$` → ` ` (rien)
+
 `^.*Received out of regular order..*$` → ` ` (rien)
 
 Explications sur  certains caractères spéciaux: 
+
 - `^` (accent circonflexe) correspond au début de la ligne. 
 - `.` (point) correspond à n’importe quel caractère. 
 - `*` (astérisque) correspond à toute séquence de zéro caractère ou plus. 
@@ -175,6 +178,7 @@ Explications sur  certains caractères spéciaux:
 - `\n{2,}` → `\n`
 
 Explications sur les quantifieurs:
+
 - `{4}` : strictement 4 fois
 - `{1,5}` : entre 1 et 5 fois
 - `{2,}` : au moins deux fois
@@ -198,7 +202,8 @@ Explication différence entre littéral, groupes et intervalle.
 - `<t></t>` un pseudo balisage temporaire pour faciliter la structuration du texte, ici `<t>` note les informations de temps
 - attention à n'appliquer la regex qu'une seule fois, sinon on va avoir plusieurs `<t></t>` imbriqués
 
-plus tard, on va utiliser d'autres lettre:
+plus tard, on va utiliser d'autres lettres:
+
 - `<p>` pour les estimations de population
 - `<N>` pour les nombres totaux de décès
 - `<c>` pour “Cases” (cas) 
@@ -295,6 +300,7 @@ Enregistrer sous ".csv" et importer dans Google Sheet
 ## Point sur la qualité du résultat
 
 Injecter tout dans Calc
+
 - voir que certaines lignes n'ont pas été formatées comme les autres
 - il reste donc des correspondances à faire à la main
 

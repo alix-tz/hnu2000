@@ -4,12 +4,274 @@ format:
   revealjs:
     embed-resources: true
     theme: default
+    scrollable: true
 ---
 
 <!-- Stylo & Markdown -->
 
 <!-- notes préparatoires
-
 - http://blog.sens-public.org/marcellovitalirosati/stylo/
+- https://stylo.huma-num.fr/article/65c1f17229637c00126e878c/preview
+- https://stylo-doc.ecrituresnumeriques.ca/fr/syntaxemarkdown/
 
+- file:///C:/Users/achague/Downloads/Seance-1-6.html
+- file:///C:/Users/achague/Downloads/Seance-1-4.html
 -->
+
+## Annotation sémantique et annotation stylistique {.scrollable}
+
+- WYSIWYG = What You See Is What You Get
+
+- WYSIWYM = What You See Is What You Mean
+
+![](../img/session3_wysiwyg_wym.png)
+
+- annotation stylistique: 
+  - dimension graphique: le sens n'est conservé que si la mise en forme est conservée (gras, italique, couleur, etc.)
+  - la mise en forme dépend du support de publication (page web, PDF, impression, etc.) et doit être adaptée à chaque support
+  - la mise en forme est souvent difficile à maintenir dans le temps
+
+- annotation sémantique:
+  - dimension structurelle: le sens est conservé indépendamment de la mise en forme
+  - la structure est conservée et peut être adaptée à différents supports de publication
+  - la structure est plus facile à maintenir dans le temps
+
+
+## Editeurs de texte WYSIWYG
+
+- Word, LibreOffice, Google Docs, etc.
+
+- simulation d'une feuille de papier ([skeuomorphisme](https://fr.wikipedia.org/wiki/Skeuomorphisme)) et d'un environnement de saisie type "machine à écrire"
+
+- options de mise en forme avec rendu immédiat
+
+- dimension sémantique limitée: passe par les *calques* de mise en forme ou *styles* (titre, titre 1, titre 2, paragraph, etc.)
+  - se traduit par la capacité à créer une table des matières, etc.
+  - mais se traduit par des options de mise en forme limitées et des difficultés à maintenir la cohérence de la mise en forme
+
+## Editeurs de texte WYSIWYM et formats de balisage
+
+- **balisage** = ajout de balises pour structurer le texte
+- les balises apparaissent quand un texte est ouvert dans un éditeur de texte WISIWYM
+- exemples de syntaxes de balisage:
+  - HTML et XML : `<balise attribut="valeur">contenu</balise>`
+  - LaTeX : `\commande{argument}`
+- le balisage permet de structurer le document mais aussi d'annoter des éléments du texte (section mise en exergue, information sémantique, ajout de notes, etc.) et des métadonnées.
+
+**HTML** est un format de balisage:
+
+### Sans rendu stylistique
+
+``` html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Titre de la page</title>
+  </head>
+  <body>
+    <h1>Titre de niveau 1</h1>
+    <p>Paragraphe</p>
+  </body>
+</html>
+```
+
+
+### Avec rendu stylistique
+
+```{=html}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Titre de la page</title>
+  </head>
+  <body>
+    <h1>Titre de niveau 1</h1>
+    <p>Paragraphe</p>
+  </body>
+</html>
+```
+
+## Regardons HTML de plus près
+
+- [https://www.editions-zones.fr/lyber?eloge-du-bug](https://www.editions-zones.fr/lyber?eloge-du-bug)
+
+
+## Markdown 101
+
+- balisage léger (facile à lire et à écrire)
+
+- syntaxe simple pour structurer un document
+
+- mais usage limité (on fait plus de choses avec XML, HTML ou LaTeX qu'avec Markdown)
+
+- conversion en HTML, PDF, DOCX, etc.
+
+
+### Les éléments de bases de Markdown
+
+
+```markdown
+
+# Titre de niveau 1
+
+## Titre de niveau 2
+
+etc
+
+###### Titre de niveau 6
+
+**Texte en gras**
+
+*Texte en italique*
+
+
+Liste non-numéroté:
+
+- élément 1
+- élément 2
+
+
+Liste numérotée:
+
+1. élément 1
+2. élément 2
+
+
+[texte du lien](url)
+
+![texte alternatif](url de l'image)
+
+[^note de bas de page] + [^note de bas de page]: texte de la note de bas de page
+
+
+```
+
+Il existe des variantes de Markdown (GitHub Flavored Markdown, CommonMark, etc.) qui ajoutent des fonctionnalités supplémentaires.
+
+Par exemple: 
+
+- tableaux
+
+```markdown
+| Entête 1   | Entête 2   |
+| ---------- | ---------- |
+| cellule 1  | cellule 2  |
+```
+
+| Entête 1   | Entête 2   |
+| ---------- | ---------- |
+| cellule 1  | cellule 2  |
+
+
+- blocs de code 
+
+\`\`\`
+
+code
+
+\`\`\`
+
+```{=markdown}
+
+code
+
+```
+
+- surlignage (`==texte==`)
+
+
+## Markdown dans la pratique
+
+- Markdown est utilisé pour écrire des README sur GitHub, des articles sur des plateformes de blogging, des messages sur des forums, ou même ce cours!
+
+- Markdown est utilisé pour écrire des documents dans des éditeurs de texte WYSIWYM comme Stylo, Jupyter, etc.
+
+- Markdown est souvent couplé à des languages plus avancés quand on veut faire des choses plus complexes (HTML, LaTeX, etc.)
+
+```markdown
+
+# Titre de niveau 1
+
+Ceci est une formule mathématique faisant appel à la syntaxe LaTeX dans un document Markdown: $e^{i\pi} + 1 = 0$
+
+Ceci est une balise html pour ajouter une image dans un document Markdown en utilisant d'autres propriétés: <img src="url_de_l'image" alt="texte alternatif" width="200"/>
+
+```
+
+- Tous les éditeurs ne supportent pas les mêmes fonctionnalités de Markdown. 
+
+- Les fichiers Markdown ont souvent l'extension `.md`
+
+- Ils peuvent être parsés pour générer des fichiers HTML, PDF, DOCX, etc, par exemple avec [pandoc](https://pandoc.org/).
+
+- Apprendre à utiliser Markdown en 5 minutes: [https://www.markdowntutorial.com/](https://www.markdowntutorial.com/)
+
+- Tester Markdown dans un éditeur en ligne: [https://dillinger.io/](https://dillinger.io/)
+
+
+## Présentation de Stylo
+
+- https://stylo.huma-num.fr/
+
+<!-- crédit: Margot Mellet pour la section ci-dessous -->
+- Chaire de recherche du Canada sur les écritures numériques
+
+- Hébergement par la TGDIR HumaNum
+
+- éditeur de texte sémantique pour la rédaction scientifique
+
+- écrire, structurer, prévisualiser, réviser, exporter
+
+- utilisation d'un langage de balisage léger (Markdown), d'un langage de description de métadonnées (YAML) et d'un langage de description bibliographique (BibTeX)
+
+- application en ligne, simple d'utilisation
+
+- utilisation de briques logicielles existantes (et libres)
+
+
+## Markdown dans Stylo
+
+- Stylo utilise Markdown pour structurer le texte
+
+- https://stylo-doc.ecrituresnumeriques.ca/fr/syntaxemarkdown/
+
+
+## Manipulation de Stylo {.scrollable}
+
+### Préparation
+
+- on travaille à partir de [ Mounier Pierre, Dacos Marin. *Édition électronique*. In: *Communications*, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: https://doi.org/10.3406/comm.2011.2584](https://www.persee.fr/doc/comm_0588-8018_2011_num_88_1_2584)
+
+- parcourir le document et relever la structure sémantique et les différentes annotations 
+
+- *dans Stylo*, créer un nouveau document nommé `NOM_HNU2000_automne2024` 
+
+- récupérer la version texte de l'article (bouton dans le menu de gauche) et coller dans le nouveau document Stylo
+
+- (opt) utiliser les expressions régulière pour nettoyer le texte si nécessaire
+
+### Structuration sémantique
+
+- utiliser Markdown pour structurer le texte de l'article en s'appuyant sur la version graphique
+
+  - niveaux de titre
+  - italiques
+  - notes de bas de page
+
+### Métadonnées
+
+- utiliser l'onglet "Métadonnées" pour ajouter des métadonnées
+
+### Partage
+
+- partager le document Stylo avec `alix.chague@inria.fr`
+
+### Export
+
+- exporter le document en HTML
+
+- exporter le document en PDF
+
+- exporter le document en DOCX 
+
+- comparer les différentes options et les résultats obtenus
