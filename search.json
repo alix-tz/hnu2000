@@ -260,6 +260,69 @@
     ]
   },
   {
+    "objectID": "slides/session4.html#zotero",
+    "href": "slides/session4.html#zotero",
+    "title": "HNU2000 - Session 4",
+    "section": "Zotero",
+    "text": "Zotero\n\nhttps://www.zotero.org/\nlogiciel de gestion bibliographique\nlibre et gratuit\n\ncontrairement à Paperpile\n\napplication web et application desktop synchronisées\nextensions pour les browsers\nextension [Word](https://www.zotero.org/support/word_processor_plugin_usage, LibreOffice et Google Docs\ndéveloppé par le Roy Rosenzweig Center for History and New Media, à la George Mason University (à Arlington) et la Corporation for Digital Scholarship"
+  },
+  {
+    "objectID": "slides/session4.html#a-quoi-ça-sert",
+    "href": "slides/session4.html#a-quoi-ça-sert",
+    "title": "HNU2000 - Session 4",
+    "section": "A quoi ça sert ?",
+    "text": "A quoi ça sert ?\n\ncollecter et organiser des références bibliographiques\nfaciliter l’insertion de références bibliographiques dans un texte\nfaciliter le passage d’un format de citation à un autre\nrédiger des bibliographies commentées\nprendre des notes de lecture ou organiser ses lectures\npartager des références bibliographiques avec un groupe d’utilisateur-rices\nannote des fichiers PDF\nsuivre des flux RSS (suivre l’actualité de blogs par exemples)\nfaire les lectures à votre place"
+  },
+  {
+    "objectID": "slides/session4.html#zotero-est-un-must-have-pour-les-études-universitaires",
+    "href": "slides/session4.html#zotero-est-un-must-have-pour-les-études-universitaires",
+    "title": "HNU2000 - Session 4",
+    "section": "Zotero est un must-have pour les études universitaires!",
+    "text": "Zotero est un must-have pour les études universitaires!"
+  },
+  {
+    "objectID": "slides/session4.html#synchronisation-desktop-et-web",
+    "href": "slides/session4.html#synchronisation-desktop-et-web",
+    "title": "HNU2000 - Session 4",
+    "section": "Synchronisation Desktop et Web",
+    "text": "Synchronisation Desktop et Web\n\ncompte utilisateur\nparamétrage du compte utilisateur\ntéléchargement de l’application desktop\nparamétrage de la synchronisation\nespace de stockage limité"
+  },
+  {
+    "objectID": "slides/session4.html#présentation-de-linterface-zotero",
+    "href": "slides/session4.html#présentation-de-linterface-zotero",
+    "title": "HNU2000 - Session 4",
+    "section": "Présentation de l’interface Zotero",
+    "text": "Présentation de l’interface Zotero\n\n3 volets:\n\nliste des collections, des groupes, des flux RSS et tags\nréférences bibliographiques\ndétails des références\n\ninfo\nnotes\nmarqueurs (tags)\nconnexe\n\n\nbarre d’outils\n\nnouvelle collection\nnouveau groupe\nnouvelle référence\nbaguette magique (ajout par identifiant)\nnouvelle note\nrecherche\nfichier joint\nsynchronisation"
+  },
+  {
+    "objectID": "slides/session4.html#navigation-dans-les-références",
+    "href": "slides/session4.html#navigation-dans-les-références",
+    "title": "HNU2000 - Session 4",
+    "section": "Navigation dans les références",
+    "text": "Navigation dans les références\n\nchoix des métadonnées affichées\nordre de rangement\ncollections et sous-collections"
+  },
+  {
+    "objectID": "slides/session4.html#groupes-et-collaboration",
+    "href": "slides/session4.html#groupes-et-collaboration",
+    "title": "HNU2000 - Session 4",
+    "section": "Groupes et collaboration",
+    "text": "Groupes et collaboration\n\ncréation d’un groupe\ngestion des autorisations\nutilité des groupes vs. sous-collections"
+  },
+  {
+    "objectID": "slides/session4.html#installation-du-connecteur-zotero-extension",
+    "href": "slides/session4.html#installation-du-connecteur-zotero-extension",
+    "title": "HNU2000 - Session 4",
+    "section": "Installation du Connecteur Zotero (extension)",
+    "text": "Installation du Connecteur Zotero (extension)\n\ntéléchargement\nutilisation\nparamétrage du connecteur\n\nne pas inclure les snapshots\nne pas inclure les marqueurs"
+  },
+  {
+    "objectID": "slides/session4.html#tri-et-rangement",
+    "href": "slides/session4.html#tri-et-rangement",
+    "title": "HNU2000 - Session 4",
+    "section": "Tri et rangement",
+    "text": "Tri et rangement\n\néliminer les doublons\nnettoyer les métadonnées\nsauvegardes et back-up"
+  },
+  {
     "objectID": "slides/session1.html#introduction-au-cours-hnu-2000",
     "href": "slides/session1.html#introduction-au-cours-hnu-2000",
     "title": "HNU2000 - Session 1",
