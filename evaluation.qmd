@@ -20,6 +20,22 @@ La participation en classe correspond à la présence en cours, à la participat
 
 Les examens de mi-session et de fin de session suivront le même format : une évaluation sur table durant laquelle il sera demandé aux étudiant⸱es de lire un article ou un chapitre en lien avec les humanités numériques, distribué en début d'examen, et d'en faire une lecture critique sous la forme de deux réponses rédigées. S'y ajouteront des questions à réponse courte concernant les technologies étudiées ensemble durant le cours. 
 
+### ⚠️ Proposition de modification ⚠️
+
+- examen de mi-session (30/10/2024): reste inchangé
+    - lecture durant le cours d'un article en français en lien avec les humanités numériques
+    - résumé critique de l'article
+    - questions précises sur l'article
+
+- examen de fin de session (11/12/2024): remplacé par un travail pratique
+    - travail individuel
+    - 1 exercice au choix parmi 2 options:
+        - réencodage en markdown, dans Stylo, avec bibliographie et notes de bas de page, de l'article de Pierre Mounier et Marin Dacos: **Mounier Pierre, Dacos Marin. *Édition électronique*. In: *Communications*, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: [https://doi.org/10.3406/comm.2011.2584](https://www.persee.fr/doc/comm_0588-8018_2011_num_88_1_2584)**
+        - préparation d'un jeu de données pour la transcription automatique avec eScriptorium, documenté et publié sur Github/Zenodo avec un fichier README.md expliquant le contenu du jeu de données et les étapes de préparation, prêt à être ajouté au catalogue HTR-United (plus de détails durant les séances #6 et #7)
+    - 1h de temps dédié à la préparation de ce travail à partir de la séance #8. Les étudiant⸱es pourront poser des questions sur le travail à réaliser durant cette séance.
+
+
+
 <!--
 Le cours est évalué selon quatre rubriques:
 
