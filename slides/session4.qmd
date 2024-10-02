@@ -4,6 +4,7 @@ format:
   revealjs:
     embed-resources: true
     theme: default
+    scrollable: true
 ---
 
 <!-- Zotero -->
@@ -15,3 +16,88 @@ format:
 -> finaliser la manipulation de Stylo en utilisant la bibiographie bibtex générée par Zotero à partir de l'artile de Marin Dacos. [-> https://www.persee.fr/doc/comm_0588-8018_2011_num_88_1_2584]
 
 -->
+
+## Zotero
+
+- [zotero.org](https://www.zotero.org/)
+- logiciel de **gestion bibliographique**
+- libre et gratuit
+  - contrairement à [Paperpile](https://paperpile.com/)
+- **application web** et **application desktop** synchronisées
+- extensions pour les browsers
+- extension [Word](https://www.zotero.org/support/word_processor_plugin_usage), [LibreOffice](https://www.zotero.org/support/libreoffice_writer_plugin_usage) et [Google Docs](https://www.zotero.org/support/google_docs)
+- développé par le Roy Rosenzweig Center for History and New Media, à la George Mason University (à Arlington) et la Corporation for Digital Scholarship
+
+
+## A quoi ça sert ?
+
+- collecter et organiser des références bibliographiques
+- faciliter l'insertion de références bibliographiques dans un texte
+- faciliter le passage d'un format de citation à un autre
+- rédiger des bibliographies commentées
+- prendre des notes de lecture ou organiser ses lectures
+- partager des références bibliographiques avec un groupe d'utilisateur-rices
+- annote des fichiers PDF
+- suivre des flux RSS (suivre l'actualité de blogs par exemple)
+- ~~faire les lectures à votre place~~
+
+## Zotero est un must-have pour les études universitaires!
+
+## Synchronisation Desktop et Web
+
+- compte utilisateur
+- paramétrage du compte utilisateur
+- téléchargement de l'application desktop
+- paramétrage de la synchronisation
+- espace de stockage limité
+
+## Présentation de l'interface Zotero
+
+- 3 volets:
+  - liste des collections, des groupes, des flux RSS et tags
+  - références bibliographiques
+  - détails des références
+    - info
+    - notes
+    - marqueurs (tags)
+    - connexe
+
+- barre d'outils
+  - nouvelle collection
+  - nouveau groupe
+  - nouvelle référence
+  - baguette magique (ajout par identifiant)
+  - nouvelle note
+  - recherche
+  - fichier joint
+  - synchronisation
+
+## Navigation dans les références
+
+- choix des métadonnées affichées
+- ordre de rangement
+- collections et sous-collections
+
+## Groupes et collaboration
+
+- création d'un groupe
+- gestion des autorisations
+- utilité des groupes vs. sous-collections
+
+## Installation du Connecteur Zotero (extension)
+
+- téléchargement
+- utilisation
+- paramétrage du connecteur
+  - ne pas inclure les snapshots
+  - ne pas inclure les marqueurs
+
+## Tri et rangement
+
+- éliminer les doublons
+- nettoyer les métadonnées
+- sauvegardes et back-up
+
+
+
+

@@ -6,6 +6,63 @@ format:
     theme: default
 ---
 
+## Notes collaboratives 
+
+Lien vers le notepad : [https://pad.libreon.fr/s/TRJQIv-YZ#](https://pad.libreon.fr/s/TRJQIv-YZ#)
+
+
+## Podcast sur la lecture d'aujourd'hui
+
+<audio controls>
+  <source src="/media/Smits2023_selon_notebookLM.wav" type="audio/wav">Your browser does not support the audio element.
+</audio> 
+
+
+Retranscription :
+
+> - Okay, so get this, right? We're diving into visual history today, but not just like looking at old pictures. It's about how AI can help us unlock like secrets hidden within them. 
+> - It's a whole new way of looking at the past, isn't it? 
+> - Totally. This paper, a multimodal turn in digital humanities, really got me thinking. 
+> - Yeah, it's a fascinating read. 
+> - They're asking, how do we study visual trends across huge amounts of pictures? Like imagine trying to find patterns in a sea of faces. 
+> - It's a huge challenge. Traditional methods that kind of fall short.
+> - Right, because it's not like analyzing text where you've got words and sentences. 
+> - Exactly, distant reading, that revolutionized text analysis, but images, whole different story. 
+> - So how do we bridge that gap? Is this multimodal thing the key? 
+> - Absolutely, it's about moving beyond just recognizing objects in a picture. 
+> - Okay, so what, like understanding the meaning behind the image? 
+> - Exactly, and connecting it to any text that goes with it. That's where multimodal models like CLIP come in. 
+> - CLIP, all right, now you gotta tell me more about this CLIP thing.
+> - So imagine you feed a computer program tons of images, right, and their descriptions. Billions of them. 
+> - Okay, so it's learning what things look like and how they're described. 
+> - Yes, and it starts to see these connections and it makes sense of images kind of like we do. 
+> - So instead of just seeing, say, a family dinner. 
+> - It gets the concept of family itself. 
+> - Wow, even in different contexts. 
+> - Exactly, and what's really cool, the paper talks about how CLIP can analyze images it wasn't specifically trained on. 
+> - No way. 
+> - Yeah, they used it to tell the difference between indoor and outdoor scenes. 
+> - In like old photos. 
+> - In magic lantern slides, actually. 
+> - Oh, those old things. 
+> - Yeah, and it's trickier than you'd think with the faded colors. Right. I'd probably get some of those wrong myself. 
+> - Well, in this work it's interesting how we talk to CLIP matters. 
+> - The prompts, they're key. 
+> - Prompts, you mean like the questions we ask it. 
+> - Exactly. Even small changes like outdoors indoors versus exterior interior can change how accurate CLIP is. 
+> - Really? Just from that? 
+> - Yeah, they have a table in the paper showing the differences. It's wild. 
+> - Huh. So it's not just about having a ton of images but knowing how to, like, guide CLIP's interpretation. 
+> - Precisely. And that raises a big question. How good is good enough when it comes to AI, right? 
+> - Especially compared to, like, an actual historian analyzing things.
+> - Exactly. There's a balance to strike between AI speed and the nuance of human experts. Right, because a human would pick up on details CLIP might miss, like the style of a building or the clothes people are wearing. 
+> - You got it. And those details. Super important for understanding the context of an image.
+> - Totally. 
+> - Okay, this CLIP thing is blowing my mind already and we're just getting started. 
+
+
+
+
 <!-- apprentissage automatique -->
 
 

@@ -7,6 +7,8 @@ format:
     scrollable: true
 ---
 
+## Annotation sémantique et annotation stylistique
+
 <!-- Stylo & Markdown -->
 
 <!-- notes préparatoires
@@ -17,8 +19,6 @@ format:
 - file:///C:/Users/achague/Downloads/Seance-1-6.html
 - file:///C:/Users/achague/Downloads/Seance-1-4.html
 -->
-
-## Annotation sémantique et annotation stylistique {.scrollable}
 
 - WYSIWYG = What You See Is What You Get
 
@@ -146,7 +146,7 @@ Liste numérotée:
 
 ```
 
-Il existe des variantes de Markdown (GitHub Flavored Markdown, CommonMark, etc.) qui ajoutent des fonctionnalités supplémentaires.
+Il existe des variantes de Markdown ([GitHub Flavored Markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), [GItlab flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html), CommonMark, etc.) qui ajoutent des fonctionnalités supplémentaires.
 
 Par exemple: 
 
@@ -171,13 +171,13 @@ code
 
 \`\`\`
 
-```{=markdown}
+```{=python}
 
-code
+code="python"
 
 ```
 
-- surlignage (`==texte==`)
+- surlignage (`{+ texte +}`)
 
 
 ## Markdown dans la pratique
@@ -211,7 +211,7 @@ Ceci est une balise html pour ajouter une image dans un document Markdown en uti
 
 ## Présentation de Stylo
 
-- https://stylo.huma-num.fr/
+- [https://stylo.huma-num.fr/](https://stylo.huma-num.fr/)
 
 <!-- crédit: Margot Mellet pour la section ci-dessous -->
 - Chaire de recherche du Canada sur les écritures numériques
@@ -228,12 +228,14 @@ Ceci est une balise html pour ajouter une image dans un document Markdown en uti
 
 - utilisation de briques logicielles existantes (et libres)
 
+- possible de créer un compte via Huma-Num (prévoir temps de validation) ou sans passer par Huma-Num (mais pas de possibilité de récupération de mot de passe!)
+
 
 ## Markdown dans Stylo
 
 - Stylo utilise Markdown pour structurer le texte
 
-- https://stylo-doc.ecrituresnumeriques.ca/fr/syntaxemarkdown/
+- [https://stylo-doc.ecrituresnumeriques.ca/fr/syntaxemarkdown/](https://stylo-doc.ecrituresnumeriques.ca/fr/syntaxemarkdown/)
 
 
 ## Manipulation de Stylo {.scrollable}
@@ -249,6 +251,8 @@ Ceci est une balise html pour ajouter une image dans un document Markdown en uti
 - récupérer la version texte de l'article (bouton dans le menu de gauche) et coller dans le nouveau document Stylo
 
 - (opt) utiliser les expressions régulière pour nettoyer le texte si nécessaire
+
+- *si nécessaire, le TXT propre est ici: [https://raw.githubusercontent.com/alix-tz/hnu2000-a24/main/mounier_dacos_stylo.txt](https://raw.githubusercontent.com/alix-tz/hnu2000-a24/main/mounier_dacos_stylo.txt)*
 
 ### Structuration sémantique
 
