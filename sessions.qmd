@@ -28,13 +28,14 @@ téléchargement du logiciel nécessaire
 ```{=html}
 <iframe src="/slides/session2.html"></iframe>
 ```
+
 Support de présentation ([plein écran](/slides/session2.qmd){target="_blank"})
 
 ## 18/09/2024: Séance #3
 
 Les éditeurs de texte alternatifs à Microsoft Word (notamment [Stylo](https://stylo.huma-num.fr/)) et **Markdown** comme langage de balisage
 
-**Lecture:** Vitali-Rosati, M. (2018, March 11). *Les chercheurs en SHS savent-ils écrire ?* The Conversation. http://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024
+**Lecture:** Vitali-Rosati, M. (2018, March 11). *Les chercheurs en SHS savent-ils écrire ?* The Conversation. [http://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024](http://theconversation.com/les-chercheurs-en-shs-savent-ils-ecrire-93024)
 
 
 *Lecture complémentaire :* Vitali-Rosati, M. (2020). *Qu’est-ce que l’écriture numérique ?* Corela. Cognition, représentation, langage, HS-33, Article HS-33. [https://doi.org/10.4000/corela.11759](https://doi.org/10.4000/corela.11759)
@@ -48,9 +49,17 @@ création d'un compte Stylo nécessaire
 <iframe src="/slides/session3.html"></iframe>
 ```
 
+Support de présentation ([plein écran](/slides/session3.qmd){target="_blank"})
+
 ## 25/09/2024: Séance #4
 
 [Zotero](https://www.zotero.org/) et la **gestion des données bibliographiques**
+
+```{=html}
+<iframe src="/slides/session4.html"></iframe>
+```
+
+Support de présentation ([plein écran](/slides/session4.qmd){target="_blank"})
 
 **Lecture:** Daniel, J. (2022). *Ode à Zotero, une décennie d’usage de Zotero *[Billet]. Isidore & Ganesh. [https://doi.org/10.58079/pw5v](https://doi.org/10.58079/pw5v)
 
@@ -58,6 +67,12 @@ création d'un compte Stylo nécessaire
 ## 02/10/2024: Séance #5
 
 L'**apprentissage profond**, les différents types de modèles et de tâches
+
+```{=html}
+<iframe src="/slides/session5.html"></iframe>
+```
+
+Support de présentation ([plein écran](/slides/session5.qmd){target="_blank"})
 
 **Lecture:** Smits, T., & Wevers, M. (2023). *A multimodal turn in Digital Humanities. Using contrastive machine learning models to explore, enrich, and analyze digital visual historical collections*. Digital Scholarship in the Humanities, fqad008. [https://doi.org/10.1093/llc/fqad008](https://doi.org/10.1093/llc/fqad008)
 
