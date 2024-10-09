@@ -94,6 +94,75 @@ un compte eScriptorium sera fourni
 
 ## 16/10/2024: Séance #7
 
+**Transcribathon** et documentation des données d'entraînement
+
+**Lecture:** Chagué, A. (2022). *Intelligence Artificielle et intelligence collective: Des nouveaux eldorados pour rendre les textes patrimoniaux plus accessibles ?* Museonum. [https://medium.com/museonum/intelligence-artificielle-et-intelligence-collective-des-nouveaux-eldorados-pour-rendre-les-c8c4e214d4e6](https://medium.com/museonum/intelligence-artificielle-et-intelligence-collective-des-nouveaux-eldorados-pour-rendre-les-c8c4e214d4e6)
+
+
+
+## 23/10/2024: semaine de lecture
+
+Pas de cours.
+
+## 30/10/2024: Examen de mi-session.
+
+
+## 06/11/2024: Séance #8
+
+Le versioning avec [Git](https://git-scm.com/), la publication des données avec [GitHub](https://github.com/)
+
+**Lecture:** Moretti, C. (2023, January 4). *Principes FAIR et défis pour leur application dans le domaine des arts et humanités* [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. [https://doi.org/10.58079/r9hx](https://doi.org/10.58079/r9hx)
+
+
+```
+création d'un compte Github nécessaire
+```
+
+## 13/11/2024: Séance #9
+
+Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeline.knightlab.com/) et [StoryMapJS](https://storymap.knightlab.com/)
+
+**Lecture:** Robichaud, L. (2019). *Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA)*. In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. [https://doi.org/10.2307/j.ctv1gbrwrt.12](https://doi.org/10.2307/j.ctv1gbrwrt.12) [utiliser le [proxy](https://bib.umontreal.ca/travailler/soutien-informatique/proxy) de l'UdeM pour accéder à la ressource]
+
+
+```
+utilisation d'un compte Google
+```
+
+
+
+## 20/11/2024: Séance #10
+
+[Wikidata](https://www.wikidata.org), SPARQL et le **Web sémantique**
+
+```
+(à confirmer) éventuelle création d'un compte wikidata
+```
+
+
+## 27/11/2024: Séance #11
+
+
+[LEAF Writer](https://leaf-writer.leaf-vre.org/), la [TEI](https://tei-c.org/) et la détection des **entités nommées**
+
+**Lecture:** Casenave, J. (2019). *Le positionnement éditorial dans l’édition critique numérique*. Digital Studies / Le champ numérique, 9(1), Article 1. [https://doi.org/10.16995/dscn.348](https://doi.org/10.16995/dscn.348)
+
+
+
+## 04/12/2024: Séance #12
+
+L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.org/) et [Pyrrha](https://pyrrha.huma-num.fr/)
+
+**Lecture:** Puren, M., & Pellet, A. (2023, June). *Explorer les débats parlementaires français de la Troisième République par leurs sujets.* Humanistica 2023. [https://hal.science/hal-04128262](https://hal.science/hal-04128262)
+
+
+
+
+
+<!--
+
+## 16/10/2024: Séance #7
+
 Le versioning avec [Git](https://git-scm.com/), la publication des données avec [GitHub](https://github.com/)
 
 **Lecture:** Moretti, C. (2023, January 4). *Principes FAIR et défis pour leur application dans le domaine des arts et humanités* [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. [https://doi.org/10.58079/r9hx](https://doi.org/10.58079/r9hx)
@@ -130,8 +199,6 @@ utilisation d'un compte Google
 ```
 
 
-
-
 ## 20/11/2024: Séance #10
 
 [LEAF Writer](https://leaf-writer.leaf-vre.org/), la [TEI](https://tei-c.org/) et la détection des **entités nommées**
@@ -146,11 +213,13 @@ L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.o
 **Lecture:** Puren, M., & Pellet, A. (2023, June). *Explorer les débats parlementaires français de la Troisième République par leurs sujets.* Humanistica 2023. [https://hal.science/hal-04128262](https://hal.science/hal-04128262)
 
 
+
 ## 04/12/2024: Séance #12
 
 Exploration de la conduite de projet en Humanités Numériques avec le **DH RPG**
 
 **Lecture:** Estill, L. (2019). *Legacy technologies and digital futures*. In Doing More Digital Humanities. Routledge. [accessible en ligne [ici](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429353048-2/legacy-technologies-digital-futures-laura-estill)]
 
+-->
 
 ## 11/12/2024: Examen de fin de session
