@@ -114,7 +114,7 @@
     "href": "sessions.html#séance-7",
     "title": "Plan des séances",
     "section": "16/10/2024: Séance #7",
-    "text": "16/10/2024: Séance #7\nLe versioning avec Git, la publication des données avec GitHub\nLecture: Moretti, C. (2023, January 4). Principes FAIR et défis pour leur application dans le domaine des arts et humanités [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. https://doi.org/10.58079/r9hx\ncréation d'un compte Github nécessaire",
+    "text": "16/10/2024: Séance #7\nTranscribathon et documentation des données d’entraînement\nLecture: Chagué, A. (2022). Intelligence Artificielle et intelligence collective: Des nouveaux eldorados pour rendre les textes patrimoniaux plus accessibles ? Museonum. https://medium.com/museonum/intelligence-artificielle-et-intelligence-collective-des-nouveaux-eldorados-pour-rendre-les-c8c4e214d4e6",
     "crumbs": [
       "Plan des séances"
     ]
@@ -144,7 +144,7 @@
     "href": "sessions.html#séance-8",
     "title": "Plan des séances",
     "section": "06/11/2024: Séance #8",
-    "text": "06/11/2024: Séance #8\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nLecture: Robichaud, L. (2019). Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA). In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. https://doi.org/10.2307/j.ctv1gbrwrt.12 [utiliser le proxy de l’UdeM pour accéder à la ressource]\nutilisation d'un compte Google",
+    "text": "06/11/2024: Séance #8\nLe versioning avec Git, la publication des données avec GitHub\nLecture: Moretti, C. (2023, January 4). Principes FAIR et défis pour leur application dans le domaine des arts et humanités [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. https://doi.org/10.58079/r9hx\ncréation d'un compte Github nécessaire",
     "crumbs": [
       "Plan des séances"
     ]
@@ -154,7 +154,7 @@
     "href": "sessions.html#séance-9",
     "title": "Plan des séances",
     "section": "13/11/2024: Séance #9",
-    "text": "13/11/2024: Séance #9\nWikidata, SPARQL et le Web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
+    "text": "13/11/2024: Séance #9\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nLecture: Robichaud, L. (2019). Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA). In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. https://doi.org/10.2307/j.ctv1gbrwrt.12 [utiliser le proxy de l’UdeM pour accéder à la ressource]\nutilisation d'un compte Google",
     "crumbs": [
       "Plan des séances"
     ]
@@ -164,7 +164,7 @@
     "href": "sessions.html#séance-10",
     "title": "Plan des séances",
     "section": "20/11/2024: Séance #10",
-    "text": "20/11/2024: Séance #10\nLEAF Writer, la TEI et la détection des entités nommées\nLecture: Casenave, J. (2019). Le positionnement éditorial dans l’édition critique numérique. Digital Studies / Le champ numérique, 9(1), Article 1. https://doi.org/10.16995/dscn.348",
+    "text": "20/11/2024: Séance #10\nWikidata, SPARQL et le Web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
     "crumbs": [
       "Plan des séances"
     ]
@@ -174,7 +174,7 @@
     "href": "sessions.html#séance-11",
     "title": "Plan des séances",
     "section": "27/11/2024: Séance #11",
-    "text": "27/11/2024: Séance #11\nL’analyse du texte en language naturel Voyant Tools et Pyrrha\nLecture: Puren, M., & Pellet, A. (2023, June). Explorer les débats parlementaires français de la Troisième République par leurs sujets. Humanistica 2023. https://hal.science/hal-04128262",
+    "text": "27/11/2024: Séance #11\nLEAF Writer, la TEI et la détection des entités nommées\nLecture: Casenave, J. (2019). Le positionnement éditorial dans l’édition critique numérique. Digital Studies / Le champ numérique, 9(1), Article 1. https://doi.org/10.16995/dscn.348",
     "crumbs": [
       "Plan des séances"
     ]
@@ -184,7 +184,7 @@
     "href": "sessions.html#séance-12",
     "title": "Plan des séances",
     "section": "04/12/2024: Séance #12",
-    "text": "04/12/2024: Séance #12\nExploration de la conduite de projet en Humanités Numériques avec le DH RPG\nLecture: Estill, L. (2019). Legacy technologies and digital futures. In Doing More Digital Humanities. Routledge. [accessible en ligne ici]",
+    "text": "04/12/2024: Séance #12\nL’analyse du texte en language naturel Voyant Tools et Pyrrha\nLecture: Puren, M., & Pellet, A. (2023, June). Explorer les débats parlementaires français de la Troisième République par leurs sujets. Humanistica 2023. https://hal.science/hal-04128262",
     "crumbs": [
       "Plan des séances"
     ]
