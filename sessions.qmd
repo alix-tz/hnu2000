@@ -84,6 +84,12 @@ Support de présentation ([plein écran](/slides/session5.qmd){target="_blank"})
 
 Introduction à la **transcription automatique** avec [eScriptorium](https://escriptorium.readthedocs.io/en/latest/)
 
+```{=html}
+<iframe src="/slides/session6.html"></iframe>
+```
+
+Support de présentation ([plein écran](/slides/session6.qmd){target="_blank"})
+
 **Lecture:** Pinche, A. (2022). *Guide de transcription pour les manuscrits du Xe au XVe siècle*. [https://hal.archives-ouvertes.fr/hal-03697382](https://hal.archives-ouvertes.fr/hal-03697382)
 
 *Lectures complémentaires:* Chagué, A., & Clérice, T. (2023). *Données ouvertes, données propres, et autres vies: Testaments de Poilus et CREMMA*. [https://inria.hal.science/hal-04347066](https://inria.hal.science/hal-04347066) ; Guénette, M., Verstraete, M., Vitali-Rosati, M., & Chagué, A. (2024, May). Transcrire un manuscrit en grec ancien. Humanistica 2024. [https://hal.science/hal-04563548](https://hal.science/hal-04563548)

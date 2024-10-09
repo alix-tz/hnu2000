@@ -7,3 +7,19 @@ format:
 ---
 
 <!-- HTR & eScriptorium -->
+
+## Principes généraux sur la transcription automatique
+
+[slides](https://docs.google.com/presentation/d/16znGQCYZgf7JJt77K-8wZLjJgJoLi5rMHU_c7SrKDsk/edit?usp=sharing)
+
+## eScriptorium 
+
+- https://escriptorium.inria.fr/
+
+## Complément pour eScriptorium 
+
+- documentation (en anglais seulement) : [https://escriptorium.readthedocs.io/](https://escriptorium.readthedocs.io/)
+
+## Transcription du Journal de Célestine Doniau-Danest sur les débuts de la Guerre (1914-1918)
+
+- notice: [https://archives.somme.fr/ark:/58483/tjrd8pq42716](https://archives.somme.fr/ark:/58483/tjrd8pq42716)
