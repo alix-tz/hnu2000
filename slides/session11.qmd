@@ -6,4 +6,10 @@ format:
     theme: default
 ---
 
-<!-- Voyant Tools & Pyrrha -->
+<!-- LEAF Writer, TEI & NER -->
+
+<!-- notes de préparation
+
+https://www.leaf-vre.org/docs/training/tutorials/leaf-writer-basics-tutorial
+
+-->

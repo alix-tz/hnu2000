@@ -6,14 +6,10 @@ format:
     theme: default
 ---
 
-<!-- TimelineJS & StoryMap -->
+<!-- Git, Github & Versionning // HTR-United -->
 
+<!-- notes préparatoires
 
-<!-- note préparatoire:
-- pourrait demander de venir avec une thématique et quelques données temporelles
-- 1h30 de démo, 1h pour préparer timeline
-- 20 minutes pour présenter le résultat
-
-- utiliser cet exemple en cours : https://archief.ntr.nl/tuinderlusten/en.html# (prendre le temps de le regarder ensemble et d'en discuter)
+- https://hal.science/hal-03703989
 
 -->

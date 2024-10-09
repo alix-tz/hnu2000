@@ -6,21 +6,4 @@ format:
     theme: default
 ---
 
-<!-- DH RPG -->
-
-<!-- 
-lecture : https://www.routledge.com/Doing-More-Digital-Humanities-Open-Approaches-to-Creation-Growth-and-Development/Crompton-Lane-Siemens/p/book/9780367192990?srsltid=AfmBOopf8Vtz3d31lGKm3bTZeGMDcXaQ6MHTOQzLhsKFXDaOK-4X7MO_
--->
-
-<!-- notes de préparation
-
-- https://dhrpg.github.io/
-- prévoir 30 minutes d'explication des règles et de préparation des personnages
-- prévoir 20 minutes de debrief à la fin pour discuter de l'article et de la session de jeu (ou bien demander de rédiger une note de reflexion sur les conclusion du jeu de rôle dans leur compréhension de la tenue d'un projet DH - si besoin, mettre cette question dans l'évaluation finale.)
-- ne pas hésiter à pré-créer les personages avec un système similaire à Trophy (preset caracteristics defined by dice roll)
-- scenario (1h30 de jeu):
-  - un projet qui s'étend durant une session (3 ou 4 mois)
-  - chaque personnage à un objectif personnel (défini par lancer de dés)
-  - le groupe vise à réussir ensemble un projet (défini par lancer de dés)
-  - évenement "perte de contrôle" : soit obligatoire au bout de 2 mois, soit quand fait un "1" avec un certain dé. 
--->
+<!-- Voyant Tools & Pyrrha -->

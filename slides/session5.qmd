@@ -19,38 +19,45 @@ Lien vers le notepad : [https://pad.libreon.fr/s/TRJQIv-YZ#](https://pad.libreon
 </audio> 
 -->
 
+```{=html}
 <figure>
   <figcaption>Smits & Wevers (2023) vu par NotebookLM</figcaption>
   <audio controls src="https://github.com/alix-tz/hnu2000-a24/raw/refs/heads/main/media/Smits2023_selon_notebookLM_2.mp3"></audio>
-  <a href="https://github.com/alix-tz/hnu2000-a24/raw/refs/heads/main/media/Smits2023_selon_notebookLM_2.mp3">Télécharger l'audio</a>
+  
+  <br/>
+  
+  <a href="https://github.com/alix-tz/hnu2000-a24/raw/refs/heads/main/media/Smits2023_selon_notebookLM_2.mp3">Télécharger le fichier audio</a>
 </figure>
-
+```
 
 ### Retranscription :
 
-> - Welcome to today's deep dive. We're really diving deep into a research paper all about using AI to analyze images. It's changing how we understand history and culture, which I gotta say, I find totally fascinating.
-> - Yeah, it's a really cool area of research. So digital humanities focused heavily on text for a long time. I mean, it makes sense, right? Like that was the stuff that was easy to get digitally. Think Google Books, for example. That was huge for textual analysis. 
-> - Oh, absolutely. Talk about a game changer. Suddenly, researchers had access to like this massive digital library. 
-> - Exactly. But you're interested in images and you are so right to be. I mean, think about it. We're practically swimming in visuals these days. Photography, videos, you name it. And the really interesting part is that the historical record is full of them too. So the shift towards more and more visual stuff, it's made researchers realize that focusing on text alone, well, it was like we were missing half the story. 
-> - Okay, I'm totally with you on that. But how does looking at like text and the images together actually change how we understand history? Couldn't we just look at a picture and get the same info? 
-> - Well, not necessarily because context is everything. It's like, imagine you're looking at a historical photo of a busy city street, right? And then you see that same photo again, but this time it's got a caption that says, the calm before the storm. It hits different, doesn't it? 
-> - Whoa, yeah, it totally does. You're right, it's like seeing the whole picture, not just one piece of the puzzle. 
-> - Exactly, and that's the beauty of multimodality, understanding that like words and pictures, they work together to build meaning. It's not enough to just look at them separately. 
-> - So we're talking about more than just the words on a page or a single image. It's about how those things interact to tell a story. 
-> - Right, and you know what's interesting? This whole idea of multimodality, it's not actually new. Humans have always been multimodal. Think about it. We use gestures when we talk, our tone of voice changes, our facial expressions, we're constantly combining different modes of communication. It's just that in the past, when we, we were analyzing historical sources, we got really good at dissecting those things, separating them out. 
-> - Okay. So then how do we put it all back together? How do we analyze text and images in a way that reflects how we actually experience the world? That's where AI comes in, right? 
-> - You got it. And there's this really cool AI model that's making waves in the digital humanities world right now called CLIP. But before we get into that, maybe we should talk about how we even got here in the first place. 
-> - I'm all ears. Walk me through it. 
-> - Well, you see, traditionally, if you wanted to train AI to analyze images, you basically had to feed it a ton of images that were painstakingly labeled by humans. This is a cat. This is a dog. You get the idea. And as you can imagine, that gets really tedious and expensive, especially when you're dealing with potentially millions of historical images. 
-> - Yeah. I can only imagine the eye strain. So how did researchers deal with that? There had to be a better way. Okay. So we were talking about the massive effort involved in training AI to analyze images. It sounded honestly kind of impossible. How do you even begin to teach a computer to see all the nuances in a historical photograph?
-> - Right, it was a huge challenge for researchers. But, and this is a cool part, CLIP kind of swoops in and changes everything. 
-> - CLIP, okay so, tell me more about this AI superstar.
-> - So, CLIP stands for Contrastive Language Image Pretraining. And basically it learns in a totally different way: instead of needing all of those images labelled by hand, it anaylises massive datasets of image text pairs.
-> - Image text pairs, so, are we talking about captions on old photos? Is that the kind of things?
-> - Yeah, you got it. Like imagine you've got a museum archive, right? Thousands of photos, each with little descriptions. CLIP can actually learn from that and starts to connect the words from the descriptions to what it's seeing in the image.
-> - So instead of needing someone to say: this is a cat, it could look at a picture with a caption like "Mrs Smiths and her beloved whiskers" and figure it out that way.
-> - Exactly.
+<div style="color:gray; fontsize:0.6em;">
 
+- Welcome to today's deep dive. We're really diving deep into a research paper all about using AI to analyze images. It's changing how we understand history and culture, which I gotta say, I find totally fascinating.
+- Yeah, it's a really cool area of research. So digital humanities focused heavily on text for a long time. I mean, it makes sense, right? Like that was the stuff that was easy to get digitally. Think Google Books, for example. That was huge for textual analysis. 
+- Oh, absolutely. Talk about a game changer. Suddenly, researchers had access to like this massive digital library. 
+- Exactly. But you're interested in images and you are so right to be. I mean, think about it. We're practically swimming in visuals these days. Photography, videos, you name it. And the really interesting part is that the historical record is full of them too. So the shift towards more and more visual stuff, it's made researchers realize that focusing on text alone, well, it was like we were missing half the story. 
+- Okay, I'm totally with you on that. But how does looking at like text and the images together actually change how we understand history? Couldn't we just look at a picture and get the same info? 
+- Well, not necessarily because context is everything. It's like, imagine you're looking at a historical photo of a busy city street, right? And then you see that same photo again, but this time it's got a caption that says, the calm before the storm. It hits different, doesn't it? 
+- Whoa, yeah, it totally does. You're right, it's like seeing the whole picture, not just one piece of the puzzle. 
+- Exactly, and that's the beauty of multimodality, understanding that like words and pictures, they work together to build meaning. It's not enough to just look at them separately. 
+- So we're talking about more than just the words on a page or a single image. It's about how those things interact to tell a story. 
+- Right, and you know what's interesting? This whole idea of multimodality, it's not actually new. Humans have always been multimodal. Think about it. We use gestures when we talk, our tone of voice changes, our facial expressions, we're constantly combining different modes of communication. It's just that in the past, when we, we were analyzing historical sources, we got really good at dissecting those things, separating them out. 
+- Okay. So then how do we put it all back together? How do we analyze text and images in a way that reflects how we actually experience the world? That's where AI comes in, right? 
+- You got it. And there's this really cool AI model that's making waves in the digital humanities world right now called CLIP. But before we get into that, maybe we should talk about how we even got here in the first place. 
+- I'm all ears. Walk me through it. 
+- Well, you see, traditionally, if you wanted to train AI to analyze images, you basically had to feed it a ton of images that were painstakingly labeled by humans. This is a cat. This is a dog. You get the idea. And as you can imagine, that gets really tedious and expensive, especially when you're dealing with potentially millions of historical images. 
+- Yeah. I can only imagine the eye strain. So how did researchers deal with that? There had to be a better way. Okay. So we were talking about the massive effort involved in training AI to analyze images. It sounded honestly kind of impossible. How do you even begin to teach a computer to see all the nuances in a historical photograph?
+- Right, it was a huge challenge for researchers. But, and this is a cool part, CLIP kind of swoops in and changes everything. 
+- CLIP, okay so, tell me more about this AI superstar.
+- So, CLIP stands for Contrastive Language Image Pretraining. And basically it learns in a totally different way: instead of needing all of those images labelled by hand, it anaylises massive datasets of image text pairs.
+- Image text pairs, so, are we talking about captions on old photos? Is that the kind of things?
+- Yeah, you got it. Like imagine you've got a museum archive, right? Thousands of photos, each with little descriptions. CLIP can actually learn from that and starts to connect the words from the descriptions to what it's seeing in the image.
+- So instead of needing someone to say: this is a cat, it could look at a picture with a caption like "Mrs Smiths and her beloved whiskers" and figure it out that way.
+- Exactly.
+
+</diV>
 
 <!--
 > - Okay, so get this, right? We're diving into visual history today, but not just like looking at old pictures. It's about how AI can help us unlock like secrets hidden within them. 

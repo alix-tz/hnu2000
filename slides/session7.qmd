@@ -6,10 +6,4 @@ format:
     theme: default
 ---
 
-<!-- Git, Github & Versionning // HTR-United -->
-
-<!-- notes préparatoires
-
-- https://hal.science/hal-03703989
-
--->
+<!-- Transcribathon-->
