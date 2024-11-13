@@ -14,7 +14,7 @@ format:
 
 ## eScriptorium 
 
-- [https://escriptorium.inria.fr/]https://escriptorium.inria.fr/)
+- [https://escriptorium.inria.fr/](https://escriptorium.inria.fr/)
 
 ## Complément pour eScriptorium 
 

@@ -115,16 +115,24 @@ Pas de cours.
 
 ## 06/11/2024: Séance #8
 
+Cours annulé.
+
+## 13/11/2024: Séance #9
+
 Le versioning avec [Git](https://git-scm.com/), la publication des données avec [GitHub](https://github.com/)
 
 **Lecture:** Moretti, C. (2023, January 4). *Principes FAIR et défis pour leur application dans le domaine des arts et humanités* [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. [https://doi.org/10.58079/r9hx](https://doi.org/10.58079/r9hx)
+
+```{=html}
+<iframe src="/slides/session9.html"></iframe>
+```
 
 
 ```
 création d'un compte Github nécessaire
 ```
 
-## 13/11/2024: Séance #9
+## 20/11/2024: Séance #10
 
 Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeline.knightlab.com/) et [StoryMapJS](https://storymap.knightlab.com/)
 
@@ -133,16 +141,6 @@ Publier des données sérielles ou géolocalisées : [TimeLineJS](https://timeli
 
 ```
 utilisation d'un compte Google
-```
-
-
-
-## 20/11/2024: Séance #10
-
-[Wikidata](https://www.wikidata.org), SPARQL et le **Web sémantique**
-
-```
-(à confirmer) éventuelle création d'un compte wikidata
 ```
 
 
@@ -156,6 +154,7 @@ utilisation d'un compte Google
 
 
 ## 04/12/2024: Séance #12
+
 
 L'**analyse du texte** en language naturel [Voyant Tools](https://voyant-tools.org/) et [Pyrrha](https://pyrrha.huma-num.fr/)
 

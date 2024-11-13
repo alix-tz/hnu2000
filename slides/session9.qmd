@@ -6,14 +6,115 @@ format:
     theme: default
 ---
 
-<!-- TimelineJS & StoryMap -->
+<!-- Git, Github & Versionning // HTR-United -->
 
+<!-- notes préparatoires
 
-<!-- note préparatoire:
-- pourrait demander de venir avec une thématique et quelques données temporelles
-- 1h30 de démo, 1h pour préparer timeline
-- 20 minutes pour présenter le résultat
-
-- utiliser cet exemple en cours : https://archief.ntr.nl/tuinderlusten/en.html# (prendre le temps de le regarder ensemble et d'en discuter)
+- https://hal.science/hal-03703989
 
 -->
+
+
+## Récap des sessions précédentes
+
+- Séance 6: découverte d'eScriptorium et de l'HTR
+- Séance 7: transcribathon et discussion des règles de transcription
+
+## Objectif de la séance
+
+- mettre en ligne les données produites durant les sessions 6 et 7
+- comprendre les principes du versionnage
+- découvrir le versionnage selon Git
+- référencer notre dataset dans HTR-United
+
+## Mise en ligne des données
+
+- HTR-United en quelques mots
+- [https://htr-united.github.io/](https://htr-united.github.io/)
+
+## Principes FAIR
+
+- Findable - *Trouvable*
+- Accessible - *Accessible*
+- Interoperable - *Interopérable*
+- Reusable - *Réutilisable*
+
+Parlons de la lecture d'aujourd'hui: Moretti, C. (2023, January 4). *Principes FAIR et défis pour leur application dans le domaine des arts et humanités* [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. [https://doi.org/10.58079/r9hx](https://doi.org/10.58079/r9hx)
+
+## Moyens de mise en ligne des données HTR
+
+Si on regarde les différents datasets disponibles sur HTR-United, on peut voir que les données sont mises en ligne sur différentes plateformes:
+
+- Github (ex: [Testaments de poilus](https://github.com/HTR-United/CREMMA-AN-TestamentsDePoilus)) / [notice HTR-United](https://htr-united.github.io/share.html?uri=70e75eb5c)
+- Zenodo (ex: [ANR e-NDP Ground Truth](https://zenodo.org/records/7575693)) / [notice HTR-United](https://htr-united.github.io/share.html?uri=b5b1358dc)
+
+Certains suivent le template the dépôt proposé par HTR-United: 
+
+- [template de dépôts](https://github.com/HTR-United/template-htr-united-datarepo)
+
+## Avant d'aller plus loin
+
+Parlons de versionnage
+
+## Pratique de versionnage par nommage
+
+- "convention_v1.docx"
+- "convention_v2.docx"
+- "convention_v2_commenté-par-AC.docx"
+- "convention_v3_final.docx"
+- "convention_v3_final_corrigé.docx"
+- "convention_v3_final_corrigé_vrai_final.docx"
+- "convention_v3_final_corrigé_vrai_final_signé.docx"
+
+En réalité une multiplication des fichiers inutile et peu pratique
+
+## Versionnage linéaire
+
+L'historique des modifications est enregistré dans le fichier lui-même
+
+- cf. historique des modifications dans [Google Doc](https://docs.google.com/document/d/17h9T8djWNu26CIE0ckDQJlu19bJDFk45y2Qxh4uBKQI/edit?usp=sharing)
+- cf. historique des modifications dans [Stylo](https://stylo.huma-num.fr/article/6734ef9433b8f40011fe203e)
+
+Suppose un accès centralisé au fichier (pas de copie locale ou envoyée par email)
+
+## Versionnage par branche
+
+- limite du versionnage par fichier : 
+  - quid d'un projet qui évolue sur plusieurs fichiers?
+  - comment gérer les modifications simultanées?
+
+## Principe du versionnage par branches
+
+- illustration des principes de base avec Git (demo)
+
+## Git et GitHub
+
+- Git est un programme de versionnage
+- GitHub est une plateforme de publication (de code), de collaboration et de partage
+  - GitHub intègre les fonctionnalités de Git
+  - GitHub intègre des fonctionnalités de gestion de projet (ticket, wiki, etc.)
+- Il y a d'autres plateformes de publication de code (GitLab, Bitbucket, etc.)
+
+## Git va beaucoup plus loin
+
+- Git s'apprend par l'expérience
+- Git suppose d'autres connaissances (ligne de commande, gestion de projet, etc.) pour être pleinement maîtrisé
+- GitHub est très puissant, mais il faut apprendre à l'utiliser
+- Les fonctionnalités avancée de GitHub supposent d'autres connaissances (ex: intégration continue, etc.)
+
+- [https://girliemac.com/blog/2017/12/26/git-purr/](https://girliemac.com/blog/2017/12/26/git-purr/)
+
+## Utilisons Git, Github et HTR-United pour mettre en ligne nos données
+
+- création d'un compte Github
+- création d'un dépôt
+- ajout des données (fichiers XML et images)
+- ajout d'un README.md (description du projet)
+- ajout d'une licence
+- ajout d'un fichier de métadonnées de citation
+- ajout d'un fichier de métadonnées HTR-United
+- ouverture d'un ticket pour signaler le dépôt à HTR-United
+
+## Deuxième partie de la séance
+
+- préparation du travail de fin de trimestre
