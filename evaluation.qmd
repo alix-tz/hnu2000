@@ -18,10 +18,6 @@ La participation en classe correspond à la présence en cours, à la participat
 
 ## Organisation des examens
 
-Les examens de mi-session et de fin de session suivront le même format : une évaluation sur table durant laquelle il sera demandé aux étudiant⸱es de lire un article ou un chapitre en lien avec les humanités numériques, distribué en début d'examen, et d'en faire une lecture critique sous la forme de deux réponses rédigées. S'y ajouteront des questions à réponse courte concernant les technologies étudiées ensemble durant le cours. 
-
-### ⚠️ Proposition de modification ⚠️
-
 - examen de mi-session (30/10/2024): reste inchangé
     - lecture durant le cours d'un article en français en lien avec les humanités numériques
     - résumé critique de l'article
