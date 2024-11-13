@@ -127,6 +127,8 @@ Le versioning avec [Git](https://git-scm.com/), la publication des données avec
 <iframe src="/slides/session9.html"></iframe>
 ```
 
+Support de présentation ([plein écran](/slides/session9.qmd){target="_blank"})
+
 
 ```
 création d'un compte Github nécessaire
