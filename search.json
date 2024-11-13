@@ -144,7 +144,7 @@
     "href": "sessions.html#séance-8",
     "title": "Plan des séances",
     "section": "06/11/2024: Séance #8",
-    "text": "06/11/2024: Séance #8\nLe versioning avec Git, la publication des données avec GitHub\nLecture: Moretti, C. (2023, January 4). Principes FAIR et défis pour leur application dans le domaine des arts et humanités [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. https://doi.org/10.58079/r9hx\ncréation d'un compte Github nécessaire",
+    "text": "06/11/2024: Séance #8\nCours annulé.",
     "crumbs": [
       "Plan des séances"
     ]
@@ -154,7 +154,7 @@
     "href": "sessions.html#séance-9",
     "title": "Plan des séances",
     "section": "13/11/2024: Séance #9",
-    "text": "13/11/2024: Séance #9\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nLecture: Robichaud, L. (2019). Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA). In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. https://doi.org/10.2307/j.ctv1gbrwrt.12 [utiliser le proxy de l’UdeM pour accéder à la ressource]\nutilisation d'un compte Google",
+    "text": "13/11/2024: Séance #9\nLe versioning avec Git, la publication des données avec GitHub\nLecture: Moretti, C. (2023, January 4). Principes FAIR et défis pour leur application dans le domaine des arts et humanités [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. https://doi.org/10.58079/r9hx\n\ncréation d'un compte Github nécessaire",
     "crumbs": [
       "Plan des séances"
     ]
@@ -164,7 +164,7 @@
     "href": "sessions.html#séance-10",
     "title": "Plan des séances",
     "section": "20/11/2024: Séance #10",
-    "text": "20/11/2024: Séance #10\nWikidata, SPARQL et le Web sémantique\n(à confirmer) éventuelle création d'un compte wikidata",
+    "text": "20/11/2024: Séance #10\nPublier des données sérielles ou géolocalisées : TimeLineJS et StoryMapJS\nLecture: Robichaud, L. (2019). Prendre le tournant spatial en histoire: Le Laboratoire d’histoire et de patrimoine de Montréal et le Système de cartographie de l’histoire de Montréal (SCHEMA). In J. Burgess & P.-A. Linteau (Eds.), Histoire et patrimoine. Pistes de recherche et de mise en valeur (pp. 213–236). Les Presses de l’Université Laval. https://doi.org/10.2307/j.ctv1gbrwrt.12 [utiliser le proxy de l’UdeM pour accéder à la ressource]\nutilisation d'un compte Google",
     "crumbs": [
       "Plan des séances"
     ]
@@ -335,6 +335,104 @@
     "title": "HNU2000 - Session 1",
     "section": "Humanités numériques",
     "text": "Humanités numériques\n\n\nmind map of humanities computingWillard McCarty, Humanities Computing, Encyclopedia of Library and Information Science (2003). [lien vers le PDF]\n\n“”\nConsider a rough intellectual map of humanities computing (Fig. 1). At the center of this map is a large ‘‘methodological commons’’ of computational techniques shared among the disciplines of the humanities and closely related social sciences, e.g., database design, text analysis, numerical analysis, imaging, music information retrieval, communications. Picture the disciplines ranged above the commons in groups, such as literary and linguistic studies, historical studies, material culture, musicology, performance studies, and so on. Connecting each disciplinary group to the relevant techniques are double-headed arrows indicating that these techniques are variously exported from individual fields of study into the commons and from the commons into others. The agency that sees to this import/export trade is humanities computing in its dual role as collegial service to the disciplines and as research enterprise directed to investigate their evolving methodologies, devise new computational approaches, study the effects, and tease out the implications. Below the commons are broad areas of learning that such interdisciplinary work calls on: philosophy (especially epistemology, ontology, and the philosophy of mind), historiography and ethnography, science studies, sociology of knowledge, media studies, literary criticism, linguistics, and aspects of computer science, including markup technologies, digital library research, and the language industries.\n““”\n\n\n“”\nConsidérons une carte intellectuelle approximative des humanités computationnelles (Fig. 1). Au centre de cette carte se trouve un vaste « fonds commun méthodologique » de techniques informatiques partagées entre les disciplines des sciences humaines et des sciences sociales étroitement liées, par exemple la conception de bases de données, l’analyse de texte, l’analyse numérique, l’imagerie, la recherche d’informations musicales, la communication. Les disciplines sont classées par groupes, tels que les études littéraires et linguistiques, les études historiques, la culture matérielle, la musicologie, les études sur les performances, etc. Des flèches à deux têtes relient chaque groupe disciplinaire aux techniques correspondantes, indiquant que ces techniques sont diversement exportées des différents domaines d’étude vers les communs et des communs vers d’autres domaines d’étude. La structure qui veille à ce commerce d’importation et d’exportation est les humanités computationelles, dans son double rôle de service collégial aux disciplines et d’entreprise de recherche chargée d’étudier l’évolution de leurs méthodologies, de concevoir de nouvelles approches informatiques, d’en étudier les effets et d’en dégager les implications. Sous les communs se trouvent de vastes domaines d’apprentissage auxquels ce travail interdisciplinaire fait appel : la philosophie (en particulier l’épistémologie, l’ontologie et la philosophie de l’esprit), l’historiographie et l’ethnographie, les études scientifiques, la sociologie de la connaissance, les études sur les médias, la critique littéraire, la linguistique et certains aspects de l’informatique, y compris les technologies de balisage, la recherche sur les bibliothèques numériques et les industries de la langue.\n““”"
+  },
+  {
+    "objectID": "slides/session9.html#récap-des-sessions-précédentes",
+    "href": "slides/session9.html#récap-des-sessions-précédentes",
+    "title": "HNU2000 - Session 9",
+    "section": "Récap des sessions précédentes",
+    "text": "Récap des sessions précédentes\n\nSéance 6: découverte d’eScriptorium et de l’HTR\nSéance 7: transcribathon et discussion des règles de transcription"
+  },
+  {
+    "objectID": "slides/session9.html#objectif-de-la-séance",
+    "href": "slides/session9.html#objectif-de-la-séance",
+    "title": "HNU2000 - Session 9",
+    "section": "Objectif de la séance",
+    "text": "Objectif de la séance\n\nmettre en ligne les données produites durant les sessions 6 et 7\ncomprendre les principes du versionnage\ndécouvrir le versionnage selon Git\nréférencer notre dataset dans HTR-United"
+  },
+  {
+    "objectID": "slides/session9.html#mise-en-ligne-des-données",
+    "href": "slides/session9.html#mise-en-ligne-des-données",
+    "title": "HNU2000 - Session 9",
+    "section": "Mise en ligne des données",
+    "text": "Mise en ligne des données\n\nHTR-United en quelques mots\nhttps://htr-united.github.io/"
+  },
+  {
+    "objectID": "slides/session9.html#principes-fair",
+    "href": "slides/session9.html#principes-fair",
+    "title": "HNU2000 - Session 9",
+    "section": "Principes FAIR",
+    "text": "Principes FAIR\n\nFindable - Trouvable\nAccessible - Accessible\nInteroperable - Interopérable\nReusable - Réutilisable\n\nParlons de la lecture d’aujourd’hui: Moretti, C. (2023, January 4). Principes FAIR et défis pour leur application dans le domaine des arts et humanités [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. https://doi.org/10.58079/r9hx"
+  },
+  {
+    "objectID": "slides/session9.html#moyens-de-mise-en-ligne-des-données-htr",
+    "href": "slides/session9.html#moyens-de-mise-en-ligne-des-données-htr",
+    "title": "HNU2000 - Session 9",
+    "section": "Moyens de mise en ligne des données HTR",
+    "text": "Moyens de mise en ligne des données HTR\nSi on regarde les différents datasets disponibles sur HTR-United, on peut voir que les données sont mises en ligne sur différentes plateformes:\n\nGithub (ex: Testaments de poilus) / notice HTR-United\nZenodo (ex: ANR e-NDP Ground Truth) / notice HTR-United\n\nCertains suivent le template the dépôt proposé par HTR-United:\n\ntemplate de dépôts"
+  },
+  {
+    "objectID": "slides/session9.html#avant-daller-plus-loin",
+    "href": "slides/session9.html#avant-daller-plus-loin",
+    "title": "HNU2000 - Session 9",
+    "section": "Avant d’aller plus loin",
+    "text": "Avant d’aller plus loin\nParlons de versionnage"
+  },
+  {
+    "objectID": "slides/session9.html#pratique-de-versionnage-par-nommage",
+    "href": "slides/session9.html#pratique-de-versionnage-par-nommage",
+    "title": "HNU2000 - Session 9",
+    "section": "Pratique de versionnage par nommage",
+    "text": "Pratique de versionnage par nommage\n\n“convention_v1.docx”\n“convention_v2.docx”\n“convention_v2_commenté-par-AC.docx”\n“convention_v3_final.docx”\n“convention_v3_final_corrigé.docx”\n“convention_v3_final_corrigé_vrai_final.docx”\n“convention_v3_final_corrigé_vrai_final_signé.docx”\n\nEn réalité une multiplication des fichiers inutile et peu pratique"
+  },
+  {
+    "objectID": "slides/session9.html#versionnage-linéaire",
+    "href": "slides/session9.html#versionnage-linéaire",
+    "title": "HNU2000 - Session 9",
+    "section": "Versionnage linéaire",
+    "text": "Versionnage linéaire\nL’historique des modifications est enregistré dans le fichier lui-même\n\ncf. historique des modifications dans Google Doc\ncf. historique des modifications dans Stylo\n\nSuppose un accès centralisé au fichier (pas de copie locale ou envoyée par email)"
+  },
+  {
+    "objectID": "slides/session9.html#versionnage-par-branche",
+    "href": "slides/session9.html#versionnage-par-branche",
+    "title": "HNU2000 - Session 9",
+    "section": "Versionnage par branche",
+    "text": "Versionnage par branche\n\nlimite du versionnage par fichier :\n\nquid d’un projet qui évolue sur plusieurs fichiers?\ncomment gérer les modifications simultanées?"
+  },
+  {
+    "objectID": "slides/session9.html#principe-du-versionnage-par-branches",
+    "href": "slides/session9.html#principe-du-versionnage-par-branches",
+    "title": "HNU2000 - Session 9",
+    "section": "Principe du versionnage par branches",
+    "text": "Principe du versionnage par branches\n\nillustration des principes de base avec Git (demo)"
+  },
+  {
+    "objectID": "slides/session9.html#git-et-github",
+    "href": "slides/session9.html#git-et-github",
+    "title": "HNU2000 - Session 9",
+    "section": "Git et GitHub",
+    "text": "Git et GitHub\n\nGit est un programme de versionnage\nGitHub est une plateforme de publication (de code), de collaboration et de partage\n\nGitHub intègre les fonctionnalités de Git\nGitHub intègre des fonctionnalités de gestion de projet (ticket, wiki, etc.)\n\nIl y a d’autres plateformes de publication de code (GitLab, Bitbucket, etc.)"
+  },
+  {
+    "objectID": "slides/session9.html#git-va-beaucoup-plus-loin",
+    "href": "slides/session9.html#git-va-beaucoup-plus-loin",
+    "title": "HNU2000 - Session 9",
+    "section": "Git va beaucoup plus loin",
+    "text": "Git va beaucoup plus loin\n\nGit s’apprend par l’expérience\nGit suppose d’autres connaissances (ligne de commande, gestion de projet, etc.) pour être pleinement maîtrisé\nGitHub est très puissant, mais il faut apprendre à l’utiliser\nLes fonctionnalités avancée de GitHub supposent d’autres connaissances (ex: intégration continue, etc.)\nhttps://girliemac.com/blog/2017/12/26/git-purr/"
+  },
+  {
+    "objectID": "slides/session9.html#utilisons-git-github-et-htr-united-pour-mettre-en-ligne-nos-données",
+    "href": "slides/session9.html#utilisons-git-github-et-htr-united-pour-mettre-en-ligne-nos-données",
+    "title": "HNU2000 - Session 9",
+    "section": "Utilisons Git, Github et HTR-United pour mettre en ligne nos données",
+    "text": "Utilisons Git, Github et HTR-United pour mettre en ligne nos données\n\ncréation d’un compte Github\ncréation d’un dépôt\najout des données (fichiers XML et images)\najout d’un README.md (description du projet)\najout d’une licence\najout d’un fichier de métadonnées de citation\najout d’un fichier de métadonnées HTR-United\nouverture d’un ticket pour signaler le dépôt à HTR-United"
+  },
+  {
+    "objectID": "slides/session9.html#deuxième-partie-de-la-séance",
+    "href": "slides/session9.html#deuxième-partie-de-la-séance",
+    "title": "HNU2000 - Session 9",
+    "section": "Deuxième partie de la séance",
+    "text": "Deuxième partie de la séance\n\npréparation du travail de fin de trimestre"
   },
   {
     "objectID": "slides/session6.html#principes-généraux-sur-la-transcription-automatique",

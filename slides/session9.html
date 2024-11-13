@@ -1150,15 +1150,140 @@ margin-right: 0; }
 </section>
 <section class="slide level2">
 
-<!-- TimelineJS & StoryMap -->
-<!-- note préparatoire:
-- pourrait demander de venir avec une thématique et quelques données temporelles
-- 1h30 de démo, 1h pour préparer timeline
-- 20 minutes pour présenter le résultat
+<!-- Git, Github & Versionning // HTR-United -->
+<!-- notes préparatoires
 
-- utiliser cet exemple en cours : https://archief.ntr.nl/tuinderlusten/en.html# (prendre le temps de le regarder ensemble et d'en discuter)
+- https://hal.science/hal-03703989
 
 -->
+</section>
+<section id="récap-des-sessions-précédentes" class="slide level2">
+<h2>Récap des sessions précédentes</h2>
+<ul>
+<li>Séance 6: découverte d’eScriptorium et de l’HTR</li>
+<li>Séance 7: transcribathon et discussion des règles de transcription</li>
+</ul>
+</section>
+<section id="objectif-de-la-séance" class="slide level2">
+<h2>Objectif de la séance</h2>
+<ul>
+<li>mettre en ligne les données produites durant les sessions 6 et 7</li>
+<li>comprendre les principes du versionnage</li>
+<li>découvrir le versionnage selon Git</li>
+<li>référencer notre dataset dans HTR-United</li>
+</ul>
+</section>
+<section id="mise-en-ligne-des-données" class="slide level2">
+<h2>Mise en ligne des données</h2>
+<ul>
+<li>HTR-United en quelques mots</li>
+<li><a href="https://htr-united.github.io/">https://htr-united.github.io/</a></li>
+</ul>
+</section>
+<section id="principes-fair" class="slide level2">
+<h2>Principes FAIR</h2>
+<ul>
+<li>Findable - <em>Trouvable</em></li>
+<li>Accessible - <em>Accessible</em></li>
+<li>Interoperable - <em>Interopérable</em></li>
+<li>Reusable - <em>Réutilisable</em></li>
+</ul>
+<p>Parlons de la lecture d’aujourd’hui: Moretti, C. (2023, January 4). <em>Principes FAIR et défis pour leur application dans le domaine des arts et humanités</em> [Billet]. Métiers des archives et des bibliothèques : médiation de l’histoire et humanités numériques. <a href="https://doi.org/10.58079/r9hx">https://doi.org/10.58079/r9hx</a></p>
+</section>
+<section id="moyens-de-mise-en-ligne-des-données-htr" class="slide level2">
+<h2>Moyens de mise en ligne des données HTR</h2>
+<p>Si on regarde les différents datasets disponibles sur HTR-United, on peut voir que les données sont mises en ligne sur différentes plateformes:</p>
+<ul>
+<li>Github (ex: <a href="https://github.com/HTR-United/CREMMA-AN-TestamentsDePoilus">Testaments de poilus</a>) / <a href="https://htr-united.github.io/share.html?uri=70e75eb5c">notice HTR-United</a></li>
+<li>Zenodo (ex: <a href="https://zenodo.org/records/7575693">ANR e-NDP Ground Truth</a>) / <a href="https://htr-united.github.io/share.html?uri=b5b1358dc">notice HTR-United</a></li>
+</ul>
+<p>Certains suivent le template the dépôt proposé par HTR-United:</p>
+<ul>
+<li><a href="https://github.com/HTR-United/template-htr-united-datarepo">template de dépôts</a></li>
+</ul>
+</section>
+<section id="avant-daller-plus-loin" class="slide level2">
+<h2>Avant d’aller plus loin</h2>
+<p>Parlons de versionnage</p>
+</section>
+<section id="pratique-de-versionnage-par-nommage" class="slide level2">
+<h2>Pratique de versionnage par nommage</h2>
+<ul>
+<li>“convention_v1.docx”</li>
+<li>“convention_v2.docx”</li>
+<li>“convention_v2_commenté-par-AC.docx”</li>
+<li>“convention_v3_final.docx”</li>
+<li>“convention_v3_final_corrigé.docx”</li>
+<li>“convention_v3_final_corrigé_vrai_final.docx”</li>
+<li>“convention_v3_final_corrigé_vrai_final_signé.docx”</li>
+</ul>
+<p>En réalité une multiplication des fichiers inutile et peu pratique</p>
+</section>
+<section id="versionnage-linéaire" class="slide level2">
+<h2>Versionnage linéaire</h2>
+<p>L’historique des modifications est enregistré dans le fichier lui-même</p>
+<ul>
+<li>cf. historique des modifications dans <a href="https://docs.google.com/document/d/17h9T8djWNu26CIE0ckDQJlu19bJDFk45y2Qxh4uBKQI/edit?usp=sharing">Google Doc</a></li>
+<li>cf. historique des modifications dans <a href="https://stylo.huma-num.fr/article/6734ef9433b8f40011fe203e">Stylo</a></li>
+</ul>
+<p>Suppose un accès centralisé au fichier (pas de copie locale ou envoyée par email)</p>
+</section>
+<section id="versionnage-par-branche" class="slide level2">
+<h2>Versionnage par branche</h2>
+<ul>
+<li>limite du versionnage par fichier :
+<ul>
+<li>quid d’un projet qui évolue sur plusieurs fichiers?</li>
+<li>comment gérer les modifications simultanées?</li>
+</ul></li>
+</ul>
+</section>
+<section id="principe-du-versionnage-par-branches" class="slide level2">
+<h2>Principe du versionnage par branches</h2>
+<ul>
+<li>illustration des principes de base avec Git (demo)</li>
+</ul>
+</section>
+<section id="git-et-github" class="slide level2">
+<h2>Git et GitHub</h2>
+<ul>
+<li>Git est un programme de versionnage</li>
+<li>GitHub est une plateforme de publication (de code), de collaboration et de partage
+<ul>
+<li>GitHub intègre les fonctionnalités de Git</li>
+<li>GitHub intègre des fonctionnalités de gestion de projet (ticket, wiki, etc.)</li>
+</ul></li>
+<li>Il y a d’autres plateformes de publication de code (GitLab, Bitbucket, etc.)</li>
+</ul>
+</section>
+<section id="git-va-beaucoup-plus-loin" class="slide level2">
+<h2>Git va beaucoup plus loin</h2>
+<ul>
+<li><p>Git s’apprend par l’expérience</p></li>
+<li><p>Git suppose d’autres connaissances (ligne de commande, gestion de projet, etc.) pour être pleinement maîtrisé</p></li>
+<li><p>GitHub est très puissant, mais il faut apprendre à l’utiliser</p></li>
+<li><p>Les fonctionnalités avancée de GitHub supposent d’autres connaissances (ex: intégration continue, etc.)</p></li>
+<li><p><a href="https://girliemac.com/blog/2017/12/26/git-purr/">https://girliemac.com/blog/2017/12/26/git-purr/</a></p></li>
+</ul>
+</section>
+<section id="utilisons-git-github-et-htr-united-pour-mettre-en-ligne-nos-données" class="slide level2">
+<h2>Utilisons Git, Github et HTR-United pour mettre en ligne nos données</h2>
+<ul>
+<li>création d’un compte Github</li>
+<li>création d’un dépôt</li>
+<li>ajout des données (fichiers XML et images)</li>
+<li>ajout d’un README.md (description du projet)</li>
+<li>ajout d’une licence</li>
+<li>ajout d’un fichier de métadonnées de citation</li>
+<li>ajout d’un fichier de métadonnées HTR-United</li>
+<li>ouverture d’un ticket pour signaler le dépôt à HTR-United</li>
+</ul>
+</section>
+<section id="deuxième-partie-de-la-séance" class="slide level2">
+<h2>Deuxième partie de la séance</h2>
+<ul>
+<li>préparation du travail de fin de trimestre</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
