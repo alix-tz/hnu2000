@@ -190,11 +190,11 @@
     ]
   },
   {
-    "objectID": "sessions.html#examen-de-fin-de-session",
-    "href": "sessions.html#examen-de-fin-de-session",
+    "objectID": "sessions.html#pas-de-cours-examen-final-remplacé-par-un-projet",
+    "href": "sessions.html#pas-de-cours-examen-final-remplacé-par-un-projet",
     "title": "Plan des séances",
-    "section": "11/12/2024: Examen de fin de session",
-    "text": "11/12/2024: Examen de fin de session",
+    "section": "11/12/2024: Pas de cours (examen final remplacé par un projet)",
+    "text": "11/12/2024: Pas de cours (examen final remplacé par un projet)",
     "crumbs": [
       "Plan des séances"
     ]
@@ -764,6 +764,41 @@
     "text": "On peut aussi s’amuser avec les regex\n\nhttps://regexcrossword.com/"
   },
   {
+    "objectID": "slides/session10.html#point-sur-lévaluation-de-fin-de-session",
+    "href": "slides/session10.html#point-sur-lévaluation-de-fin-de-session",
+    "title": "HNU2000 - Session 10",
+    "section": "Point sur l’évaluation de fin de session",
+    "text": "Point sur l’évaluation de fin de session"
+  },
+  {
+    "objectID": "slides/session10.html#timelinejs",
+    "href": "slides/session10.html#timelinejs",
+    "title": "HNU2000 - Session 10",
+    "section": "TimelineJS",
+    "text": "TimelineJS\n\nTimelineJS\ncréé par le Knightlab\npermet de créer des frises chronologiques interactives\npensé pour le storytelling"
+  },
+  {
+    "objectID": "slides/session10.html#quelques-exemples",
+    "href": "slides/session10.html#quelques-exemples",
+    "title": "HNU2000 - Session 10",
+    "section": "Quelques exemples",
+    "text": "Quelques exemples\n\nhttps://timeusage.paris.inria.fr/prudhommes-lyon-19e/\nhttps://timeline.knightlab.com/examples/houston/index.html\nhttps://timeline.knightlab.com/examples/user-interface/index.html\nque trouve-t-on dans ces exemples? Quel type de médias ou d’informations? Quelle structure?"
+  },
+  {
+    "objectID": "slides/session10.html#fonctionnement-de-timelinejs",
+    "href": "slides/session10.html#fonctionnement-de-timelinejs",
+    "title": "HNU2000 - Session 10",
+    "section": "Fonctionnement de TimeLineJS",
+    "text": "Fonctionnement de TimeLineJS\n\nUn template GoogleSheet a copier\nOn remplit les cases du GoogleSheet avec les informations de la frise chronologique\nOn rend public le GoogleSheet\nOn remplit un formulaire sur le site de TimeLineJS avec l’URL du GoogleSheet\nOn admire"
+  },
+  {
+    "objectID": "slides/session10.html#a-vous",
+    "href": "slides/session10.html#a-vous",
+    "title": "HNU2000 - Session 10",
+    "section": "A vous!",
+    "text": "A vous!\n\nchoisir un sujet sur lequel faire une frise chronologique\nrassembler des dates, des informations, etc, à intégrer dans la frise\nremplir le GoogleSheet selon ce que l’on souhaite voir apparaître\n\nau moins 15 entrées dans la frise et utiliser différents types de médias\n\nremplir le formulaire de création de frise\nprésenter le résultat au reste de la classe"
+  },
+  {
     "objectID": "slides/session5.html#notes-collaboratives",
     "href": "slides/session5.html#notes-collaboratives",
     "title": "HNU2000 - Session 5",
@@ -819,7 +854,7 @@
     "href": "evaluation.html#organisation-des-examens",
     "title": "Consignes pour l’évaluation",
     "section": "Organisation des examens",
-    "text": "Organisation des examens\n\nexamen de mi-session (30/10/2024): reste inchangé\n\nlecture durant le cours d’un article en français en lien avec les humanités numériques\nrésumé critique de l’article\nquestions précises sur l’article\n\nexamen de fin de session (11/12/2024): remplacé par un travail pratique\n\ntravail individuel\n1 exercice au choix parmi 2 options:\n\nréencodage en markdown, dans Stylo, avec bibliographie et notes de bas de page, de l’article de Pierre Mounier et Marin Dacos: Mounier Pierre, Dacos Marin. Édition électronique. In: Communications, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: https://doi.org/10.3406/comm.2011.2584\npréparation d’un jeu de données pour la transcription automatique avec eScriptorium, documenté et publié sur Github/Zenodo avec un fichier README.md expliquant le contenu du jeu de données et les étapes de préparation, prêt à être ajouté au catalogue HTR-United (plus de détails durant les séances #6 et #7)\n\n1h de temps dédié à la préparation de ce travail à partir de la séance #8. Les étudiant⸱es pourront poser des questions sur le travail à réaliser durant cette séance.",
+    "text": "Organisation des examens\n\nexamen de mi-session (30/10/2024): reste inchangé\n\nlecture durant le cours d’un article en français en lien avec les humanités numériques\nrésumé critique de l’article\nquestions précises sur l’article\n\nexamen de fin de session -&gt; remplacé par un travail pratique\n\ntravail individuel\n1 exercice au choix parmi 2 options:\n\nréencodage en markdown, dans Stylo, avec bibliographie et notes de bas de page, de l’article de Pierre Mounier et Marin Dacos: Mounier Pierre, Dacos Marin. Édition électronique. In: Communications, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: https://doi.org/10.3406/comm.2011.2584\npréparation d’un jeu de données pour la transcription automatique avec eScriptorium, documenté et publié sur Github/Zenodo avec un fichier README.md expliquant le contenu du jeu de données et les étapes de préparation, prêt à être ajouté au catalogue HTR-United (plus de détails durant les séances #6 et #7)\n\n1h de temps dédié à la préparation de ce travail à partir de la séance #8. Les étudiant⸱es pourront poser des questions sur le travail à réaliser durant cette séance.\ndate limite de rendu: 22/12/2024 à 23h59.",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
