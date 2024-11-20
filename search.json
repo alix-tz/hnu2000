@@ -778,11 +778,18 @@
     "text": "TimelineJS\n\nTimelineJS\ncréé par le Knightlab\npermet de créer des frises chronologiques interactives\npensé pour le storytelling"
   },
   {
-    "objectID": "slides/session10.html#quelques-exemples",
-    "href": "slides/session10.html#quelques-exemples",
+    "objectID": "slides/session10.html#les-autres-outils-du-knightlab",
+    "href": "slides/session10.html#les-autres-outils-du-knightlab",
     "title": "HNU2000 - Session 10",
-    "section": "Quelques exemples",
-    "text": "Quelques exemples\n\nhttps://timeusage.paris.inria.fr/prudhommes-lyon-19e/\nhttps://timeline.knightlab.com/examples/houston/index.html\nhttps://timeline.knightlab.com/examples/user-interface/index.html\nque trouve-t-on dans ces exemples? Quel type de médias ou d’informations? Quelle structure?"
+    "section": "Les autres outils du Knightlab",
+    "text": "Les autres outils du Knightlab\n\nStoryMapJS : pour créer des cartes interactives\nJuxtaposeJS : pour comparer deux images côte à côte (avant/après par exemple)\nStorylineJS : pour créer des timelines plus complexes\nSoundciteJS : pour intégrer des extraits sonores dans un article"
+  },
+  {
+    "objectID": "slides/session10.html#quelques-exemples-de-timelines",
+    "href": "slides/session10.html#quelques-exemples-de-timelines",
+    "title": "HNU2000 - Session 10",
+    "section": "Quelques exemples de Timelines",
+    "text": "Quelques exemples de Timelines\n\nhttps://timeusage.paris.inria.fr/prudhommes-lyon-19e/\nhttps://timeline.knightlab.com/examples/houston/index.html\nhttps://timeline.knightlab.com/examples/user-interface/index.html\nQue trouve-t-on dans ces exemples? Quel type de médias ou d’informations? Quelle structure?"
   },
   {
     "objectID": "slides/session10.html#fonctionnement-de-timelinejs",
@@ -796,7 +803,7 @@
     "href": "slides/session10.html#a-vous",
     "title": "HNU2000 - Session 10",
     "section": "A vous!",
-    "text": "A vous!\n\nchoisir un sujet sur lequel faire une frise chronologique\nrassembler des dates, des informations, etc, à intégrer dans la frise\nremplir le GoogleSheet selon ce que l’on souhaite voir apparaître\n\nau moins 15 entrées dans la frise et utiliser différents types de médias\n\nremplir le formulaire de création de frise\nprésenter le résultat au reste de la classe"
+    "text": "A vous!\nPratique durant le cours:\n\nChoisir un sujet sur lequel faire une frise chronologique\nRassembler des dates, des informations, etc, à intégrer dans la frise\nRemplir le GoogleSheet selon ce que l’on souhaite voir apparaître\n\nAu moins 15 entrées dans la frise et utiliser différents types de médias\n\nRemplir le formulaire de création de frise\nPrésenter le résultat au reste de la classe\n\nquel sujet\nquelles informations mises en avant\nquelles difficultés rencontrées\nquelle impression générale"
   },
   {
     "objectID": "slides/session5.html#notes-collaboratives",
