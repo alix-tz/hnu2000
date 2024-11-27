@@ -355,42 +355,42 @@
     "href": "slides/session11.html#projet-global-lincs",
     "title": "HNU2000 - Session 11",
     "section": "Projet global : LINCS",
-    "text": "Projet global : LINCS\n\nLinked Infrastructure for Networked Cultural Scholarship\ncarte des cas d’usage et outils de LINCS: https://lincsproject.ca/img/documentation/tools-tube-map-(c-LINCS).png"
+    "text": "Projet global : LINCS\n\nLinked Infrastructure for Networked Cultural Scholarship\ncarte des cas d’usage et outils de LINCS: image"
   },
   {
     "objectID": "slides/session11.html#que-va-t-on-faire-aujourdhui-avec-leaf-writer",
     "href": "slides/session11.html#que-va-t-on-faire-aujourdhui-avec-leaf-writer",
     "title": "HNU2000 - Session 11",
     "section": "Que va-t-on faire aujourd’hui avec LEAF Writer?",
-    "text": "Que va-t-on faire aujourd’hui avec LEAF Writer?\n\nencodage et structuration de texte (en TEI)\najout de métadonnées\ndétection d’entités et lien vers des référentiels externes"
+    "text": "Que va-t-on faire aujourd’hui avec LEAF Writer?\n\nEncodage et structuration de texte (en TEI)\nAjout de métadonnées\nDétection d’entités et lien vers des référentiels externes"
   },
   {
     "objectID": "slides/session11.html#xml-tei-en-très-bref",
     "href": "slides/session11.html#xml-tei-en-très-bref",
     "title": "HNU2000 - Session 11",
     "section": "XML TEI en (très) bref",
-    "text": "XML TEI en (très) bref\n\nl’UdeM offre 2 ateliers de 15h (1 crédit chacun) dédiés à la TEI\n\n\nText Encoding Initiative\nstandard pour l’encodage de textes numériques\nstructurer le texte et d’ajouter des métadonnées"
+    "text": "XML TEI en (très) bref\n\nL’UdeM offre 2 ateliers de 15h (1 crédit chacun) dédiés à la TEI (EDN6002 et EDN 6101)\n\n\nText Encoding Initiative\nStandard pour l’encodage de textes numériques\nStructurer le texte et d’ajouter des métadonnées"
   },
   {
     "objectID": "slides/session11.html#utiliser-la-tei",
     "href": "slides/session11.html#utiliser-la-tei",
     "title": "HNU2000 - Session 11",
     "section": "Utiliser la TEI",
-    "text": "Utiliser la TEI\n\ncomprendre les principes du format XML\nlire et appliquer les directives de la TEI (“guidelines”)\ndocumenter les choix d’encodage (schema et validation)"
+    "text": "Utiliser la TEI\n\nComprendre les principes du format XML\nLire et appliquer les directives de la TEI (“guidelines”)\nDocumenter les choix d’encodage (schema et validation)"
   },
   {
     "objectID": "slides/session11.html#quatres-exemples-pour-comprendre-la-tei",
     "href": "slides/session11.html#quatres-exemples-pour-comprendre-la-tei",
     "title": "HNU2000 - Session 11",
     "section": "Quatres exemples pour comprendre la TEI",
-    "text": "Quatres exemples pour comprendre la TEI\n\nmétadonnées (header)\nstructuration du texte\nidentification des personnes (entités)\nencodage des abréviations"
+    "text": "Quatres exemples pour comprendre la TEI\n\nMétadonnées (header)\nStructuration du texte\nIdentification des personnes (entités)\nEncodage des abréviations"
   },
   {
     "objectID": "slides/session11.html#métadonnées",
     "href": "slides/session11.html#métadonnées",
     "title": "HNU2000 - Session 11",
     "section": "Métadonnées",
-    "text": "Métadonnées\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/HD.html\nheader == en-tête\n4 éléments d’information requis:\n\n“fileDesc”: (file description) description bibliographique du fichier numérique lui-même (titre, auteur, data de publication, etc.)\n“encodingDesc”: (encoding description) description des choix d’encodage, des conventions utilisées, des interprétations faites\n“profileDesc”: (profile description) description des caractéristiques du texte encodé (contexte de production, date, langue, genre, etc.)\n“revisionDesc”: (revision description) historique des modifications apportées au fichier numérique"
+    "text": "Métadonnées\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/HD.html\n“header” == en-tête\n4 éléments d’information requis:\n\n“fileDesc”: (file description) description bibliographique du fichier numérique lui-même (titre, auteur, data de publication, etc.)\n“encodingDesc”: (encoding description) description des choix d’encodage, des conventions utilisées, des interprétations faites\n“profileDesc”: (profile description) description des caractéristiques du texte encodé (contexte de production, date, langue, genre, etc.)\n“revisionDesc”: (revision description) historique des modifications apportées au fichier numérique"
   },
   {
     "objectID": "slides/session11.html#structuration-du-texte",
