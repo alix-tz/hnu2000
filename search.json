@@ -390,7 +390,7 @@
     "href": "slides/session11.html#métadonnées",
     "title": "HNU2000 - Session 11",
     "section": "Métadonnées",
-    "text": "Métadonnées\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/HD.html\nheader == en-tête\n4 éléments d’information requis:\n\n“fileDesc”: (file description) description bibliographique du fichier numérique lui-même (titre, auteur, data de publication, etc.)\n“encodingDesc”! (encoding description) description des choix d’encodage, des conventions utilisées, des interprétations faites\n“profileDesc”! (profile description) description des caractéristiques du texte encodé (contexte de production, date, langue, genre, etc.)\n“revisionDesc”! (revision description) historique des modifications apportées au fichier numérique"
+    "text": "Métadonnées\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/HD.html\nheader == en-tête\n4 éléments d’information requis:\n\n“fileDesc”: (file description) description bibliographique du fichier numérique lui-même (titre, auteur, data de publication, etc.)\n“encodingDesc”: (encoding description) description des choix d’encodage, des conventions utilisées, des interprétations faites\n“profileDesc”: (profile description) description des caractéristiques du texte encodé (contexte de production, date, langue, genre, etc.)\n“revisionDesc”: (revision description) historique des modifications apportées au fichier numérique"
   },
   {
     "objectID": "slides/session11.html#structuration-du-texte",
