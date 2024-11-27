@@ -337,6 +337,90 @@
     "text": "Humanités numériques\n\n\nmind map of humanities computingWillard McCarty, Humanities Computing, Encyclopedia of Library and Information Science (2003). [lien vers le PDF]\n\n“”\nConsider a rough intellectual map of humanities computing (Fig. 1). At the center of this map is a large ‘‘methodological commons’’ of computational techniques shared among the disciplines of the humanities and closely related social sciences, e.g., database design, text analysis, numerical analysis, imaging, music information retrieval, communications. Picture the disciplines ranged above the commons in groups, such as literary and linguistic studies, historical studies, material culture, musicology, performance studies, and so on. Connecting each disciplinary group to the relevant techniques are double-headed arrows indicating that these techniques are variously exported from individual fields of study into the commons and from the commons into others. The agency that sees to this import/export trade is humanities computing in its dual role as collegial service to the disciplines and as research enterprise directed to investigate their evolving methodologies, devise new computational approaches, study the effects, and tease out the implications. Below the commons are broad areas of learning that such interdisciplinary work calls on: philosophy (especially epistemology, ontology, and the philosophy of mind), historiography and ethnography, science studies, sociology of knowledge, media studies, literary criticism, linguistics, and aspects of computer science, including markup technologies, digital library research, and the language industries.\n““”\n\n\n“”\nConsidérons une carte intellectuelle approximative des humanités computationnelles (Fig. 1). Au centre de cette carte se trouve un vaste « fonds commun méthodologique » de techniques informatiques partagées entre les disciplines des sciences humaines et des sciences sociales étroitement liées, par exemple la conception de bases de données, l’analyse de texte, l’analyse numérique, l’imagerie, la recherche d’informations musicales, la communication. Les disciplines sont classées par groupes, tels que les études littéraires et linguistiques, les études historiques, la culture matérielle, la musicologie, les études sur les performances, etc. Des flèches à deux têtes relient chaque groupe disciplinaire aux techniques correspondantes, indiquant que ces techniques sont diversement exportées des différents domaines d’étude vers les communs et des communs vers d’autres domaines d’étude. La structure qui veille à ce commerce d’importation et d’exportation est les humanités computationelles, dans son double rôle de service collégial aux disciplines et d’entreprise de recherche chargée d’étudier l’évolution de leurs méthodologies, de concevoir de nouvelles approches informatiques, d’en étudier les effets et d’en dégager les implications. Sous les communs se trouvent de vastes domaines d’apprentissage auxquels ce travail interdisciplinaire fait appel : la philosophie (en particulier l’épistémologie, l’ontologie et la philosophie de l’esprit), l’historiographie et l’ethnographie, les études scientifiques, la sociologie de la connaissance, les études sur les médias, la critique littéraire, la linguistique et certains aspects de l’informatique, y compris les technologies de balisage, la recherche sur les bibliothèques numériques et les industries de la langue.\n““”"
   },
   {
+    "objectID": "slides/session11.html#info-évaluation",
+    "href": "slides/session11.html#info-évaluation",
+    "title": "HNU2000 - Session 11",
+    "section": "Info évaluation",
+    "text": "Info évaluation\n\ngrille d’évaluation sur studium"
+  },
+  {
+    "objectID": "slides/session11.html#leaf-writer",
+    "href": "slides/session11.html#leaf-writer",
+    "title": "HNU2000 - Session 11",
+    "section": "Leaf Writer",
+    "text": "Leaf Writer\n\nhttps://leaf-writer.leaf-vre.org/\napplication web pour l’encodage de documents en TEI\noutils de web sémantique (RDF, Linked Open Data, liage d’entités)"
+  },
+  {
+    "objectID": "slides/session11.html#projet-global-lincs",
+    "href": "slides/session11.html#projet-global-lincs",
+    "title": "HNU2000 - Session 11",
+    "section": "Projet global : LINCS",
+    "text": "Projet global : LINCS\n\nLinked Infrastructure for Networked Cultural Scholarship\ncarte des cas d’usage et outils de LINCS: https://lincsproject.ca/img/documentation/tools-tube-map-(c-LINCS).png"
+  },
+  {
+    "objectID": "slides/session11.html#que-va-t-on-faire-aujourdhui-avec-leaf-writer",
+    "href": "slides/session11.html#que-va-t-on-faire-aujourdhui-avec-leaf-writer",
+    "title": "HNU2000 - Session 11",
+    "section": "Que va-t-on faire aujourd’hui avec LEAF Writer?",
+    "text": "Que va-t-on faire aujourd’hui avec LEAF Writer?\n\nencodage et structuration de texte (en TEI)\najout de métadonnées\ndétection d’entités et lien vers des référentiels externes"
+  },
+  {
+    "objectID": "slides/session11.html#xml-tei-en-très-bref",
+    "href": "slides/session11.html#xml-tei-en-très-bref",
+    "title": "HNU2000 - Session 11",
+    "section": "XML TEI en (très) bref",
+    "text": "XML TEI en (très) bref\n\nl’UdeM offre 2 ateliers de 15h (1 crédit chacun) dédiés à la TEI\n\n\nText Encoding Initiative\nstandard pour l’encodage de textes numériques\nstructurer le texte et d’ajouter des métadonnées"
+  },
+  {
+    "objectID": "slides/session11.html#utiliser-la-tei",
+    "href": "slides/session11.html#utiliser-la-tei",
+    "title": "HNU2000 - Session 11",
+    "section": "Utiliser la TEI",
+    "text": "Utiliser la TEI\n\ncomprendre les principes du format XML\nlire et appliquer les directives de la TEI (“guidelines”)\ndocumenter les choix d’encodage (schema et validation)"
+  },
+  {
+    "objectID": "slides/session11.html#quatres-exemples-pour-comprendre-la-tei",
+    "href": "slides/session11.html#quatres-exemples-pour-comprendre-la-tei",
+    "title": "HNU2000 - Session 11",
+    "section": "Quatres exemples pour comprendre la TEI",
+    "text": "Quatres exemples pour comprendre la TEI\n\nmétadonnées (header)\nstructuration du texte\nidentification des personnes (entités)\nencodage des abréviations"
+  },
+  {
+    "objectID": "slides/session11.html#métadonnées",
+    "href": "slides/session11.html#métadonnées",
+    "title": "HNU2000 - Session 11",
+    "section": "Métadonnées",
+    "text": "Métadonnées\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/HD.html\nheader == en-tête\n4 éléments d’information requis:\n\n“fileDesc”: (file description) description bibliographique du fichier numérique lui-même (titre, auteur, data de publication, etc.)\n“encodingDesc”! (encoding description) description des choix d’encodage, des conventions utilisées, des interprétations faites\n“profileDesc”! (profile description) description des caractéristiques du texte encodé (contexte de production, date, langue, genre, etc.)\n“revisionDesc”! (revision description) historique des modifications apportées au fichier numérique"
+  },
+  {
+    "objectID": "slides/session11.html#structuration-du-texte",
+    "href": "slides/session11.html#structuration-du-texte",
+    "title": "HNU2000 - Session 11",
+    "section": "Structuration du texte",
+    "text": "Structuration du texte\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/DS.html\n“text”: contient le texte encodé, il peut être divisé en plusieurs parties logiques (“front”, “body”, “group”, “back”)\ndans “body”, on peut trouver des divisions plus fines (“div”, “p”, “l”, “list”, “table”, “figure”, etc.)\nles “attributs” permettent de préciser le rôle de chaque élément (ex: &lt;div type=\"chapter\" n=\"1\"&gt;)"
+  },
+  {
+    "objectID": "slides/session11.html#identification-des-personnes",
+    "href": "slides/session11.html#identification-des-personnes",
+    "title": "HNU2000 - Session 11",
+    "section": "Identification des personnes",
+    "text": "Identification des personnes\n\nhttps://tei-c.org/release/doc/tei-p5-doc/fr/html/ND.html\nNom propre ou référence à une personne\n\n“persName”\n“name” + @type=\"person\"\n\nconcept d’une personne\n\n“person” + sous-éléments plus ou moins finement structurés comme “note”, “persName”, “birth”, “death”, “persPronouns”, “trait”, etc."
+  },
+  {
+    "objectID": "slides/session11.html#encodage-des-abréviations",
+    "href": "slides/session11.html#encodage-des-abréviations",
+    "title": "HNU2000 - Session 11",
+    "section": "Encodage des abréviations",
+    "text": "Encodage des abréviations\n\nhttps://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONAAB\npossibilité de joindre plusieurs état du texte (original, normalisé, abrégé, etc.)\n\n&lt;choice&gt;\n  &lt;abbr&gt;NYPD&lt;/abbr&gt;\n  &lt;expan&gt;New York Police Department&lt;/expan&gt;\n&lt;/choice&gt;\nA M&lt;choice&gt;&lt;abbr&gt;r&lt;/abbr&gt;&lt;expan&gt;onsieur&lt;/expan&gt;&lt;/choice&gt; le Doyen"
+  },
+  {
+    "objectID": "slides/session11.html#leaf-writer-1",
+    "href": "slides/session11.html#leaf-writer-1",
+    "title": "HNU2000 - Session 11",
+    "section": "LEAF Writer",
+    "text": "LEAF Writer\n\nhttps://leaf-writer.leaf-vre.org/\nouverture d’un texte vide (Blank)\ncopie d’un extrait du journal de Célestine Doniau-Danest\nidentification des entités\nliage des entités avec un référentiel externe"
+  },
+  {
     "objectID": "slides/session9.html#récap-des-sessions-précédentes",
     "href": "slides/session9.html#récap-des-sessions-précédentes",
     "title": "HNU2000 - Session 9",
@@ -861,7 +945,7 @@
     "href": "evaluation.html#organisation-des-examens",
     "title": "Consignes pour l’évaluation",
     "section": "Organisation des examens",
-    "text": "Organisation des examens\n\nexamen de mi-session (30/10/2024): reste inchangé\n\nlecture durant le cours d’un article en français en lien avec les humanités numériques\nrésumé critique de l’article\nquestions précises sur l’article\n\nexamen de fin de session -&gt; remplacé par un travail pratique\n\ntravail individuel\n1 exercice au choix parmi 2 options:\n\nréencodage en markdown, dans Stylo, avec bibliographie et notes de bas de page, de l’article de Pierre Mounier et Marin Dacos: Mounier Pierre, Dacos Marin. Édition électronique. In: Communications, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: https://doi.org/10.3406/comm.2011.2584\npréparation d’un jeu de données pour la transcription automatique avec eScriptorium, documenté et publié sur Github/Zenodo avec un fichier README.md expliquant le contenu du jeu de données et les étapes de préparation, prêt à être ajouté au catalogue HTR-United (plus de détails durant les séances #6 et #7)\n\n1h de temps dédié à la préparation de ce travail à partir de la séance #8. Les étudiant⸱es pourront poser des questions sur le travail à réaliser durant cette séance.\ndate limite de rendu: 22/12/2024 à 23h59.",
+    "text": "Organisation des examens\n\nMi session\nExamen de mi-session (30/10/2024):\n\nlecture durant le cours d’un article en français en lien avec les humanités numériques\nrésumé critique de l’article\nquestions précises sur l’article\n\n\n\nFin de session\nExamen de fin de session -&gt; remplacé par un travail pratique\n\ntravail individuel\n1 exercice au choix parmi 2 options:\n\nréencodage en markdown, dans Stylo, avec bibliographie et notes de bas de page, de l’article de Pierre Mounier et Marin Dacos: Mounier Pierre, Dacos Marin. Édition électronique. In: Communications, 88, 2011. Cultures du numérique, sous la direction de Antonio A. Casilli. pp. 47-55. DOI: https://doi.org/10.3406/comm.2011.2584\npréparation d’un jeu de données pour la transcription automatique avec eScriptorium, documenté et publié sur Github/Zenodo avec un fichier README.md expliquant le contenu du jeu de données et les étapes de préparation, prêt à être ajouté au catalogue HTR-United (plus de détails durant les séances #6 et #7)\n\n1h de temps dédié à la préparation de ce travail à partir de la séance #8. Les étudiant⸱es pourront poser des questions sur le travail à réaliser durant cette séance.\ndate limite de rendu: 22/12/2024 à 23h59.\nsi vous m’envoyez des questions par mail, prévoyez un délai minimum de 48h pour une réponse.\n\n\nGrille d’évaluation\nLa grille d’évaluation pour l’exercice de fin de semestre est disponible sur Studium.",
     "crumbs": [
       "Consignes pour l'évaluation"
     ]
