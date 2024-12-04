@@ -848,6 +848,48 @@
     "text": "On peut aussi s’amuser avec les regex\n\nhttps://regexcrossword.com/"
   },
   {
+    "objectID": "slides/session12.html#voyant-tools",
+    "href": "slides/session12.html#voyant-tools",
+    "title": "HNU2000 - Session 12",
+    "section": "Voyant Tools",
+    "text": "Voyant Tools\n\napplication web\nexploration de textes par des approches “distantes”\nà destination du monde académique\nopen source et user friendly\nhttps://voyant-tools.org/"
+  },
+  {
+    "objectID": "slides/session12.html#charger-un-ou-plusieurs-textes",
+    "href": "slides/session12.html#charger-un-ou-plusieurs-textes",
+    "title": "HNU2000 - Session 12",
+    "section": "Charger un ou plusieurs textes",
+    "text": "Charger un ou plusieurs textes\n\ncopier-coller le texte directement\ncopier-coller une URL pointant vers un texte brut\ncopier-coller plusieurs URLs (avec saut de ligne)"
+  },
+  {
+    "objectID": "slides/session12.html#exemples",
+    "href": "slides/session12.html#exemples",
+    "title": "HNU2000 - Session 12",
+    "section": "Exemples",
+    "text": "Exemples\nQuelques textes disponibles grâce au projet Gutenberg:\n\nA la Recherche du Temps Perdu (M. Proust): https://www.gutenberg.org/cache/epub/2650/pg2650.txt\nLa Curée (E. Zola): https://www.gutenberg.org/cache/epub/17553/pg17553.txt\nLe Mystère de la Chambre Jaune (G. Leroux): https://www.gutenberg.org/cache/epub/13765/pg13765.txt"
+  },
+  {
+    "objectID": "slides/session12.html#si-problème-de-chargement",
+    "href": "slides/session12.html#si-problème-de-chargement",
+    "title": "HNU2000 - Session 12",
+    "section": "Si problème de chargement",
+    "text": "Si problème de chargement\n\nhttps://voyant-tools.org/?corpus=18122c114a5add40626ed9492c40248a"
+  },
+  {
+    "objectID": "slides/session12.html#manipulation-ensemble",
+    "href": "slides/session12.html#manipulation-ensemble",
+    "title": "HNU2000 - Session 12",
+    "section": "Manipulation ensemble",
+    "text": "Manipulation ensemble\n\nexploration des panneaux de Voyant Tools\nquelques notions sur l’exploration statistique des textes\nfonction de recherche dans le corpus\nautres panneaux d’exploration"
+  },
+  {
+    "objectID": "slides/session12.html#manipulation-individuelle",
+    "href": "slides/session12.html#manipulation-individuelle",
+    "title": "HNU2000 - Session 12",
+    "section": "Manipulation individuelle",
+    "text": "Manipulation individuelle\n\nimporter un ou plusieurs textes de votre choix (ou garder ceux utilisés jusqu’à présent)\nexplorer les différents outils - quels éléments notables découvrez-vous sur le corpus?\npartager vos découvertes avec le groupe"
+  },
+  {
     "objectID": "slides/session10.html#point-sur-lévaluation-de-fin-de-session",
     "href": "slides/session10.html#point-sur-lévaluation-de-fin-de-session",
     "title": "HNU2000 - Session 10",

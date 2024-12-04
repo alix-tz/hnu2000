@@ -1065,6 +1065,7 @@ text-indent: -1em;
 }
 .reveal .slide:not(.center) {
 height: 100%;
+overflow-y: auto;
 }
 .reveal .slide.scrollable {
 overflow-y: auto;
@@ -1148,9 +1149,55 @@ margin-right: 0; }
 </div>
 
 </section>
-<section class="slide level2">
-
-<!-- Voyant Tools & Pyrrha -->
+<section id="voyant-tools" class="slide level2">
+<h2>Voyant Tools</h2>
+<ul>
+<li>application web</li>
+<li>exploration de textes par des approches “distantes”</li>
+<li>à destination du monde académique</li>
+<li>open source et user friendly</li>
+<li><a href="https://voyant-tools.org/">https://voyant-tools.org/</a></li>
+</ul>
+</section>
+<section id="charger-un-ou-plusieurs-textes" class="slide level2">
+<h2>Charger un ou plusieurs textes</h2>
+<ul>
+<li>copier-coller le texte directement</li>
+<li>copier-coller une URL pointant vers un texte brut</li>
+<li>copier-coller plusieurs URLs (avec saut de ligne)</li>
+</ul>
+</section>
+<section id="exemples" class="slide level2">
+<h2>Exemples</h2>
+<p>Quelques textes disponibles grâce au projet Gutenberg:</p>
+<ul>
+<li><em>A la Recherche du Temps Perdu</em> (M. Proust): <a href="https://www.gutenberg.org/cache/epub/2650/pg2650.txt">https://www.gutenberg.org/cache/epub/2650/pg2650.txt</a></li>
+<li><em>La Curée</em> (E. Zola): <a href="https://www.gutenberg.org/cache/epub/17553/pg17553.txt">https://www.gutenberg.org/cache/epub/17553/pg17553.txt</a></li>
+<li><em>Le Mystère de la Chambre Jaune</em> (G. Leroux): <a href="https://www.gutenberg.org/cache/epub/13765/pg13765.txt">https://www.gutenberg.org/cache/epub/13765/pg13765.txt</a></li>
+</ul>
+</section>
+<section id="si-problème-de-chargement" class="slide level2">
+<h2>Si problème de chargement</h2>
+<ul>
+<li><a href="https://voyant-tools.org/?corpus=18122c114a5add40626ed9492c40248a">https://voyant-tools.org/?corpus=18122c114a5add40626ed9492c40248a</a></li>
+</ul>
+</section>
+<section id="manipulation-ensemble" class="slide level2">
+<h2>Manipulation ensemble</h2>
+<ul>
+<li>exploration des panneaux de Voyant Tools</li>
+<li>quelques notions sur l’exploration statistique des textes</li>
+<li>fonction de recherche dans le corpus</li>
+<li>autres panneaux d’exploration</li>
+</ul>
+</section>
+<section id="manipulation-individuelle" class="slide level2">
+<h2>Manipulation individuelle</h2>
+<ul>
+<li>importer un ou plusieurs textes de votre choix (ou garder ceux utilisés jusqu’à présent)</li>
+<li>explorer les différents outils - quels éléments notables découvrez-vous sur le corpus?</li>
+<li>partager vos découvertes avec le groupe</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -2055,7 +2102,7 @@ window.QuartoSupport = function () {
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,
